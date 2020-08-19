@@ -19,7 +19,7 @@
 .navbar-brand {
     font-family: 'Pacifico', sans-serif;
     font-weight: 500;
-    font-size: 28px;
+    font-size: 26px;
     letter-spacing: 2px;
 }
 
@@ -53,11 +53,57 @@
     text-transform: uppercase;
     font-weight: 300;
     letter-spacing: 1px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.sub-heading {
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .paragraph {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.centre-text {
+    text-align: center;
+}
+
+/* Contact Form */
+.contact-heading {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.contact-form {
+    font-family: 'Lato', sans-serif;
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.contact-form input {
+    margin-bottom: 15px;
+}
+
+.contact-form select {
+    margin-bottom: 15px;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background:  rgba(74, 74, 74, 0.9);
+}
+
+button[type="submit"]:hover {
+    background: #4a4a4a;
+    color: #fafafa;
 }
 
 /* Footer */
@@ -128,8 +174,4 @@
        box-shadow: inset 0 -2px 0 white;
     }
 
-}
-
-section {
-    height: 80vh;
 }

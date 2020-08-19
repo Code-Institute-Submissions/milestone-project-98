@@ -25,7 +25,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <title>Document</title>
+    <title>Contact Us</title>
   </head>
 
   <body>
@@ -70,7 +70,33 @@
       </nav>
       <!--Navbar end.-->
     </header>
-    <section></section>
+    <section class="contaier-fluid">
+        <div class="row">
+            <div class="col ">
+                <h3 class="main-heading contact-heading centre-text">Contact Us</h3>
+                <h5 class="sub-heading centre-text">Whether you've got a question about our cafe or a complaint, we're here to help.</h5>
+                <p class="paragraph centre-text">Please fill in the form below and a member of the team will be in touch shortly.</p>
+                <div>
+                    <form class="contact-form" action="">
+                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required>
+                        <input type="text" name="email" id="emailaddress" class="form-control" placeholder="Email" required>
+                        <select class="form-control">
+                            <option hidden>Enquiry Type</option>
+                            <option>General Enquiry</option>
+                            <option>Menu</option>
+                            <option>Complaints</option>
+                        </select>
+                        <textarea rows="5" name="message" id="message" class="form-control" placeholder="Message" required></textarea>
+                        <div class="form-row text-center">
+                            <div class="col">
+                                <button type="submit" class="btn">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer id="footer-container"  class="container-fluid no-gutters">
         <div class="row no-gutters">
             <div class="col-12 d-flex justify-content-center">
