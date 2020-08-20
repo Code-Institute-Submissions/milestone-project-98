@@ -50,18 +50,18 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" href="#"
+              <a class="nav-link hvr-underline-from-left" href="index.html"
                 >Home <span class="sr-only">(current)</span></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link hvr-underline-from-left" href="#">Menu</a>
+              <a class="nav-link hvr-underline-from-left" href="menu.html">Menu</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link hvr-underline-from-left" href="#">Location</a>
+              <a class="nav-link active" href="location.html">Location</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link hvr-underline-from-left" href="#"
+              <a class="nav-link hvr-underline-from-left" href="contact.html"
                 >Contact Us</a
               >
             </li>
@@ -70,33 +70,119 @@
       </nav>
       <!--Navbar end.-->
     </header>
-    <section></section>
+    <section class="container-fluid">
+        <div class="row">
+            <!--Heading start-->
+            <div class="col-12">
+                <h3 class="main-heading location-heading center-text">Location</h3>
+            </div>
+            <!--Heading end-->
+            <!--Google Map start. Code copied from https://developers.google.com/maps/documentation/embed/get-started-->
+            <div class="col-lg-6">
+                <iframe
+                    class="map" 
+                    height="450px"
+                    width="100%"                     
+                    frameborder="0" style="border:0"
+                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD0TaixxnY9MAX3y2yJd16sDQ26d1aHPVY&q=Tib+St,+Manchester" allowfullscreen>                    
+                </iframe>
+            </div>
+            <!--Google Map end-->
+            <!--Location information start-->
+            <div class="col-lg-6 center-text">
+                <div class="location-info">
+                    <!--Address info start-->
+                    <!--Code for location icon copied from https://fontawesome.com/icons/map-marker-alt?style=solid-->
+                    <div class="location-info-item">
+					    <div class="key paragraph">
+						    <p><i class="fas fa-map-marker-alt"></i> Address</p>
+					    </div>
+					    <div class="value paragraph">
+						    <p>40 Tibb Street,</p> 
+                            <p>Manchester,</p> 
+                            <p>M1 4AC</p>
+					    </div>
+				    </div>
+                    <!--Address info end-->
+                    <!--Telephone info start-->
+                    <div class="location-info-item">
+					    <div class="key paragraph">
+                            <!--Code for phone icon copied from https://fontawesome.com/icons/phone-alt?style=solid-->
+						    <p><i class="fas fa-phone-alt"></i> Telephone:</p>
+					    </div>
+					    <div class="value paragraph">
+						    <p>0161 690 4200</p> 
+					    </div>
+				    </div>
+                    <!--Telephone info end-->
+                    <!--Opening hours start-->
+                    <div class="location-info-item">
+					    <div class="key paragraph">
+                            <!--Code for clock icon copied from https://fontawesome.com/icons/clock?style=regular-->
+						    <p><i class="far fa-clock"></i> Opening Hours</p>
+					    </div>
+					    <div class="value paragraph">
+                                <p><div class="day">Monday</div><div class="hours">08:00 - 18:00</div></p>
+                                <p><div class="day">Tuesday</div><div class="hours">08:00 - 18:00</div></p>
+                                <p><div class="day">Wednesday</div><div class="hours">08:00 - 18:00</div></p>
+                                <p><div class="day">Thursday</div><div class="hours">08:00 - 18:00</div></p>
+                                <p><div class="day">Friday</div><div class="hours">08:00 - 18:00</div></p>
+                                <p><div class="day">Saturday</div><div class="hours">08:00 - 18:00</div></p>
+                                <p><div class="day">Sunday</div><div class="hours">11:00 - 16:00</div></p>
+					    </div>
+				    </div>
+                    <!--Opening hours end-->
+                    <!--Facilities info start-->
+                    <div class="location-info-item">
+					    <div class="key paragraph">
+                            <!--Code for restroom icon copied from https://fontawesome.com/icons/restroom?style=solid-->
+						    <p class="uppercase"><i class="fas fa-restroom"></i> Facilities</p>
+					    </div>
+					    <div class="value paragraph">
+                            <!--Code for wifi icon copied from https://fontawesome.com/icons/wifi?style=solid-->
+                            <!--Code for credit card icon copied from https://fontawesome.com/icons/credit-card?style=solid-->
+                            <!--Code for bank note icon copied from https://fontawesome.com/icons/money-bill?style=solid-->
+                            <!--Code for restroom icon copied from https://fontawesome.com/icons/restroom?style=solid-->
+						    <p><i class="fas fa-wifi"></i> <i class="fas fa-credit-card"></i> <i class="fas fa-money-bill"></i> <i class="fas fa-restroom"></i> </p>
+					    </div>
+                    </div>
+                    <!--Facilities info end-->
+				</div>
+            </div>
+            <!--Location information end-->
+        </div>
+    </section>
     <footer id="footer-container"  class="container-fluid no-gutters">
         <div class="row no-gutters">
+            <!--Social Media icons start-->
             <div class="col-12 d-flex justify-content-center">
                 <div class="col-12 col-lg-8">
                     <div class="social-media-icons">
                         <ul class="list-inline no-gutters">
                             <li class="col-3 list-inline-item">
                                 <a href="#" target="_blank">
+                                    <!--Facebook icon code copied from https://fontawesome.com/icons/facebook-f?style=brands-->
                                     <i class="fab fa-facebook" aria-hidden="true"></i>
                                     <span class="sr-only">Facebook</span>
                                 </a>
                             </li>
                             <li class="col-3 list-inline-item">                                
                                 <a href="#" target="_blank">
+                                    <!--Twitter icon code copied from https://fontawesome.com/icons/twitter?style=brands-->
                                     <i class="fab fa-twitter" aria-hidden="true"></i>
                                     <span class="sr-only">Twitter</span>
                                 </a>
                             </li>
                             <li class="col-3 list-inline-item">
                                 <a href="#" target="_blank">
+                                    <!--Instagram icon code copied from https://fontawesome.com/icons/instagram?style=brands-->
                                     <i class="fab fa-instagram" aria-hidden="true"></i>                                    
                                     <span class="sr-only">Instagram</span>
                                 </a>
                             </li>
                             <li class="col-3 list-inline-item">
                                 <a href="#" target="_blank">
+                                    <!--YouTube icon code copied from https://fontawesome.com/icons/youtube?style=brands-->
                                     <i class="fab fa-youtube" aria-hidden="true"></i>
                                     <span class="sr-only">YouTube</span>
                                 </a>
@@ -105,9 +191,12 @@
                     </div>
                 </div>
             </div>
+            <!--Social Media icons end-->
+            <!--Copyright info start-->
             <div class="col-12">
                 <p class="copyright-text">© Jonathan O'Donnell 2020</p>
             </div>
+            <!--Copyright info end-->
         </div>
     </footer>
     <!-- jQuery, Popper.js and Bootstrap JS plugin import import. Code copied from https://getbootstrap.com/docs/4.5/getting-started/introduction/-->

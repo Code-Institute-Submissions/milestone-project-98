@@ -55,22 +55,80 @@
     letter-spacing: 1px;
     margin-left: 50px;
     margin-right: 50px;
+    color: #4a4a4a;
 }
 
 .sub-heading {
     margin-left: 50px;
     margin-right: 50px;
+    color: #4a4a4a;
 }
 
 .paragraph {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    margin-left: 50px;
-    margin-right: 50px;
+    color: #4a4a4a;
 }
 
-.centre-text {
+.center-text {
     text-align: center;
+}
+
+/* Location */
+
+.location-heading {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.map {
+    margin-bottom: 15px;
+}
+
+.location-info {
+    margin: 30px 0;
+}
+
+.location-info-item {
+    margin-bottom: 20px;
+}
+
+.location-info-item .key, .value {
+    text-align: left;
+    display: inline-block;
+}
+
+.location-info-item .key p, .value p {
+    margin: 0;
+}
+
+.location-info-item .key {
+    width: 30%;
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+.location-info-item .key p {
+    font-weight: 700;
+}
+
+.location-info-item .value {
+    width: 50%;
+}
+
+.location-info-item .value i {
+    padding-right: 10px;
+}
+
+.location-info-item .day {
+    float: left;
+    width: 40%;
+}
+
+.location-info-item .hours {
+    float: left;
+    width: 50%;
+    margin-left: 20px;
 }
 
 /* Contact Form */
@@ -148,7 +206,7 @@ button[type="submit"]:hover {
 
 /* Media Queries */
 
-@media(min-width: 576px) {
+@media(min-width: 992px) {
     .navbar-expand-sm .navbar-nav .nav-link {
         padding: 0;
     }
@@ -156,7 +214,6 @@ button[type="submit"]:hover {
     .hvr-underline-from-left:before {
         background: #fafafa;
         height: 2px;
-        bottom: 1px;
     }
 
     /* Code copied from https://ianlunn.github.io/Hover/ */
