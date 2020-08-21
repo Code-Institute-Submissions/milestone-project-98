@@ -103,7 +103,7 @@
 }
 
 .location-info-item .key {
-    width: 30%;
+    width: 40%;
     margin-right: 20px;
     vertical-align: top;
 }
@@ -122,13 +122,12 @@
 
 .location-info-item .day {
     float: left;
-    width: 40%;
+    width: 100px;
+    margin-right: 20px;
 }
 
 .location-info-item .hours {
     float: left;
-    width: 50%;
-    margin-left: 20px;
 }
 
 /* Contact Form */
@@ -230,5 +229,13 @@ button[type="submit"]:hover {
    .active {
        box-shadow: inset 0 -2px 0 white;
     }
+}
 
+@media (min-width: 576px) {
+    .location-info-item .day {
+        width: 40%;
+    }
+    .location-info-item .hours {
+    width: 50%;
+    }
 }
