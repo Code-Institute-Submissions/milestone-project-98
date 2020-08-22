@@ -95,6 +95,10 @@
     object-position: bottom;
 }
 
+.image-center {
+    object-position: bottom;
+}
+
 .modal-subheading {
     text-align: right;
     font-weight: 600;
