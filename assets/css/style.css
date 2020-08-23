@@ -87,7 +87,7 @@
 
 .menu-card img {
     object-fit: cover;
-    object-position: top;
+    object-position: bottom;
     height: 200px;
 }
 
@@ -96,7 +96,7 @@
 }
 
 .image-center {
-    object-position: bottom;
+    object-position: center;
 }
 
 .modal-subheading {
