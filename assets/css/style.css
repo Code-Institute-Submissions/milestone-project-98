@@ -82,7 +82,10 @@
 .menu-card {
     margin-bottom: 30px;
     margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
     height: 300px;
+    max-width: 350px;;
 }
 
 .menu-card img {
@@ -91,12 +94,10 @@
     height: 200px;
 }
 
-.image-bottom {
-    object-position: bottom;
-}
-
-.image-center {
-    object-position: center;
+#image-right-caramel-latte, 
+#image-right-herbal-tea, 
+#image-right-mocha  {
+    object-position: right;
 }
 
 .modal-subheading {
