@@ -242,6 +242,17 @@ button[type="submit"]:hover {
 .social-media-icons li i {
     font-size: 26px;
     color: #fafafa;
+    text-align: center;
+    line-height: 40px;
+    padding: auto;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.social-media-icons li i:hover {
+    background-color: rgba(0, 0, 0, 0.25);
+
 }
 
 .list-inline-item:not(:last-child) {
