@@ -19,7 +19,6 @@
 .navbar-brand {
     font-family: 'Pacifico', sans-serif;
     font-weight: 500;
-    font-size: 26px;
     letter-spacing: 2px;
 }
 
@@ -35,7 +34,6 @@
     text-transform: uppercase;
     font-weight: 300;
     letter-spacing: 1px;
-    font-size: 18px;
 }
 
 .nav-item {
@@ -53,23 +51,174 @@
     text-transform: uppercase;
     font-weight: 300;
     letter-spacing: 1px;
-    margin-left: 50px;
-    margin-right: 50px;
     color: #4a4a4a;
+    font-size: 26px;
 }
 
 .sub-heading {
     color: #4a4a4a;
+    font-size: 22px;
 }
 
 .paragraph {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     color: #4a4a4a;
+    font-size: 18px;
 }
 
 .center-text {
     text-align: center;
+}
+
+.block-divider {
+    width: 40px;
+    height: 5px;
+    border: 0;
+    background-color: #447185;
+}
+
+.block-divider-long {
+    width: 250px;
+    height: 2px;
+    border: 0;
+    background-color: #447185;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.block-divider-white {
+    width: 40px;
+    height: 5px;
+    border: 0;
+    background-color: #fafafa;
+}
+
+/* Home */
+.hero-image {
+    padding: 0;
+    background-image: url('../images/hero_image.jpg');
+    height: 66.6vh;
+    width: 100%;
+    background-position: 55% center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-transparent {
+    background-color: rgba(0, 0, 0, 0.75);
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text {
+    font-size: 30px;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.jumbotron {
+    background-color: transparent;
+    color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 15px;
+    max-width: 800px;
+}
+
+.jumbotron .lead{
+    font-family: 'Lato', sans-serif;
+    margin: 30px 0;
+}
+
+.reasons {
+    background-color: #447185;
+    color: #fafafa;
+}
+
+.reasons-heading {
+    color: #fafafa;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.reasons-subheading {
+    color: #fafafa;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.reasons-subheading i {
+    display: none;
+}
+
+.reasons-text {
+    color: #fafafa;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+
+.testimonial-heading {
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+hr {
+    margin: 10px auto;
+}
+
+.testimonial-carousel {
+    margin-top: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    border-color: transparent;
+    min-height: 230px;
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+.testimonial-paragraph {
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;    
+}
+
+.rating i {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #447185;
+}
+
+.testimonial-footer {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0;
+}
+
+.blockquote-footer::after {
+content: "\2014 \00A0";
+}
+
+.carousel-item blockquote {
+    margin-bottom: 0;
 }
 
 /* Menu */
@@ -239,12 +388,15 @@ button[type="submit"]:hover {
     margin-right: 0;
 }
 
+.social-media-icons li {
+    width: 200px;
+}
+
 .social-media-icons li i {
     font-size: 26px;
     color: #fafafa;
     text-align: center;
     line-height: 40px;
-    padding: auto;
     height: 40px;
     width: 40px;
     border-radius: 50%;
@@ -294,10 +446,27 @@ button[type="submit"]:hover {
 }
 
 @media (min-width: 576px) {
+    .hero-image {
+        background-position: center;
+    }
+    .reasons-subheading i {
+        display: inline;
+    }
     .location-info-item .day {
         width: 40%;
     }
     .location-info-item .hours {
-    width: 50%;
+        width: 50%;
+    }
+    .testimonial-carousel {
+        min-height: 160px;
     }
 }
+
+@media (min-width: 768px) {
+    .testimonial-carousel {
+        min-height: 140px;
+    }
+}
+
+

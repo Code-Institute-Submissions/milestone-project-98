@@ -70,45 +70,241 @@
       </nav>
       <!--Navbar end.-->
     </header>
-    <section></section>
-    <footer id="footer-container"  class="container-fluid no-gutters">
-        <div class="row no-gutters">
-            <div class="col-12 d-flex justify-content-center">
-                <div class="col-12 col-lg-8">
-                    <div class="social-media-icons">
-                        <ul class="list-inline no-gutters">
-                            <li class="col-3 list-inline-item">
-                                <a href="#" target="_blank">
-                                    <i class="fab fa-facebook" aria-hidden="true"></i>
-                                    <span class="sr-only">Facebook</span>
-                                </a>
-                            </li>
-                            <li class="col-3 list-inline-item">                                
-                                <a href="#" target="_blank">
-                                    <i class="fab fa-twitter" aria-hidden="true"></i>
-                                    <span class="sr-only">Twitter</span>
-                                </a>
-                            </li>
-                            <li class="col-3 list-inline-item">
-                                <a href="#" target="_blank">
-                                    <i class="fab fa-instagram" aria-hidden="true"></i>                                    
-                                    <span class="sr-only">Instagram</span>
-                                </a>
-                            </li>
-                            <li class="col-3 list-inline-item">
-                                <a href="#" target="_blank">
-                                    <i class="fab fa-youtube" aria-hidden="true"></i>
-                                    <span class="sr-only">YouTube</span>
-                                </a>
-                            </li>                        
-                        </ul>
-                    </div>
-                </div>
+    <section class="container-fluid">
+      <!--Hero image start-->
+      <div class="row">
+        <!--Image from https://unsplash.com/photos/I79Pgmhmy5M-->
+        <div class="col-12 hero-image">
+          <div class="hero-transparent">
+            <div class="jumbotron jumbotron-fluid">
+              <div class="container center-text">
+                <h1 class="hero-text">
+                  Come and enjoy a hot drink and a sandwich or panini with us
+                  for only £4.95
+                </h1>
+              </div>
             </div>
-            <div class="col-12">
-                <p class="copyright-text">© Jonathan O'Donnell 2020</p>
-            </div>
+          </div>
         </div>
+      </div>
+      <!--Hero image end-->
+      <!--Why dine with us heading start-->
+      <div class="row">
+        <div class="col-12 reasons">
+          <h2 class="main-heading reasons-heading center-text">
+            Why Dine With Us?
+          </h2>
+          <hr class="block-divider-white" />
+        </div>
+      </div>
+      <!--Why dine with us heading end-->
+      <!--Why dine with us content start-->
+      <div class="row">
+        <!--Column 1 start-->
+        <div class="col-12 col-md-6 reasons">
+          <!--Item 1 start-->
+          <h3 class="sub-heading reasons-subheading center-text">
+            <!--Icon code from https://fontawesome.com/icons/utensils?style=solid-->
+            <i class="fas fa-utensils"></i>
+            Vegan and Gluten-Free
+          </h3>
+          <p class="paragraph reasons-text">
+            Our menu includes a selection food and drinks which caters for
+            everyone's dietary requirements. We offer vegan paninis, gluten free
+            sandwiches and paninis and all our drinks can be made from oat or
+            soya milk. We also have gluten-free chocolate brownies, flapjacks
+            and cookies.
+          </p>
+          <!--Item 1 end-->
+          <!--Item 2 start-->
+          <h3 class="sub-heading reasons-subheading center-text">
+            <!--Icon conde from https://fontawesome.com/icons/coffee?style=solid-->
+            <i class="fas fa-coffee"></i>
+            Fair Trade Coffee
+          </h3>
+          <!--Text adapted from https://www.fairtrade.org.uk/buying-fairtrade/coffee/#:~:text=When%20you%20choose%20Fairtrade%20coffee,in%20improving%20productivity%20and%20quality.-->
+          <p class="paragraph reasons-text">
+            All of our coffees are made from freshly ground fair trade coffee
+            beans. This is because we are committed to ensuring that the farmers
+            that grow our coffee beans are paid a fair amount. This is so they
+            can invest in growing better quality beans and provide a better
+            quality of life for their families and communities.
+          </p>
+          <!--Item 2 end-->
+        </div>
+        <!--Column 1 end-->
+        <!--Column 2 start-->
+        <div class="col-12 col-md-6 reasons">
+          <!--Item 1 end-->
+          <h3 class="sub-heading reasons-subheading center-text">
+            <!--Icon code from https://fontawesome.com/icons/truck?style=solid-->
+            <i class="fas fa-truck"></i>
+            Delivery
+            <span class="badge badge-success">New</span>
+          </h3>
+          <p class="paragraph reasons-text">
+            You can now enjoy your food and drinks from the comfort of your own
+            home with our new delivery service in partnership with Deliveroo,
+            Uber Eats and Just Eat. Simply place your order through the relevant
+            app and your order will be delivered to your doorstep.
+          </p>
+          <!--Item 1 end-->
+          <!--Item 2 start-->
+          <h3 class="sub-heading reasons-subheading center-text">
+            <!--Icon code from https://fontawesome.com/icons/coins?style=solid-->
+            <i class="fas fa-coins"></i>
+            Community Matters
+          </h3>
+          <p class="paragraph reasons-text">
+            We're committed to giving back to the communities which we operate
+            in. Each month we donate a percentage of our profits to community
+            organisations voted for by our customers to support their causes. In
+            the past the funding we have provided has supported schools to
+            purchase new equipment, health and wellbeing groups to run wellbeing
+            activities and aged care charities to provide care for elderley
+            citizens.
+          </p>
+          <!--Item 2 end-->
+        </div>
+        <!--Column 2 end-->
+      </div>
+      <!--Why dine with us content end-->
+      <!--Testimonials heading start-->
+      <div class="row">
+        <div class="col-12">
+          <h2 class="main-heading testimonial-heading center-text">
+            Customer Testimonials
+          </h2>
+          <hr class="block-divider" />
+        </div>
+      </div>
+      <!--Testimonials heading end-->
+      <!--Testimonials carousel start-->
+      <div class="row">
+        <div class="col-12">
+          <div
+            id="carouselExampleSlidesOnly"
+            class="carousel slide testimonial-carousel"
+            data-ride="carousel"
+            data-interval="10000"
+          >
+            <div class="carousel-inner">
+              <!--Item 1 start-->
+              <div class="carousel-item active">
+                <blockquote class="blockquote center-text">
+                  <p class="paragraph testimonial-paragraph">
+                    "This is a lovely little cafe. It has a great variety of
+                    food and drinks which you can enjoy in the seated area and
+                    it has free wifi too. Would highly recommend."
+                  </p>
+                  <div class="rating">
+                    <!--Code for icons from https://fontawesome.com/icons/star?style=solid-->
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <footer
+                    class="blockquote-footer paragraph testimonial-footer line-space-1"
+                  >
+                    Ben
+                  </footer>
+                </blockquote>
+              </div>
+              <!--Item 2 end-->
+              <!--Item 2 start-->
+              <div class="carousel-item">
+                <blockquote class="blockquote text-center">
+                  <!--Testimonial text adapted from https://uk.trustpilot.com/review/caffenero.com?languages=en&stars=5-->
+                  <p class="paragraph testimonial-paragraph">
+                    "Amazing experience today. The staff were attentive,
+                    friendly and really helpful. I had a request and they
+                    immediately assisted with such professionalism. Drinks were
+                    nice too!"
+                  </p>
+                  <div class="rating">
+                    <!--Code for icons from https://fontawesome.com/icons/star?style=solid-->
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <footer
+                    class="blockquote-footer paragraph testimonial-footer"
+                  >
+                    Lucy
+                  </footer>
+                </blockquote>
+              </div>
+              <!--Item 2 end-->
+              <!--Item 3 start-->
+              <div class="carousel-item">
+                <blockquote class="blockquote text-center">
+                  <p class="paragraph testimonial-paragraph">
+                    "The best cafe lunch I've had in a long time. The staff were
+                    really helpful and the quality of the food was amazing. I
+                    can't believe I've only just found out about this place."
+                  </p>
+                  <div class="rating">
+                    <!--Code for icons from https://fontawesome.com/icons/star?style=solid-->
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <footer
+                    class="blockquote-footer paragraph testimonial-footer line-space-2"
+                  >
+                    Andrew
+                  </footer>
+                </blockquote>
+              </div>
+              <!--Item 3 end-->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Testimonials carousel end-->
+    </section>
+    <footer id="footer-container" class="container-fluid no-gutters">
+      <div class="row no-gutters">
+        <div class="col-12">
+          <div class="social-media-icons">
+            <ul class="list-inline no-gutters">
+              <li class="col-3 list-inline-item">
+                <a href="#" target="_blank">
+                  <i class="fab fa-facebook" aria-hidden="true"></i>
+                  <span class="sr-only">Facebook</span>
+                </a>
+              </li>
+              <li class="col-3 list-inline-item">
+                <a href="#" target="_blank">
+                  <i class="fab fa-twitter" aria-hidden="true"></i>
+                  <span class="sr-only">Twitter</span>
+                </a>
+              </li>
+              <li class="col-3 list-inline-item">
+                <a href="#" target="_blank">
+                  <i class="fab fa-instagram" aria-hidden="true"></i>
+                  <span class="sr-only">Instagram</span>
+                </a>
+              </li>
+              <li class="col-3 list-inline-item">
+                <a href="#" target="_blank">
+                  <i class="fab fa-youtube" aria-hidden="true"></i>
+                  <span class="sr-only">YouTube</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12">
+          <p class="copyright-text">© Jonathan O'Donnell 2020</p>
+        </div>
+      </div>
     </footer>
     <!-- jQuery, Popper.js and Bootstrap JS plugin import import. Code copied from https://getbootstrap.com/docs/4.5/getting-started/introduction/-->
     <script
