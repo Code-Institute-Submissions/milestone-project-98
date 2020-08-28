@@ -25,7 +25,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <title>Mancunian Cafe - Menu</title>
+    <title>Menu</title>
   </head>
 
   <body>
@@ -82,27 +82,29 @@
         </div>
       </div>
       <!--Heading end-->
+      <!--Key start-->
       <div class="row">
         <div class="col-12">
-          <div class="key">
-            <h2 class="sub-heading key-subheading">Key</h2>
+          <div class="alert alert-dark key" role="alert">
+            <p class="paragraph key-bold">Nutritional Key:</p>
             <p class="paragraph key-paragraph">
-              Vegan
+              Gluten Free
               <!--Image from https://www.needpix.com/photo/1208222/gluten-wheat-barley-food-diet-nutrition-gluten-free-eating-grain-->
               <img src="assets/images/gluten.png" alt="Gluten-free icon" />
             </p>
             <p class="paragraph key-paragraph">
-              Gluten Free
+              Vegan
               <!--Image from https://upload.wikimedia.org/wikipedia/commons/7/79/Vegan_symbol.png-->
               <img src="assets/images/vegan.png" alt="Vegan icon" />
             </p>
           </div>
         </div>
       </div>
+      <!--Key end-->
       <!--Menu container start-->
       <div class="row menu-container">
         <!--Menu card 1 start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="col-12 col-sm-6 col-lg-4 col-xlg-3">
           <div class="card menu-card">
             <!--Image start. Image from <!--Image from https://unsplash.com/photos/tPHZoqLkVw8-->
             <a href="#exampleModal" data-toggle="modal">
@@ -125,9 +127,9 @@
                 <!--Nutritional Information from https://caffenero.com/uk/menu/coffee/-->
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title sub-heading">
+                    <h3 class="modal-title sub-heading modal-heading">
                       Nutritional Information
-                    </h5>
+                    </h3>
                     <button
                       type="button"
                       class="close"
@@ -137,54 +139,29 @@
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
-                  <div class="modal-body sub-heading">
-                    <p class="modal-subheading">Amount per serving</p>
-                    <div class="type">
-                      <p class="paragraph">Energy</p>
+                  <div class="modal-body">
+                    <div class="modal-text">
+                      <p class="paragraph modal-text-bold amount">
+                        Amount per serving
+                      </p>
+                      <p class="paragraph type">Energy</p>
+                      <p class="paragraph amount">270kj / 65kcal</p>
+                      <p class="paragraph type">Fat</p>
+                      <p class="paragraph amount">2.2g</p>
+                      <p class="paragraph type">of which saturates</p>
+                      <p class="paragraph amount">1.1g</p>
+                      <p class="paragraph type">Carbohydrates</p>
+                      <p class="paragraph amount">6.9g</p>
+                      <p class="paragraph type">of which sugars</p>
+                      <p class="paragraph amount">5.2g</p>
+                      <p class="paragraph type">Protein</p>
+                      <p class="paragraph amount">4.6g</p>
+                      <p class="paragraph type">Salt</p>
+                      <p class="paragraph amount">0.1g</p>
+                      <p class="paragraph type">
+                        Available with semi-skimmed, skimmed, soya or oat milk.
+                      </p>
                     </div>
-                    <div class="amount">
-                      <p class="paragraph">270kj / 65kcal</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Fat</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">2.2g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">of which saturates</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">1.1g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Carbohydrates</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">6.9g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">of which sugars</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">5.2g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Protein</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">4.6g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Salt</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">0.1g</p>
-                    </div>
-                    <p class="paragraph">
-                      <br />Available with semi-skimmed, skimmed, soya or oat
-                      milk.
-                    </p>
                   </div>
                 </div>
               </div>
@@ -194,6 +171,8 @@
             <div class="card-body">
               <h5 class="card-title sub-heading center-text">
                 Cappuccino
+              </h5>
+              <div class="menu-icons">
                 <!--Image from https://www.needpix.com/photo/1208222/gluten-wheat-barley-food-diet-nutrition-gluten-free-eating-grain-->
                 <img
                   class="gluten-free"
@@ -206,7 +185,7 @@
                   src="assets/images/vegan.png"
                   alt="Vegan icon"
                 />
-              </h5>
+              </div>
               <p class="card-text paragraph center-text">£1.50</p>
             </div>
             <!--Text end-->
@@ -214,7 +193,7 @@
         </div>
         <!--Menu card 1 end-->
         <!--Menu card 2 start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="col-12 col-sm-6 col-lg-4 col-xlg-3">
           <div class="card menu-card">
             <!--Image start. Image from https://unsplash.com/photos/s1-VmA26BIc-->
             <a href="#Latte-Modal" data-toggle="modal">
@@ -237,7 +216,7 @@
                 <!--Nutritional Information from https://caffenero.com/uk/menu/coffee/-->
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title sub-heading">
+                    <h5 class="modal-title sub-heading modal-heading">
                       Nutritional Information
                     </h5>
                     <button
@@ -250,55 +229,28 @@
                     </button>
                   </div>
                   <div class="modal-body">
-                    <p class="modal-subheading sub-heading">
-                      Amount per serving
-                    </p>
-                    <div class="type">
-                      <p class="paragraph">Energy</p>
+                    <div class="modal-text">
+                      <p class="modal-text-bold amount">
+                        Amount per serving
+                      </p>
+                      <p class="paragraph type">Energy</p>
+                      <p class="paragraph amount">309kj / 72kcal</p>
+                      <p class="paragraph type">Fat</p>
+                      <p class="paragraph amount">2.7g</p>
+                      <p class="paragraph type">of which saturates</p>
+                      <p class="paragraph amount">1.6g</p>
+                      <p class="paragraph type">Carbohydrates</p>
+                      <p class="paragraph amount">7.2g</p>
+                      <p class="paragraph type">of which sugars</p>
+                      <p class="paragraph amount">7.2g</p>
+                      <p class="paragraph type">Protein</p>
+                      <p class="paragraph amount">5.4g</p>
+                      <p class="paragraph type">Salt</p>
+                      <p class="paragraph amount">0.2g</p>
+                      <p class="paragraph type">
+                        Available with semi-skimmed, skimmed, soya or oat milk.
+                      </p>
                     </div>
-                    <div class="amount">
-                      <p class="paragraph">309kj / 72kcal</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Fat</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">2.7g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">of which saturates</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">1.6g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Carbohydrates</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">7.2g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">of which sugars</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">7.2g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Protein</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">5.4g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Salt</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">0.2g</p>
-                    </div>
-                    <p class="paragraph">
-                      <br />Available with semi-skimmed, skimmed, soya or oat
-                      milk.
-                    </p>
                   </div>
                 </div>
               </div>
@@ -308,6 +260,8 @@
             <div class="card-body">
               <h5 class="card-title sub-heading center-text">
                 Latte
+              </h5>
+              <div class="menu-icons">
                 <!--Image from https://www.needpix.com/photo/1208222/gluten-wheat-barley-food-diet-nutrition-gluten-free-eating-grain-->
                 <img
                   class="gluten-free"
@@ -320,7 +274,7 @@
                   src="assets/images/vegan.png"
                   alt="Vegan icon"
                 />
-              </h5>
+              </div>
               <p class="card-text paragraph center-text">£1.50</p>
             </div>
             <!--Text end-->
@@ -328,7 +282,7 @@
         </div>
         <!--Menu card 2 end-->
         <!--Menu card 3 start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="col-12 col-sm-6 col-lg-4 col-xlg-3">
           <div class="card menu-card">
             <!--Image start Image from https://unsplash.com/photos/bbNssNJlsrk-->
             <a href="#Caramel-Latte-Modal" data-toggle="modal">
@@ -351,7 +305,7 @@
                 <!--Nutritional Information from https://caffenero.com/uk/menu/coffee/-->
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title sub-heading">
+                    <h5 class="modal-title sub-heading modal-heading">
                       Nutritional Information
                     </h5>
                     <button
@@ -364,55 +318,28 @@
                     </button>
                   </div>
                   <div class="modal-body">
-                    <p class="modal-subheading sub-heading">
-                      Amount per serving
-                    </p>
-                    <div class="type">
-                      <p class="paragraph">Energy</p>
+                    <div class="modal-text">
+                      <p class="paragraph modal-text-bold amount">
+                        Amount per serving
+                      </p>
+                      <p class="paragraph type">Energy</p>
+                      <p class="paragraph amount">1755kj / 420kcal</p>
+                      <p class="paragraph type">Fat</p>
+                      <p class="paragraph amount">23g</p>
+                      <p class="paragraph type">of which saturates</p>
+                      <p class="paragraph amount">14.1g</p>
+                      <p class="paragraph type">Carbohydrates</p>
+                      <p class="paragraph amount">42.9g</p>
+                      <p class="paragraph type">of which sugars</p>
+                      <p class="paragraph amount">39.9g</p>
+                      <p class="paragraph type">Protein</p>
+                      <p class="paragraph amount">11.1g</p>
+                      <p class="paragraph type">Salt</p>
+                      <p class="paragraph amount">0.3g</p>
+                      <p class="paragraph type">
+                        Available with semi-skimmed, skimmed, soya or oat milk.
+                      </p>
                     </div>
-                    <div class="amount">
-                      <p class="paragraph">1755kj / 420kcal</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Fat</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">23g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">of which saturates</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">14.1g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Carbohydrates</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">42.9g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">of which sugars</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">39.9g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Protein</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">11.1g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Salt</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">0.3g</p>
-                    </div>
-                    <p class="paragraph">
-                      <br />Available with semi-skimmed, skimmed, soya or oat
-                      milk.
-                    </p>
                   </div>
                 </div>
               </div>
@@ -422,6 +349,8 @@
             <div class="card-body">
               <h5 class="card-title sub-heading center-text">
                 Caramel Latte
+              </h5>
+              <div class="menu-icons">
                 <!--Image from https://www.needpix.com/photo/1208222/gluten-wheat-barley-food-diet-nutrition-gluten-free-eating-grain-->
                 <img
                   class="gluten-free"
@@ -434,7 +363,7 @@
                   src="assets/images/vegan.png"
                   alt="Vegan icon"
                 />
-              </h5>
+              </div>
               <p class="card-text paragraph center-text">£1.50</p>
             </div>
             <!--Text end-->
@@ -442,7 +371,7 @@
         </div>
         <!--Menu card 3 end-->
         <!--Menu card 4 start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="col-12 col-sm-6 col-lg-4 col-xlg-3">
           <div class="card menu-card">
             <!--Image start. Image from https://unsplash.com/photos/ud_dMEf6M6k-->
             <a href="#Flat-White-Modal" data-toggle="modal">
@@ -465,7 +394,7 @@
                 <!--Nutritional Information from https://caffenero.com/uk/menu/coffee/-->
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title sub-heading">
+                    <h5 class="modal-title sub-heading modal-heading">
                       Nutritional Information
                     </h5>
                     <button
@@ -478,55 +407,28 @@
                     </button>
                   </div>
                   <div class="modal-body">
-                    <p class="modal-subheading sub-heading">
-                      Amount per serving
-                    </p>
-                    <div class="type">
-                      <p class="paragraph">Energy</p>
+                    <div class="modal-text">
+                      <p class="mparagraph modal-text-bold amount">
+                        Amount per serving
+                      </p>
+                      <p class="paragraph type">Energy</p>
+                      <p class="paragraph amount">396kj / 95kcal</p>
+                      <p class="paragraph type">Fat</p>
+                      <p class="paragraph amount">5.4g</p>
+                      <p class="paragraph type">of which saturates</p>
+                      <p class="paragraph amount">3.4g</p>
+                      <p class="paragraph type">Carbohydrates</p>
+                      <p class="paragraph amount">6.9g</p>
+                      <p class="paragraph type">of which sugars</p>
+                      <p class="paragraph amount">6.1g</p>
+                      <p class="paragraph type">Protein</p>
+                      <p class="paragraph amount">4.9g</p>
+                      <p class="paragraph type">Salt</p>
+                      <p class="paragraph amount">0.1g</p>
+                      <p class="paragraph type">
+                        Available with semi-skimmed, skimmed, soya or oat milk.
+                      </p>
                     </div>
-                    <div class="amount">
-                      <p class="paragraph">396kj / 95kcal</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Fat</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">5.4g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">of which saturates</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">3.4g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Carbohydrates</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">6.9g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">of which sugars</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">6.1g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Protein</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">4.9g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Salt</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">0.1g</p>
-                    </div>
-                    <p class="paragraph">
-                      <br />Available with semi-skimmed, skimmed, soya or oat
-                      milk.
-                    </p>
                   </div>
                 </div>
               </div>
@@ -536,6 +438,8 @@
             <div class="card-body">
               <h5 class="card-title sub-heading center-text">
                 Flat White
+              </h5>
+              <div class="menu-icons">
                 <!--Image from https://www.needpix.com/photo/1208222/gluten-wheat-barley-food-diet-nutrition-gluten-free-eating-grain-->
                 <img
                   class="gluten-free"
@@ -548,7 +452,7 @@
                   src="assets/images/vegan.png"
                   alt="Vegan icon"
                 />
-              </h5>
+              </div>
               <p class="card-text paragraph center-text">£1.50</p>
             </div>
             <!--Text end-->
@@ -556,7 +460,7 @@
         </div>
         <!--Menu card 4 end-->
         <!--Menu card 5 start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="col-12 col-sm-6 col-lg-4 col-xlg-3">
           <div class="card menu-card">
             <!--Image start. Image from https://unsplash.com/photos/72qDM1TA5p8-->
             <a href="#Mocha-Modal" data-toggle="modal">
@@ -579,7 +483,7 @@
                 <!--Nutritional Information from https://caffenero.com/uk/menu/coffee/-->
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title sub-heading">
+                    <h5 class="modal-title sub-heading modal-heading">
                       Nutritional Information
                     </h5>
                     <button
@@ -592,55 +496,28 @@
                     </button>
                   </div>
                   <div class="modal-body">
-                    <p class="modal-subheading sub-heading">
-                      Amount per serving
-                    </p>
-                    <div class="type">
-                      <p class="paragraph">Energy</p>
+                    <div class="modal-text">
+                      <p class="paragraph modal-text-bold amount">
+                        Amount per serving
+                      </p>
+                      <p class="paragraph type">Energy</p>
+                      <p class="paragraph amount">549kj / 131kcal</p>
+                      <p class="paragraph type">Fat</p>
+                      <p class="paragraph amount">2.9g</p>
+                      <p class="paragraph type">of which saturates</p>
+                      <p class="paragraph amount">0.5g</p>
+                      <p class="paragraph type">Carbohydrates</p>
+                      <p class="paragraph amount">25g</p>
+                      <p class="paragraph type">of which sugars</p>
+                      <p class="paragraph amount">17g</p>
+                      <p class="paragraph type">Protein</p>
+                      <p class="paragraph amount">2.5g</p>
+                      <p class="paragraph type">Salt</p>
+                      <p class="paragraph amount">0.1g</p>
+                      <p class="paragraph type">
+                        Available with semi-skimmed, skimmed, soya or oat milk.
+                      </p>
                     </div>
-                    <div class="amount">
-                      <p class="paragraph">549kj / 131kcal</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Fat</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">2.9g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">of which saturates</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">0.5g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Carbohydrates</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">25g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">of which sugars</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">17g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Protein</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">2.5g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Salt</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">0.1g</p>
-                    </div>
-                    <p class="paragraph">
-                      <br />Available with semi-skimmed, skimmed, soya or oat
-                      milk.
-                    </p>
                   </div>
                 </div>
               </div>
@@ -650,6 +527,8 @@
             <div class="card-body">
               <h5 class="card-title sub-heading center-text">
                 Mocha
+              </h5>
+              <div class="menu-icons">
                 <!--Image from https://www.needpix.com/photo/1208222/gluten-wheat-barley-food-diet-nutrition-gluten-free-eating-grain-->
                 <img
                   class="gluten-free"
@@ -662,7 +541,7 @@
                   src="assets/images/vegan.png"
                   alt="Vegan icon"
                 />
-              </h5>
+              </div>
               <p class="card-text paragraph center-text">£1.50</p>
             </div>
             <!--Text end-->
@@ -670,7 +549,7 @@
         </div>
         <!--Menu card 5 end-->
         <!--Menu card 6 start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="col-12 col-sm-6 col-lg-4 col-xlg-3">
           <div class="card menu-card">
             <!--Image start. Image from https://unsplash.com/photos/N3bo4mkQEKM-->
             <a href="#Americano-Modal" data-toggle="modal">
@@ -693,7 +572,7 @@
                 <!--Nutritional Information from https://caffenero.com/uk/menu/coffee/-->
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title sub-heading">
+                    <h5 class="modal-title sub-heading modal-heading">
                       Nutritional Information
                     </h5>
                     <button
@@ -706,55 +585,29 @@
                     </button>
                   </div>
                   <div class="modal-body">
-                    <p class="modal-subheading sub-heading">
-                      Amount per serving
-                    </p>
-                    <div class="type">
-                      <p class="paragraph">Energy</p>
+                    <div class="modal-text">
+                      <p class="paragraph modal-text-bold amount">
+                        Amount per serving
+                      </p>
+                      <p class="paragraph type">Energy</p>
+                      <p class="paragraph amount">61kj / 15kcal</p>
+                      <p class="paragraph type">Fat</p>
+                      <p class="paragraph amount">0.5g</p>
+                      <p class="paragraph type">of which saturates</p>
+                      <p class="paragraph amount">0g</p>
+                      <p class="paragraph type">Carbohydrates</p>
+                      <p class="paragraph amount">1.7g</p>
+                      <p class="paragraph type">of which sugars</p>
+                      <p class="paragraph amount">0g</p>
+                      <p class="paragraph type">Protein</p>
+                      <p class="paragraph amount">0.9g</p>
+                      <p class="paragraph type">Salt</p>
+                      <p class="paragraph amount">0g</p>
+                      <p class="paragraph type">
+                        Available with semi-skimmed, skimmed, soya or oat
+                        milk.
+                      </p>
                     </div>
-                    <div class="amount">
-                      <p class="paragraph">61kj / 15kcal</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Fat</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">0.5g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">of which saturates</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">0g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Carbohydrates</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">1.7g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">of which sugars</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">0g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Protein</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">0.9g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Salt</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">0g</p>
-                    </div>
-                    <p class="paragraph">
-                      <br />Available with semi-skimmed, skimmed, soya or oat
-                      milk.
-                    </p>
                   </div>
                 </div>
               </div>
@@ -764,6 +617,8 @@
             <div class="card-body">
               <h5 class="card-title sub-heading center-text">
                 Americano
+              </h5>
+              <div class="menu-icons">
                 <!--Image from https://www.needpix.com/photo/1208222/gluten-wheat-barley-food-diet-nutrition-gluten-free-eating-grain-->
                 <img
                   class="gluten-free"
@@ -776,7 +631,7 @@
                   src="assets/images/vegan.png"
                   alt="Vegan icon"
                 />
-              </h5>
+              </div>
               <p class="card-text paragraph center-text">£1.50</p>
             </div>
             <!--Text end-->
@@ -784,7 +639,7 @@
         </div>
         <!--Menu card 6 end-->
         <!--Menu card 7 start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="col-12 col-sm-6 col-lg-4 col-xlg-3">
           <div class="card menu-card">
             <!--Image start. Image from https://unsplash.com/photos/WgvTj1l6wps-->
             <a href="#Breakfast-Tea-Modal" data-toggle="modal">
@@ -807,7 +662,7 @@
                 <!--Nutritional Information from https://www.costa.co.uk/menu/-->
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title sub-heading">
+                    <h5 class="modal-title sub-heading modal-heading">
                       Nutritional Information
                     </h5>
                     <button
@@ -820,55 +675,29 @@
                     </button>
                   </div>
                   <div class="modal-body">
-                    <p class="modal-subheading sub-heading">
-                      Amount per serving
-                    </p>
-                    <div class="type">
-                      <p class="paragraph">Energy</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">3kj / 1kcal</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Fat</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">0g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">of which saturates</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">0g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Carbohydrates</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">0g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">of which sugars</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">0.3g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Protein</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">0.1g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Salt</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">0g</p>
-                    </div>
-                    <p class="paragraph">
-                      <br />Available with semi-skimmed, skimmed, soya or oat
+                    <div class="modal-text">
+                      <p class="paragraph modal-text-bold amount">
+                        Amount per serving
+                      </p>
+                      <p class="paragraph type">Energy</p>
+                      <p class="paragraph amount">3kj / 1kcal</p>
+                      <p class="paragraph type">Fat</p>
+                      <p class="paragraph amount">0g</p>
+                      <p class="paragraph type">of which saturates</p>
+                      <p class="paragraph amount">0g</p>
+                      <p class="paragraph type">Carbohydrates</p>
+                      <p class="paragraph amount">0g</p>
+                      <p class="paragraph type">of which sugars</p>
+                      <p class="paragraph amount">0.3g</p>
+                      <p class="paragraph type">Protein</p>
+                      <p class="paragraph amount">0.1g</p>
+                      <p class="paragraph type">Salt</p>
+                      <p class="paragraph amount">0g</p>
+                      <p class="paragraph type">
+                        Available with semi-skimmed, skimmed, soya or oat
                       milk.
-                    </p>
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -878,6 +707,8 @@
             <div class="card-body">
               <h5 class="card-title sub-heading center-text">
                 English Breakfast Tea
+              </h5>
+              <div class="menu-icons">
                 <!--Image from https://www.needpix.com/photo/1208222/gluten-wheat-barley-food-diet-nutrition-gluten-free-eating-grain-->
                 <img
                   class="gluten-free"
@@ -890,7 +721,7 @@
                   src="assets/images/vegan.png"
                   alt="Vegan icon"
                 />
-              </h5>
+              </div>
               <p class="card-text paragraph center-text">£1.50</p>
             </div>
             <!--Text end-->
@@ -898,7 +729,7 @@
         </div>
         <!--Menu card 7 end-->
         <!--Menu card 8 start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="col-12 col-sm-6 col-lg-4 col-xlg-3">
           <div class="card menu-card">
             <!--Image start. Image from https://unsplash.com/photos/7hohUWqBqU4-->
             <a href="#Herbal-Tea-Modal" data-toggle="modal">
@@ -921,7 +752,7 @@
                 <!--Nutritional Information from https://www.costa.co.uk/menu/-->
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title sub-heading">
+                    <h5 class="modal-title sub-heading modal-heading">
                       Nutritional Information
                     </h5>
                     <button
@@ -934,50 +765,24 @@
                     </button>
                   </div>
                   <div class="modal-body">
-                    <p class="modal-subheading sub-heading">
-                      Amount per serving
-                    </p>
-                    <div class="type">
-                      <p class="paragraph">Energy</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">13kj / 3kcal</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Fat</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">0.1g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">of which saturates</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">0.1g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Carbohydrates</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">0.3g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">of which sugars</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">0.3g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Protein</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">0.1g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Salt</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">0g</p>
+                    <div class="modal-text">
+                      <p class="paragraph modal-text-bold amount">
+                        Amount per serving
+                      </p>
+                      <p class="paragraph type">Energy</p>
+                      <p class="paragraph amount">13kj / 3kcal</p>
+                      <p class="paragraph type">Fat</p>
+                      <p class="paragraph amount">0.1g</p>
+                      <p class="paragraph type">of which saturates</p>
+                      <p class="paragraph amount">0.1g</p>
+                      <p class="paragraph type">Carbohydrates</p>
+                      <p class="paragraph amount">0.3g</p>
+                      <p class="paragraph type">of which sugars</p>
+                      <p class="paragraph amount">0.3g</p>
+                      <p class="paragraph type">Protein</p>
+                      <p class="paragraph amount">0.1g</p>
+                      <p class="paragraph type">Salt</p>
+                      <p class="paragraph amount">0g</p>
                     </div>
                   </div>
                 </div>
@@ -988,6 +793,8 @@
             <div class="card-body">
               <h5 class="card-title sub-heading center-text">
                 Herbal Tea
+              </h5>
+              <div class="menu-icons">
                 <!--Image from https://www.needpix.com/photo/1208222/gluten-wheat-barley-food-diet-nutrition-gluten-free-eating-grain-->
                 <img
                   class="gluten-free"
@@ -1000,7 +807,7 @@
                   src="assets/images/vegan.png"
                   alt="Vegan icon"
                 />
-              </h5>
+              </div>
               <p class="card-text paragraph center-text">£1.50</p>
             </div>
             <!--Text end-->
@@ -1008,7 +815,7 @@
         </div>
         <!--Menu card 8 end-->
         <!--Menu card 9 start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="col-12 col-sm-6 col-lg-4 col-xlg-3">
           <div class="card menu-card">
             <!--Image start Image from https://unsplash.com/photos/eUHKg4minfY-->
             <a href="#Croissant-Modal" data-toggle="modal">
@@ -1031,7 +838,7 @@
                 <!--Nutritional Information from https://caffenero.com/uk/menu/food/all-day-breakfast/-->
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title sub-heading">
+                    <h5 class="modal-title sub-heading modal-heading">
                       Nutritional Information
                     </h5>
                     <button
@@ -1044,56 +851,26 @@
                     </button>
                   </div>
                   <div class="modal-body">
-                    <p class="modal-subheading sub-heading">
-                      Amount per serving
-                    </p>
-                    <div class="type">
-                      <p class="paragraph">Energy</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">915kj / 219kcal</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Fat</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">11.8g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">of which saturates</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">7.7g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Carbohydrates</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">23g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">of which sugars</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">3.5g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Fibre</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">1.3g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Protein</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">4g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Salt</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">0.6g</p>
+                    <div class="modal-text">
+                      <p class="paragraph modal-text-bold amount">
+                        Amount per serving
+                      </p>
+                      <p class="paragraph type">Energy</p>
+                      <p class="paragraph amount">915kj / 219kcal</p>
+                      <p class="paragraph type">Fat</p>
+                      <p class="paragraph amount">11.8g</p>
+                      <p class="paragraph type">of which saturates</p>
+                      <p class="paragraph amount">7.7g</p>
+                      <p class="paragraph type">Carbohydrates</p>
+                      <p class="paragraph amount">23g</p>
+                      <p class="paragraph type">of which sugars</p>
+                      <p class="paragraph amount">3.5g</p>
+                      <p class="paragraph type">Fibre</p>
+                      <p class="paragraph amount">1.3g</p>
+                      <p class="paragraph type">Protein</p>
+                      <p class="paragraph amount">4g</p>
+                      <p class="paragraph type">Salt</p>
+                      <p class="paragraph amount">0.6g</p>
                     </div>
                   </div>
                 </div>
@@ -1112,7 +889,7 @@
         </div>
         <!--Menu card 9 end-->
         <!--Menu card 10 start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="col-12 col-sm-6 col-lg-4 col-xlg-3">
           <div class="card menu-card">
             <!--Image start. Image from https://cdn.pixabay.com/photo/2020/02/05/17/47/sweets-4821862_960_720.jpg-->
             <a href="#Pain-Au-Chocolat-Modal" data-toggle="modal">
@@ -1135,7 +912,7 @@
                 <!--Nutritional Information from https://caffenero.com/uk/menu/food/all-day-breakfast/-->
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title sub-heading">
+                    <h5 class="modal-title sub-heading modal-heading">
                       Nutritional Information
                     </h5>
                     <button
@@ -1148,56 +925,26 @@
                     </button>
                   </div>
                   <div class="modal-body">
-                    <p class="modal-subheading sub-heading">
-                      Amount per serving
-                    </p>
-                    <div class="type">
-                      <p class="paragraph">Energy</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">1120kj / 268kcal</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Fat</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">14.3g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">of which saturates</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">9.3g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Carbohydrates</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">21.1g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">of which sugars</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">8.1g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Fibre</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">1.9g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Protein</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">4.8g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Salt</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">0.6g</p>
+                    <div class="modal-text">
+                      <p class="paragraph modal-text-bold amount">
+                        Amount per serving
+                      </p>
+                      <p class="paragraph type">Energy</p>
+                      <p class="paragraph amount">1120kj / 268kcal</p>
+                      <p class="paragraph type">Fat</p>
+                      <p class="paragraph amount">14.3g</p>
+                      <p class="paragraph type">of which saturates</p>
+                      <p class="paragraph amount">9.3g</p>
+                      <p class="paragraph type">Carbohydrates</p>
+                      <p class="paragraph amount">21.1g</p>
+                      <p class="paragraph type">of which sugars</p>
+                      <p class="paragraph amount">8.1g</p>
+                      <p class="paragraph type">Fibre</p>
+                      <p class="paragraph amount">1.9g</p>
+                      <p class="paragraph type">Protein</p>
+                      <p class="paragraph amount">4.8g</p>
+                      <p class="paragraph type">Salt</p>
+                      <p class="paragraph amount">0.6g</p>
                     </div>
                   </div>
                 </div>
@@ -1216,7 +963,7 @@
         </div>
         <!--Menu card 10 end-->
         <!--Menu card 11 start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="col-12 col-sm-6 col-lg-4 col-xlg-3">
           <div class="card menu-card">
             <!--Image start. Image from https://unsplash.com/photos/uhJfaJ6c9fY-->
             <a href="#Bacon-Roll-Modal" data-toggle="modal">
@@ -1239,7 +986,7 @@
                 <!--Nutritional Information from https://caffenero.com/uk/menu/food/all-day-breakfast/-->
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title sub-heading">
+                    <h5 class="modal-title sub-heading modal-heading">
                       Nutritional Information
                     </h5>
                     <button
@@ -1252,60 +999,30 @@
                     </button>
                   </div>
                   <div class="modal-body">
-                    <p class="modal-subheading sub-heading">
-                      Amount per serving
-                    </p>
-                    <div class="type">
-                      <p class="paragraph">Energy</p>
+                    <div class="modal-text">
+                      <p class="paragraph modal-text-bold amount">
+                        Amount per serving
+                      </p>
+                      <p class="paragraph type">Energy</p>
+                      <p class="paragraph amount">1489kj / 354kcal</p>
+                      <p class="paragraph type">Fat</p>
+                      <p class="paragraph amount">13g</p>
+                      <p class="paragraph type">of which saturates</p>
+                      <p class="paragraph amount">6.3g</p>
+                      <p class="paragraph type">Carbohydrates</p>
+                      <p class="paragraph amount">45g</p>
+                      <p class="paragraph type">of which sugars</p>
+                      <p class="paragraph amount">7.1g</p>
+                      <p class="paragraph type">Fibre</p>
+                      <p class="paragraph amount">1.8g</p>
+                      <p class="paragraph type">Protein</p>
+                      <p class="paragraph amount">16.1g</p>
+                      <p class="paragraph type">Salt</p>
+                      <p class="paragraph amount">1.5g</p>
+                      <p class="paragraph type">
+                        Available on wheat or gluten-free bread.
+                      </p>
                     </div>
-                    <div class="amount">
-                      <p class="paragraph">1489kj / 354kcal</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Fat</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">13g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">of which saturates</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">6.3g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Carbohydrates</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">45g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">of which sugars</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">7.1g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Fibre</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">1.8g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Protein</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">16.1g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Salt</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">1.5g</p>
-                    </div>
-                    <p class="paragraph">
-                      <br />Available on wheat or gluten-free bread.
-                    </p>
                   </div>
                 </div>
               </div>
@@ -1315,13 +1032,15 @@
             <div class="card-body">
               <h5 class="card-title sub-heading center-text">
                 Bacon Roll
+              </h5>
+              <div class="menu-icons">
                 <!--Image from https://www.needpix.com/photo/1208222/gluten-wheat-barley-food-diet-nutrition-gluten-free-eating-grain-->
                 <img
                   class="gluten-free"
                   src="assets/images/gluten.png"
                   alt="Gluten-free icon"
                 />
-              </h5>
+              </div>
               <p class="card-text paragraph center-text">£1.50</p>
             </div>
             <!--Text end-->
@@ -1329,10 +1048,10 @@
         </div>
         <!--Menu card 11 end-->
         <!--Menu card 12 start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="col-12 col-sm-6 col-lg-4 col-xlg-3">
           <div class="card menu-card">
             <!--Image start. Image from https://unsplash.com/photos/WcN0BupzoVg-->
-            <a href="#EBSPanini-Modal" data-toggle="modal">
+            <a href="#EBS-Panini-Modal" data-toggle="modal">
               <img
                 class="card-img-top menu-card-image"
                 src="assets/images/EBS_panini.jpg"
@@ -1343,7 +1062,7 @@
             <!--Modal start. Code from https://getbootstrap.com/docs/4.5/components/modal/-->
             <div
               class="modal fade"
-              id="EBSPanini-Modal"
+              id="EBS-Panini-Modal"
               tabindex="-1"
               aria-labelledby="exampleModalLabel"
               aria-hidden="true"
@@ -1352,7 +1071,7 @@
                 <!--Nutritional Information from https://caffenero.com/uk/menu/food/all-day-breakfast/-->
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title sub-heading">
+                    <h5 class="modal-title sub-heading modal-heading">
                       Nutritional Information
                     </h5>
                     <button
@@ -1365,60 +1084,30 @@
                     </button>
                   </div>
                   <div class="modal-body">
-                    <p class="modal-subheading sub-heading">
-                      Amount per serving
-                    </p>
-                    <div class="type">
-                      <p class="paragraph">Energy</p>
+                    <div class="modal-text">
+                      <p class="paragraph modal-text-bold amount">
+                        Amount per serving
+                      </p>
+                      <p class="paragraph type">Energy</p>
+                      <p class="paragraph amount">1793kj / 427kcal</p>
+                      <p class="paragraph type">Fat</p>
+                      <p class="paragraph amount">11.2g</p>
+                      <p class="paragraph type">of which saturates</p>
+                      <p class="paragraph amount">3.6g</p>
+                      <p class="paragraph type">Carbohydrates</p>
+                      <p class="paragraph amount">64.6g</p>
+                      <p class="paragraph type">of which sugars</p>
+                      <p class="paragraph amount">5.3g</p>
+                      <p class="paragraph type">Fibre</p>
+                      <p class="paragraph amount">5.3g</p>
+                      <p class="paragraph type">Protein</p>
+                      <p class="paragraph amount">18.9g</p>
+                      <p class="paragraph type">Salt</p>
+                      <p class="paragraph amount">1.8g</p>
+                      <p class="paragraph type">
+                        Available on wheat or gluten-free bread.
+                      </p>
                     </div>
-                    <div class="amount">
-                      <p class="paragraph">1793kj / 427kcal</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Fat</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">11.2g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">of which saturates</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">3.6g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Carbohydrates</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">64.6g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">of which sugars</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">5.3g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Fibre</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">5.3g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Protein</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">18.9g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Salt</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">1.8g</p>
-                    </div>
-                    <p class="paragraph">
-                      <br />Available on wheat or gluten-free bread.
-                    </p>
                   </div>
                 </div>
               </div>
@@ -1428,13 +1117,15 @@
             <div class="card-body">
               <h5 class="card-title sub-heading center-text">
                 Egg, Bacon and Sausage Panini
+              </h5>
+              <div class="menu-icons">
                 <!--Image from https://www.needpix.com/photo/1208222/gluten-wheat-barley-food-diet-nutrition-gluten-free-eating-grain-->
                 <img
                   class="gluten-free"
                   src="assets/images/gluten.png"
                   alt="Gluten-free icon"
                 />
-              </h5>
+              </div>
               <p class="card-text paragraph center-text">£1.50</p>
             </div>
             <!--Text end-->
@@ -1442,10 +1133,10 @@
         </div>
         <!--Menu card 12 end-->
         <!--Menu card 13 start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="col-12 col-sm-6 col-lg-4 col-xlg-3">
           <div class="card menu-card">
             <!--Image start. Image from https://unsplash.com/photos/z5UMFvTVXZg-->
-            <a href="#Chicken-Modal" data-toggle="modal">
+            <a href="#Chicken-Panini-Modal" data-toggle="modal">
               <img
                 class="card-img-top menu-card-image"
                 src="assets/images/chicken_panini.jpg"
@@ -1456,7 +1147,7 @@
             <!--Modal start. Code from https://getbootstrap.com/docs/4.5/components/modal/-->
             <div
               class="modal fade"
-              id="ChickenPanini-Modal"
+              id="Chicken-Panini-Modal"
               tabindex="-1"
               aria-labelledby="exampleModalLabel"
               aria-hidden="true"
@@ -1465,7 +1156,7 @@
                 <!--Nutritional Information from https://caffenero.com/uk/menu/food/panini-sandwiches/-->
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title sub-heading">
+                    <h5 class="modal-title sub-heading modal-heading">
                       Nutritional Information
                     </h5>
                     <button
@@ -1478,60 +1169,30 @@
                     </button>
                   </div>
                   <div class="modal-body">
-                    <p class="modal-subheading sub-haeding">
-                      Amount per serving
-                    </p>
-                    <div class="type">
-                      <p class="paragraph">Energy</p>
+                    <div class="modal-text">
+                      <p class="paragraph modal-text-bold amount">
+                        Amount per serving
+                      </p>
+                      <p class="paragraph type">Energy</p>
+                      <p class="paragraph amount">1783kj / 424kcal</p>
+                      <p class="paragraph type">Fat</p>
+                      <p class="paragraph amount">12.3g</p>
+                      <p class="paragraph type">of which saturates</p>
+                      <p class="paragraph amount">3.2g</p>
+                      <p class="paragraph type">Carbohydrates</p>
+                      <p class="paragraph amount">57.2g</p>
+                      <p class="paragraph type">of which sugars</p>
+                      <p class="paragraph amount">4.5g</p>
+                      <p class="paragraph type">Fibre</p>
+                      <p class="paragraph amount">4g</p>
+                      <p class="paragraph type">Protein</p>
+                      <p class="paragraph amount">23.1g</p>
+                      <p class="paragraph type">Salt</p>
+                      <p class="paragraph amount">2.1g</p>
+                      <p class="paragraph type">
+                        Available on wheat or gluten-free bread.
+                      </p>
                     </div>
-                    <div class="amount">
-                      <p class="paragraph">1783kj / 424kcal</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Fat</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">12.3g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">of which saturates</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">3.2g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Carbohydrates</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">57.2g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">of which sugars</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">4.5g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Fibre</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">4g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Protein</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">23.1g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Salt</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">2.1g</p>
-                    </div>
-                    <p class="paragraph">
-                      <br />Available on wheat or gluten-free bread.
-                    </p>
                   </div>
                 </div>
               </div>
@@ -1541,13 +1202,15 @@
             <div class="card-body">
               <h5 class="card-title sub-heading center-text">
                 Chicken and Pesto Panini
+              </h5>
+              <div class="menu-icons">
                 <!--Image from https://www.needpix.com/photo/1208222/gluten-wheat-barley-food-diet-nutrition-gluten-free-eating-grain-->
                 <img
                   class="gluten-free"
                   src="assets/images/gluten.png"
                   alt="Gluten-free icon"
                 />
-              </h5>
+              </div>
               <p class="card-text paragraph center-text">£1.50</p>
             </div>
             <!--Text end-->
@@ -1555,7 +1218,7 @@
         </div>
         <!--Menu card 13 end-->
         <!--Menu card 14 start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="col-12 col-sm-6 col-lg-4 col-xlg-3">
           <div class="card menu-card">
             <!--Image start. Image from https://c0.anyrgb.com/images/587/750/grilled-cheese-sandwich-food-kollam-india-school-lunch-school-canteen-bread-panini-table-paint-thumbnail.jpg-->
             <a href="#Meatball-Panini-Modal" data-toggle="modal">
@@ -1578,7 +1241,7 @@
                 <!--Nutritional Information from https://caffenero.com/uk/menu/food/panini-sandwiches/-->
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title sub-heading">
+                    <h5 class="modal-title sub-heading modal-heading">
                       Nutritional Information
                     </h5>
                     <button
@@ -1591,60 +1254,30 @@
                     </button>
                   </div>
                   <div class="modal-body">
-                    <p class="modal-subheading sub-heading">
-                      Amount per serving
-                    </p>
-                    <div class="type">
-                      <p class="paragraph">Energy</p>
+                    <div class="modal-text">
+                      <p class="paragraph modal-text-bold amount">
+                        Amount per serving
+                      </p>
+                      <p class="paragraph type">Energy</p>
+                      <p class="paragraph amount">1961kj / 466kcal</p>
+                      <p class="paragraph type">Fat</p>
+                      <p class="paragraph amount">10.4g</p>
+                      <p class="paragraph type">of which saturates</p>
+                      <p class="paragraph amount">5.6g</p>
+                      <p class="paragraph type">Carbohydrates</p>
+                      <p class="paragraph amount">77.2g</p>
+                      <p class="paragraph type">of which sugars</p>
+                      <p class="paragraph amount">8.7g</p>
+                      <p class="paragraph type">Fibre</p>
+                      <p class="paragraph amount">6.2g</p>
+                      <p class="paragraph type">Protein</p>
+                      <p class="paragraph amount">18.9g</p>
+                      <p class="paragraph type">Salt</p>
+                      <p class="paragraph amount">2.1g</p>
+                      <p class="paragraph type">
+                        Available on wheat or gluten-free bread.
+                      </p>
                     </div>
-                    <div class="amount">
-                      <p class="paragraph">1961kj / 466kcal</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Fat</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">10.4g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">of which saturates</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">5.6g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Carbohydrates</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">77.2g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">of which sugars</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">8.7g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Fibre</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">6.2g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Protein</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">18.9g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Salt</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">2.1g</p>
-                    </div>
-                    <p class="paragraph">
-                      <br />Available on wheat or gluten-free bread.
-                    </p>
                   </div>
                 </div>
               </div>
@@ -1654,6 +1287,8 @@
             <div class="card-body">
               <h5 class="card-title sub-heading center-text">
                 Vegan Meatball Panini
+              </h5>
+              <div class="menu-icons">
                 <!--Image from https://www.needpix.com/photo/1208222/gluten-wheat-barley-food-diet-nutrition-gluten-free-eating-grain-->
                 <img
                   class="gluten-free"
@@ -1666,7 +1301,7 @@
                   src="assets/images/vegan.png"
                   alt="Vegan icon"
                 />
-              </h5>
+              </div>
               <p class="card-text paragraph center-text">£1.50</p>
             </div>
             <!--Text end-->
@@ -1674,7 +1309,7 @@
         </div>
         <!--Menu card 14 end-->
         <!--Menu card 15 start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="col-12 col-sm-6 col-lg-4 col-xlg-3">
           <div class="card menu-card">
             <!--Image start. Image from https://unsplash.com/photos/IZ0LRt1khgM-->
             <a href="#Chicken-Sandwich-Modal" data-toggle="modal">
@@ -1697,7 +1332,7 @@
                 <!--Nutritional Information from https://caffenero.com/uk/menu/food/panini-sandwiches/-->
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title sub-heading">
+                    <h5 class="modal-title sub-heading modal-heading">
                       Nutritional Information
                     </h5>
                     <button
@@ -1710,60 +1345,30 @@
                     </button>
                   </div>
                   <div class="modal-body">
-                    <p class="modal-subheading sub-heading">
-                      Amount per serving
-                    </p>
-                    <div class="type">
-                      <p class="paragraph">Energy</p>
+                    <div class="modal-text">
+                      <p class="paragraph modal-text-bold amount">
+                        Amount per serving
+                      </p>
+                      <p class="paragraph type">Energy</p>
+                      <p class="paragraph amount">1801kj / 430kcal</p>
+                      <p class="paragraph type">Fat</p>
+                      <p class="paragraph amount">17.9g</p>
+                      <p class="paragraph type">of which saturates</p>
+                      <p class="paragraph amount">2g</p>
+                      <p class="paragraph type">Carbohydrates</p>
+                      <p class="paragraph amount">50.3g</p>
+                      <p class="paragraph type">of which sugars</p>
+                      <p class="paragraph amount">3.2g</p>
+                      <p class="paragraph type">Fibre</p>
+                      <p class="paragraph amount">5.3g</p>
+                      <p class="paragraph type">Protein</p>
+                      <p class="paragraph amount">19.5g</p>
+                      <p class="paragraph type">Salt</p>
+                      <p class="paragraph amount">1.5g</p>
+                      <p class="paragraph type">
+                        Available on wheat or gluten-free bread.
+                      </p>
                     </div>
-                    <div class="amount">
-                      <p class="paragraph">1801kj / 430kcal</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Fat</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">17.9g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">of which saturates</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">2g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Carbohydrates</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">50.3g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">of which sugars</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">3.2g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Fibre</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">5.3g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Protein</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">19.5g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Salt</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">1.5g</p>
-                    </div>
-                    <p class="paragraph">
-                      <br />Available on wheat or gluten-free bread.
-                    </p>
                   </div>
                 </div>
               </div>
@@ -1773,13 +1378,15 @@
             <div class="card-body">
               <h5 class="card-title sub-heading center-text">
                 Chicken and Salad Sandwich
+              </h5>
+              <div class="menu-icons">
                 <!--Image from https://www.needpix.com/photo/1208222/gluten-wheat-barley-food-diet-nutrition-gluten-free-eating-grain-->
                 <img
                   class="gluten-free"
                   src="assets/images/gluten.png"
                   alt="Gluten-free icon"
                 />
-              </h5>
+              </div>
               <p class="card-text paragraph center-text">£1.50</p>
             </div>
             <!--Text end-->
@@ -1787,7 +1394,7 @@
         </div>
         <!--Menu card 15 end-->
         <!--Menu card 16 start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="col-12 col-sm-6 col-lg-4 col-xlg-3">
           <div class="card menu-card">
             <!--Image start. Image from https://unsplash.com/photos/sBKLiRiunK0-->
             <a href="#Tuna-Sandwich-Modal" data-toggle="modal">
@@ -1810,7 +1417,7 @@
                 <!--Nutritional Information from https://caffenero.com/uk/menu/food/panini-sandwiches/-->
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title sub-heading">
+                    <h5 class="modal-title sub-heading modal-heading">
                       Nutritional Information
                     </h5>
                     <button
@@ -1823,60 +1430,30 @@
                     </button>
                   </div>
                   <div class="modal-body">
-                    <p class="modal-subheading sub-heading">
-                      Amount per serving
-                    </p>
-                    <div class="type">
-                      <p class="paragraph">Energy</p>
+                    <div class="modal-text">
+                      <p class="paragraph modal-text-bold amount">
+                        Amount per serving
+                      </p>
+                      <p class="paragraph type">Energy</p>
+                      <p class="paragraph amount">1893kj / 450kcal</p>
+                      <p class="paragraph type">Fat</p>
+                      <p class="paragraph amount">17.6g</p>
+                      <p class="paragraph type">of which saturates</p>
+                      <p class="paragraph amount">1.9g</p>
+                      <p class="paragraph type">Carbohydrates</p>
+                      <p class="paragraph amount">54.7g</p>
+                      <p class="paragraph type">of which sugars</p>
+                      <p class="paragraph amount">6.1g</p>
+                      <p class="paragraph type">Fibre</p>
+                      <p class="paragraph amount">5.5g</p>
+                      <p class="paragraph type">Protein</p>
+                      <p class="paragraph amount">21.2g</p>
+                      <p class="paragraph type">Salt</p>
+                      <p class="paragraph amount">1.5g</p>
+                      <p class="paragraph type">
+                        Available on wheat or gluten-free bread.
+                      </p>
                     </div>
-                    <div class="amount">
-                      <p class="paragraph">1893kj / 450kcal</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Fat</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">17.6g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">of which saturates</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">1.9g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Carbohydrates</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">54.7g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">of which sugars</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">6.1g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Fibre</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">5.5g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Protein</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">21.2g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Salt</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">1.5g</p>
-                    </div>
-                    <p class="paragraph">
-                      <br />Available on wheat or gluten-free bread.
-                    </p>
                   </div>
                 </div>
               </div>
@@ -1886,13 +1463,15 @@
             <div class="card-body">
               <h5 class="card-title sub-heading center-text">
                 Tuna and Salad Sandwich
+              </h5>
+              <div class="menu-icons">
                 <!--Image from https://www.needpix.com/photo/1208222/gluten-wheat-barley-food-diet-nutrition-gluten-free-eating-grain-->
                 <img
                   class="gluten-free"
                   src="assets/images/gluten.png"
                   alt="Gluten-free icon"
                 />
-              </h5>
+              </div>
               <p class="card-text paragraph center-text">£1.50</p>
             </div>
             <!--Text end-->
@@ -1900,7 +1479,7 @@
         </div>
         <!--Menu card 16 end-->
         <!--Menu card 17 start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="col-12 col-sm-6 col-lg-4 col-xlg-3">
           <div class="card menu-card">
             <!--Image start. Image from https://www.pikist.com/free-photo-vgadx-->
             <a href="#Caramel-Shortbread-Modal" data-toggle="modal">
@@ -1923,7 +1502,7 @@
                 <!--Nutritional Information from https://caffenero.com/uk/menu/food/cakes-muffins/-->
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title sub-heading">
+                    <h5 class="modal-title sub-heading modal-heading">
                       Nutritional Information
                     </h5>
                     <button
@@ -1936,56 +1515,26 @@
                     </button>
                   </div>
                   <div class="modal-body">
-                    <p class="modal-subheading sub-heading">
-                      Amount per serving
-                    </p>
-                    <div class="type">
-                      <p class="paragraph">Energy</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">1574kj / 377kcal</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Fat</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">21.2g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">of which saturates</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">12.6g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Carbohydrates</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">42.5g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">of which sugars</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">30.8g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Fibre</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">3.5g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Protein</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">1.1g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Salt</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">0.3g</p>
+                    <div class="modal-text">
+                      <p class="paragraph modal-text-bold amount">
+                        Amount per serving
+                      </p>
+                      <p class="paragraph type">Energy</p>
+                      <p class="paragraph amount">1574kj / 377kcal</p>
+                      <p class="paragraph type">Fat</p>
+                      <p class="paragraph amount">21.2g</p>
+                      <p class="paragraph type">of which saturates</p>
+                      <p class="paragraph amount">12.6g</p>
+                      <p class="paragraph type">Carbohydrates</p>
+                      <p class="paragraph amount">42.5g</p>
+                      <p class="paragraph type">of which sugars</p>
+                      <p class="paragraph amount">30.8g</p>
+                      <p class="paragraph type">Fibre</p>
+                      <p class="paragraph amount">3.5g</p>
+                      <p class="paragraph type">Protein</p>
+                      <p class="paragraph amount">1.1g</p>
+                      <p class="paragraph type">Salt</p>
+                      <p class="paragraph amount">0.3g</p>
                     </div>
                   </div>
                 </div>
@@ -2004,7 +1553,7 @@
         </div>
         <!--Menu card 17 end-->
         <!--Menu card 18 start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="col-12 col-sm-6 col-lg-4 col-xlg-3">
           <div class="card menu-card">
             <!--Image start. Image from https://p0.piqsels.com/preview/480/697/97/dessert-food-chocolate-brownie.jpg-->
             <a href="#Brownie-Modal" data-toggle="modal">
@@ -2027,7 +1576,7 @@
                 <!--Nutritional Information from https://caffenero.com/uk/menu/food/cakes-muffins/-->
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title sub-heading">
+                    <h5 class="modal-title sub-heading modal-heading">
                       Nutritional Information
                     </h5>
                     <button
@@ -2040,60 +1589,30 @@
                     </button>
                   </div>
                   <div class="modal-body">
-                    <p class="modal-subheading sub-heading">
-                      Amount per serving
-                    </p>
-                    <div class="type">
-                      <p class="paragraph">Energy</p>
+                    <div class="modal-text">
+                      <p class="paragraph modal-text-bold amount">
+                        Amount per serving
+                      </p>
+                      <p class="paragraph type">Energy</p>
+                      <p class="paragraph amount">1052kj / 252kcal</p>
+                      <p class="paragraph type">Fat</p>
+                      <p class="paragraph amount">15.8g</p>
+                      <p class="paragraph type">of which saturates</p>
+                      <p class="paragraph amount">3.7g</p>
+                      <p class="paragraph type">Carbohydrates</p>
+                      <p class="paragraph amount">23.8g</p>
+                      <p class="paragraph type">of which sugars</p>
+                      <p class="paragraph amount">14.2g</p>
+                      <p class="paragraph type">Fibre</p>
+                      <p class="paragraph amount">1.9g</p>
+                      <p class="paragraph type">Protein</p>
+                      <p class="paragraph amount">2.9g</p>
+                      <p class="paragraph type">Salt</p>
+                      <p class="paragraph amount">0.5g</p>
+                      <p class="paragraph type">
+                        A gluten-free variant is available.
+                      </p>
                     </div>
-                    <div class="amount">
-                      <p class="paragraph">1052kj / 252kcal</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Fat</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">15.8g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">of which saturates</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">3.7g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Carbohydrates</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">23.8g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">of which sugars</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">14.2g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Fibre</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">1.9g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Protein</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">2.9g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Salt</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">0.5g</p>
-                    </div>
-                    <p class="paragraph">
-                      <br />A gluten-free variant is available.
-                    </p>
                   </div>
                 </div>
               </div>
@@ -2103,13 +1622,15 @@
             <div class="card-body">
               <h5 class="card-title sub-heading center-text">
                 Chocolate Brownie
+              </h5>
+              <div class="menu-icons">
                 <!--Image from https://www.needpix.com/photo/1208222/gluten-wheat-barley-food-diet-nutrition-gluten-free-eating-grain-->
                 <img
                   class="gluten-free"
                   src="assets/images/gluten.png"
                   alt="Gluten-free icon"
                 />
-              </h5>
+              </div>
               <p class="card-text paragraph center-text">£1.50</p>
             </div>
             <!--Text end-->
@@ -2117,7 +1638,7 @@
         </div>
         <!--Menu card 18 end-->
         <!--Menu card 19 start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="col-12 col-sm-6 col-lg-4 col-xlg-3">
           <div class="card menu-card">
             <!--Image start. Image from https://unsplash.com/photos/-FyA5fhIPGI-->
             <a href="#Flapjack-Modal" data-toggle="modal">
@@ -2140,7 +1661,7 @@
                 <!--Nutritional Information from https://caffenero.com/uk/menu/food/cakes-muffins/-->
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title sub-heading">
+                    <h5 class="modal-title sub-heading modal-heading">
                       Nutritional Information
                     </h5>
                     <button
@@ -2153,60 +1674,30 @@
                     </button>
                   </div>
                   <div class="modal-body">
-                    <p class="modal-subheading sub-heading">
-                      Amount per serving
-                    </p>
-                    <div class="type">
-                      <p class="paragraph">Energy</p>
+                    <div class="modal-text">
+                      <p class="paragraph modal-text-bold amount">
+                        Amount per serving
+                      </p>
+                      <p class="paragraph type">Energy</p>
+                      <p class="paragraph amount">1321kj / 315kcal</p>
+                      <p class="paragraph type">Fat</p>
+                      <p class="paragraph amount">12.4g</p>
+                      <p class="paragraph type">of which saturates</p>
+                      <p class="paragraph amount">4.4g</p>
+                      <p class="paragraph type">Carbohydrates</p>
+                      <p class="paragraph amount">48.9g</p>
+                      <p class="paragraph type">of which sugars</p>
+                      <p class="paragraph amount">32.3g</p>
+                      <p class="paragraph type">Fibre</p>
+                      <p class="paragraph amount">3.3g</p>
+                      <p class="paragraph type">Protein</p>
+                      <p class="paragraph amount">3.2g</p>
+                      <p class="paragraph type">Salt</p>
+                      <p class="paragraph amount">0.5g</p>
+                      <p class="paragraph type">
+                        Our flapjacks are vegan and gluten-free available.
+                      </p>
                     </div>
-                    <div class="amount">
-                      <p class="paragraph">1321kj / 315kcal</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Fat</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">12.4g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">of which saturates</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">4.4g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Carbohydrates</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">48.9g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">of which sugars</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">32.3g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Fibre</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">3.3g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Protein</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">3.2g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Salt</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">0.5g</p>
-                    </div>
-                    <p class="paragraph">
-                      <br />Our flapjacks are vegan and gluten-free.
-                    </p>
                   </div>
                 </div>
               </div>
@@ -2216,6 +1707,8 @@
             <div class="card-body">
               <h5 class="card-title sub-heading center-text">
                 Flapjack
+              </h5>
+              <div class="menu-icons">
                 <!--Image from https://upload.wikimedia.org/wikipedia/commons/7/79/Vegan_symbol.png-->
                 <img
                   class="vegan"
@@ -2228,7 +1721,7 @@
                   src="assets/images/gluten.png"
                   alt="Gluten-free icon"
                 />
-              </h5>
+              </div>
               <p class="card-text paragraph center-text">£1.50</p>
             </div>
             <!--Text end-->
@@ -2236,7 +1729,7 @@
         </div>
         <!--Menu card 19 end-->
         <!--Menu card 20 start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="col-12 col-sm-6 col-lg-4 col-xlg-3">
           <div class="card menu-card">
             <!--Image start. Image from https://unsplash.com/photos/7P-wc2Z2Ujs-->
             <a href="#Cookie-Modal" data-toggle="modal">
@@ -2259,7 +1752,7 @@
                 <!--Nutritional Information from https://caffenero.com/uk/menu/food/snacks/-->
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title sub-heading">
+                    <h5 class="modal-title sub-heading modal-heading">
                       Nutritional Information
                     </h5>
                     <button
@@ -2272,60 +1765,30 @@
                     </button>
                   </div>
                   <div class="modal-body">
-                    <p class="modal-subheading sub-heading">
-                      Amount per serving
-                    </p>
-                    <div class="type">
-                      <p class="paragraph">Energy</p>
+                    <div class="modal-text">
+                      <p class="paragraph modal-text-bold amount">
+                        Amount per serving
+                      </p>
+                      <p class="paragraph type">Energy</p>
+                      <p class="paragraph amount">1316kj / 314kcal</p>
+                      <p class="paragraph type">Fat</p>
+                      <p class="paragraph amount">12.1g</p>
+                      <p class="paragraph type">of which saturates</p>
+                      <p class="paragraph amount">5.9g</p>
+                      <p class="paragraph type">Carbohydrates</p>
+                      <p class="paragraph amount">50.2g</p>
+                      <p class="paragraph type">of which sugars</p>
+                      <p class="paragraph amount">26.6g</p>
+                      <p class="paragraph type">Fibre</p>
+                      <p class="paragraph amount">1.7g</p>
+                      <p class="paragraph type">Protein</p>
+                      <p class="paragraph amount">3.9g</p>
+                      <p class="paragraph type">Salt</p>
+                      <p class="paragraph amount">0.6g</p>
+                      <p class="paragraph type">
+                        A gluten-free variant is available.
+                      </p>
                     </div>
-                    <div class="amount">
-                      <p class="paragraph">1316kj / 314kcal</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Fat</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">12.1g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">of which saturates</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">5.9g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Carbohydrates</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">50.2g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">of which sugars</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">26.6g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Fibre</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">1.7g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Protein</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">3.9g</p>
-                    </div>
-                    <div class="type">
-                      <p class="paragraph">Salt</p>
-                    </div>
-                    <div class="amount">
-                      <p class="paragraph">0.6g</p>
-                    </div>
-                    <p class="paragraph">
-                      <br />A gluten-free variant is available.
-                    </p>
                   </div>
                 </div>
               </div>
@@ -2335,13 +1798,15 @@
             <div class="card-body">
               <h5 class="card-title sub-heading center-text">
                 Chocolate Chip Cookie
+              </h5>
+              <div class="menu-icons">
                 <!--Image from https://www.needpix.com/photo/1208222/gluten-wheat-barley-food-diet-nutrition-gluten-free-eating-grain-->
                 <img
                   class="gluten-free"
                   src="assets/images/gluten.png"
                   alt="Gluten-free icon"
                 />
-              </h5>
+              </div>
               <p class="card-text paragraph center-text">£1.50</p>
             </div>
             <!--Text end-->
