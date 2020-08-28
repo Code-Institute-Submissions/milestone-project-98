@@ -154,7 +154,6 @@
     margin-right: 30px;
     margin-bottom: 30px;
     border-color: transparent;
-    min-height: 230px;
 }
 
 .carousel-item {
@@ -167,6 +166,7 @@
     margin-left: auto;
     margin-right: auto;
     max-width: 800px;    
+    font-size: 1rem;
 }
 
 .rating i {
@@ -179,6 +179,10 @@
 .testimonial-footer {
     font-family: 'Roboto', sans-serif;
     margin-bottom: 0;
+}
+
+.blockquote-footer {
+    font-size: 1rem;
 }
 
 .blockquote-footer::after {
@@ -482,15 +486,6 @@ button[type="submit"]:hover {
     }
     .location-info-item .hours {
         width: 50%;
-    }
-    .testimonial-carousel {
-        min-height: 160px;
-    }
-}
-
-@media (min-width: 768px) {
-    .testimonial-carousel {
-        min-height: 140px;
     }
 }
 
