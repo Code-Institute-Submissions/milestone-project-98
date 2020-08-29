@@ -47,3 +47,5 @@
 ### Media
 
 ### Acknowledgements
+
+ * I received inspiration for this project from [Avanti West Coast](https://www.avantiwestcoast.co.uk), [Tim Hortons](https://timhortons.co.uk), [Cafe Nero](https://caffenero.com/uk/), [Costa Coffee](https://www.costa.co.uk) and [Axe and Cleaver](https://www.chefandbrewer.com/pubs/cheshire/axe-cleaver/).
