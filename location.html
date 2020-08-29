@@ -69,87 +69,78 @@
       </nav>
       <!--Navbar end.-->
     </header>
-    <section class="container-fluid">
-        <div class="row">
-            <!--Heading start-->
+    <section class="container-fluid location-container">
+        <!--Heading start-->
+        <div class="row no-gutters">
             <div class="col-12">
                 <h3 class="main-heading location-heading center-text">Location</h3>
             </div>
-            <!--Heading end-->
-            <!--Google Map start. Code copied from https://developers.google.com/maps/documentation/embed/get-started-->
-            <div class="col-lg-6">
+        </div>
+        <!--Heading end-->
+        <!--Google Map start. Code copied from https://developers.google.com/maps/documentation/embed/get-started-->
+        <div class="row no-gutters">
+            <div class="col-12 col-lg-6">
                 <iframe
-                    class="map" 
-                    height="450px"
-                    width="100%"                     
+                    class="map"                     
                     frameborder="0" style="border:0"
                     src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD0TaixxnY9MAX3y2yJd16sDQ26d1aHPVY&q=Tib+St,+Manchester" allowfullscreen>                    
                 </iframe>
             </div>
             <!--Google Map end-->
             <!--Location information start-->
-            <div class="col-lg-6">
-                <div class="location-info">
+            <div class="col-12 col-lg-6">
+                <div class="row no-gutters location-info">
                     <!--Address info start-->
-                    <!--Code for location icon copied from https://fontawesome.com/icons/map-marker-alt?style=solid-->
-                    <div class="location-info-item">
+                    <div class="col-12 d-flex justify-content-center"> 
 					    <div class="key paragraph">
-						    <p><i class="fas fa-map-marker-alt"></i> Address:</p>
-					    </div>
-					    <div class="value paragraph">
-						    <p>40 Tibb Street,</p> 
+					        <p>
+                                <!--Code for location icon copied from https://fontawesome.com/icons/map-marker-alt?style=solid-->
+                                <i class="fas fa-map-marker-alt"></i>
+                                 Address:
+                            </p>
+			            </div>				            
+                        <div class="value paragraph">
+					        <p>40 Tibb Street,</p> 
                             <p>Manchester,</p> 
-                            <p>M1 4AC</p>
-					    </div>
+                            <p>M1 4AC</p>					        
+                         </div>
 				    </div>
                     <!--Address info end-->
                     <!--Telephone info start-->
-                    <div class="location-info-item">
-					    <div class="key paragraph">
-                            <!--Code for phone icon copied from https://fontawesome.com/icons/phone-alt?style=solid-->
-						    <p><i class="fas fa-phone-alt"></i> Telephone:</p>
-					    </div>
-					    <div class="value paragraph">
-						    <p>0161 690 4200</p> 
-					    </div>
-				    </div>
+                    <div class="col-12 d-flex justify-content-center">
+				        <div class="key paragraph">
+                            <p>
+                                <!--Code for phone icon copied from https://fontawesome.com/icons/phone-alt?style=solid-->
+					            <i class="fas fa-phone-alt"></i>
+                                 Telephone:
+                            </p>
+				        </div>
+				        <div class="value paragraph">
+				            <p>0161 690 4200</p> 
+				        </div>
+			        </div>
                     <!--Telephone info end-->
                     <!--Opening hours start-->
-                    <div class="location-info-item">
-					    <div class="key paragraph">
+                    <div class="col-12 d-flex justify-content-center">
+					    <div id="opening-hours" class="key paragraph">
                             <!--Code for clock icon copied from https://fontawesome.com/icons/clock?style=regular-->
 						    <p><i class="far fa-clock"></i> Opening Hours:</p>
 					    </div>
-					    <div class="value paragraph">
-                                <p><div class="day">Monday</div><div class="hours">08:00 - 18:00</div></p>
-                                <p><div class="day">Tuesday</div><div class="hours">08:00 - 18:00</div></p>
-                                <p><div class="day">Wednesday</div><div class="hours">08:00 - 18:00</div></p>
-                                <p><div class="day">Thursday</div><div class="hours">08:00 - 18:00</div></p>
-                                <p><div class="day">Friday</div><div class="hours">08:00 - 18:00</div></p>
-                                <p><div class="day">Saturday</div><div class="hours">08:00 - 18:00</div></p>
+					    <div class="value last-value paragraph">
+                                <p><div class="day">Monday</div><div class="hours hours-margin-bottom">08:00 - 18:00</div></p>
+                                <p><div class="day">Tuesday</div><div class="hours hours-margin-bottom">08:00 - 18:00</div></p>
+                                <p><div class="day">Wednesday</div><div class="hours hours-margin-bottom">08:00 - 18:00</div></p>
+                                <p><div class="day">Thursday</div><div class="hours hours-margin-bottom">08:00 - 18:00</div></p>
+                                <p><div class="day">Friday</div><div class="hours hours-margin-bottom">08:00 - 18:00</div></p>
+                                <p><div class="day">Saturday</div><div class="hours hours-margin-bottom">08:00 - 18:00</div></p>
                                 <p><div class="day">Sunday</div><div class="hours">11:00 - 16:00</div></p>
-					    </div>
-				    </div>
-                    <!--Opening hours end-->
-                    <!--Facilities info start-->
-                    <div class="location-info-item">
-					    <div class="key paragraph">
-                            <!--Code for restroom icon copied from https://fontawesome.com/icons/restroom?style=solid-->
-						    <p class="uppercase"><i class="fas fa-restroom"></i> Facilities:</p>
-					    </div>
-					    <div class="value paragraph">
-                            <!--Code for wifi icon copied from https://fontawesome.com/icons/wifi?style=solid-->
-                            <!--Code for credit card icon copied from https://fontawesome.com/icons/credit-card?style=solid-->
-                            <!--Code for bank note icon copied from https://fontawesome.com/icons/money-bill?style=solid-->
-                            <!--Code for restroom icon copied from https://fontawesome.com/icons/restroom?style=solid-->
-						    <p><i class="fas fa-wifi"></i> <i class="fas fa-credit-card"></i> <i class="fas fa-money-bill"></i> <i class="fas fa-restroom"></i> </p>
-					    </div>
+				        </div>
                     </div>
-                    <!--Facilities info end-->
-				</div>
-            </div>
-            <!--Location information end-->
+                    <!--Opening hours end-->
+                </div>
+			</div>
         </div>
+        <!--Location information end-->
     </section>
     <footer id="footer-container"  class="container-fluid no-gutters">
         <div class="row no-gutters">
