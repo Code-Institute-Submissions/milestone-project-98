@@ -29,6 +29,12 @@
     * Google fonts was used to import the 'Lato', 'Pacifico' and 'Roboto" fonts into the style.css file which is used on all pages throughout the project.
 4. [Font Awesome:](https://fontawesome.com/)
     * Font Awesome was used on the home and location pages to enhance the UX of these pages by adding icons to the relevant content.
+5. [jQuery](https://jquery.com/) and [Popper.js:](https://popper.js.org/)
+    * Bootstrap uses jQuery and Popper.js to make the navbar responsive.
+6. [Git](https://git-scm.com/)
+    * Git was the version control system used whilst working on the project. Gitpod terminal was used to commit files to Git and Push them to GitHub.
+7. [GitHub:](https://github.com/)
+    * GitHub is used to store the project's code and any other required files.
 
 ## Testing
 
