@@ -59,7 +59,7 @@
 The project was deployed to GitHub Pages using the following steps...
 
 1.  Log in to GitHub and click on the relelavant GitHub Repository.
-2.  Click on the settings button at the top of the Repository.
+2.  Click on the "Settings" button at the top of the Repository.
 3.  Scroll down to the "GitHub Pages" section.
 4.  In the source section, click the branch dropdown and select "master".
 5.  The page will then refresh automatically.
