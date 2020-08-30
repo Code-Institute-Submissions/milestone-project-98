@@ -6,11 +6,11 @@
 
 ### Design
 
-* Colour Scheme
+* #### Colour Scheme
 
   * The three main colours used in the website are turquoise red, white and grey.
 
-* Typography
+* #### Typography
 
     * The Pacifico font is the font used for the brand logo. Roboto is used throughout the website for main headings and Lato is used for subheadings and paragraphs. Sans Serif is the fallback font which is used in the event that the specified font fails to import into the website correctly.
 
