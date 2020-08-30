@@ -4,6 +4,21 @@
 
 ### User Stories
 
+* First Time Visitor Goals
+
+    * As a First Time Visitor, I want to easily understand the cafe's unique selling points and why I should want to eat there.
+    * As a First Time Visitor, I want to be able to view the offers the cafe currently has on.
+    * As a First Time Visitor, I want to be able to view the cafe's menu.
+    * As a First Time Visitor, I want to be able to find out where the cafe is located.
+    * As a First Time Visitor, I want to view testimonials to understand what other customers who have visited the cafe thought of it.
+    * As a First Time Visitor, I want to be able to contact the cafe to get answers to any questions I may have.
+
+* Returning Visitor Goals
+
+    * As a returning visitor, I want to check to see if there are any new offers on.
+    * As a returning visitor, I want to check to see if any new items have been added to the menu.
+    * As a returning visitor, I want to sign up to a newsletter so that I am kept informed about new products, services, offers and any other news about the organisation.
+
 ### Design
 
 - #### Colour Scheme
@@ -58,7 +73,7 @@
 
 The project was deployed to GitHub Pages using the following steps:
 
-1.  Log in to GitHub and click on the relelavant [GitHub Repository](https://github.com/jonathan-odonnell/milestone-project-1)..
+1.  Log in to GitHub and click on the relelavant [GitHub Repository](https://github.com/jonathan-odonnell/milestone-project-1).
 2.  Click on the "Settings" button at the top of the repository.
 3.  Scroll down to the "GitHub Pages" section.
 4.  In the source section, click the branch dropdown and select "master".
