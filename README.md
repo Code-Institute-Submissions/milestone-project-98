@@ -65,6 +65,11 @@
 
 ### Further Testing
 
+* The Website was tested on a variety of different web browsers including Google Chrome, Internet Explorer, Microsoft Edge and Safari.
+* The Website was also viewed on a number of different devices with a range of screen widths including an iMac, MacBook, iPad and iPhone.
+* All links were tested thoroughly to ensure that they were functioning correctly.
+* Family and friends were asked to review the site and documentation and identify any bugs or other issues that were affecting the user experience.
+
 ### Known Bugs
 
 ## Deployment
