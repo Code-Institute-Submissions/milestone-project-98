@@ -6,13 +6,13 @@
 
 ### Design
 
-* #### Colour Scheme
+- #### Colour Scheme
 
-  * The three main colours used in the website are turquoise, white and grey.
+  - The three main colours used in the website are turquoise, white and grey.
 
-* #### Typography
+- #### Typography
 
-    * The Pacifico font is the font used for the brand logo. Roboto is used throughout the website for main headings and Lato is used for subheadings and paragraphs. Sans Serif is the fallback font which is used in the event that the specified font fails to import into the website correctly.
+  - The Pacifico font is the font used for the brand logo. Roboto is used throughout the website for main headings and Lato is used for subheadings and paragraphs. Sans Serif is the fallback font which is used in the event that the specified font fails to import into the website correctly.
 
 ### Wireframes
 
@@ -56,10 +56,10 @@
 
 ### GitHub Pages
 
-The project was deployed to GitHub Pages using the following steps...
+The project was deployed to GitHub Pages using the following steps:
 
 1.  Log in to GitHub and click on the relelavant GitHub Repository.
-2.  Click on the "Settings" button at the top of the Repository.
+2.  Click on the "Settings" button at the top of the repository.
 3.  Scroll down to the "GitHub Pages" section.
 4.  In the source section, click the branch dropdown and select "master".
 5.  Wait for the page to refresh.
@@ -67,17 +67,23 @@ The project was deployed to GitHub Pages using the following steps...
 
 ### Forking the Github Repository
 
+The GitHub Repository can be forked using the following steps:
+
+1.  Log in to GitHub and locate the project's [GitHub Repository](https://github.com/jonathan-odonnell/milestone-project-1).
+2.  At the top-right of the repository, click the "Fork" Button.
+3.  You should now have a copy of the original repository in your GitHub account.
+
 ### Making a Local Clone
 
-A clone of the project can be created using the following steps:
+A local clone of the project can be created using the following steps:
 
 1.  Log in to GitHub and locate the project's [GitHub Repository](https://github.com/jonathan-odonnell/milestone-project-1).
 2.  Under the repository name, click the "Code" button.
-3.  To clone the repository using HTTPS, under "Clone with HTTPS", click the clipboard button to copy the Repository URL. To clone using SSH click "Use SSH" and then click the clipboard button.
+3.  To clone the repository using HTTPS, under "Clone with HTTPS", click the clipboard button to copy the repository URL. To clone using SSH click "Use SSH" and then click the clipboard button.
 4.  Open Git Bash
-5.  Change the current working directory to the location where you want to store the cloned Repository.
+5.  Change the current working directory to the location where you want to store the cloned repository.
 6.  Type git clone, and then paste the URL you copied in Step 3.
-7.  Press enter to create your clone.
+7.  Press enter to create your clone
 
 ## Credits
 
@@ -89,7 +95,8 @@ A clone of the project can be created using the following steps:
 - Lucy testimonial was adapted from this [Trustpilot post](https://uk.trustpilot.com/review/caffenero.com?languages=en&stars=5).
 - Nutritional information was from Cafe Nero's [coffee menu](https://caffenero.com/uk/menu/coffee/), [all-day breakfast menu](https://caffenero.com/uk/menu/food/all-day-breakfast/), [panini and sandwich menu](https://caffenero.com/uk/menu/food/panini-sandwiches/), [cakes and muffins menu](https://caffenero.com/uk/menu/food/cakes-muffins/) and [snacks menu](https://caffenero.com/uk/menu/food/snacks/), and [Costa Coffee's menu](https://www.costa.co.uk/menu/).
 - Contact us text was adapted from the Avanti West Coast Contact Us [page](https://www.avantiwestcoast.co.uk/help-and-support/contact-us).
-* The information in the Making a Clone section of the readme was adapted from the GitHub Clonng a Repository [documentation](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop)
+- The information in the Forking a Github Repository section of the readme was adapted from the GitHub Clonng a Repository [documentation](- https://docs.github.com/en/github/getting-started-with-github/fork-a-repo)
+- The information in the Making a Clone section of the readme was adapted from the GitHub Cloning a Repository [documentation](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop)
 - All other content was written by the developer.
 
 ### Media
