@@ -406,7 +406,7 @@ button[type="submit"]:hover {
 
 /* Footer */
 
-#footer-container {
+.footer-wrapper {
     padding: 20px;
     background-color: #447185;
     vertical-align: middle;
