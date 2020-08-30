@@ -58,7 +58,7 @@
 
 The project was deployed to GitHub Pages using the following steps:
 
-1.  Log in to GitHub and click on the relelavant GitHub Repository.
+1.  Log in to GitHub and click on the relelavant [GitHub Repository](https://github.com/jonathan-odonnell/milestone-project-1)..
 2.  Click on the "Settings" button at the top of the repository.
 3.  Scroll down to the "GitHub Pages" section.
 4.  In the source section, click the branch dropdown and select "master".
@@ -95,8 +95,9 @@ A local clone of the project can be created using the following steps:
 - Lucy testimonial was adapted from this [Trustpilot post](https://uk.trustpilot.com/review/caffenero.com?languages=en&stars=5).
 - Nutritional information was from Cafe Nero's [coffee menu](https://caffenero.com/uk/menu/coffee/), [all-day breakfast menu](https://caffenero.com/uk/menu/food/all-day-breakfast/), [panini and sandwich menu](https://caffenero.com/uk/menu/food/panini-sandwiches/), [cakes and muffins menu](https://caffenero.com/uk/menu/food/cakes-muffins/) and [snacks menu](https://caffenero.com/uk/menu/food/snacks/), and [Costa Coffee's menu](https://www.costa.co.uk/menu/).
 - Contact us text was adapted from the Avanti West Coast Contact Us [page](https://www.avantiwestcoast.co.uk/help-and-support/contact-us).
-- The information in the Forking a Github Repository section of the readme was adapted from the GitHub Clonng a Repository [documentation](- https://docs.github.com/en/github/getting-started-with-github/fork-a-repo)
-- The information in the Making a Clone section of the readme was adapted from the GitHub Cloning a Repository [documentation](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop)
+- The information in the Github Pages section of the readme was adapted from the GitHub configuring a publishing source for your GitHub Pages site [documentation](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+- The information in the Forking a Github Repository section of the readme was adapted from the GitHub forking a repository [documentation](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo).
+- The information in the Making a Clone section of the readme was adapted from the GitHub cloning a repository [documentation](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop).
 - All other content was written by the developer.
 
 ### Media
