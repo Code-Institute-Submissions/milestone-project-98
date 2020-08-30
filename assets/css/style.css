@@ -45,7 +45,6 @@
 
 .main-heading {
     font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
     font-weight: 300;
     line-height: 1;
     letter-spacing: 1px;
@@ -54,6 +53,7 @@
 
 .sub-heading {
     font-family: 'Lato', sans-serif;
+    font-weight: 400;
     color: #4a4a4a;
 }
 
@@ -94,7 +94,6 @@
 
 .hero-text {
     letter-spacing: 1px;
-    text-transform: capitalize;
     font-size: 2rem;
     font-weight: bold;
     line-height: 1.5;
