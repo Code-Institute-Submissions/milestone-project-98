@@ -8,7 +8,7 @@
 
 * #### Colour Scheme
 
-  * The three main colours used in the website are turquoise red, white and grey.
+  * The three main colours used in the website are turquoise, white and grey.
 
 * #### Typography
 
@@ -55,6 +55,15 @@
 ## Deployment
 
 ### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps...
+
+1.  Log in to GitHub and click on the relelavant GitHub Repository.
+2.  Click on the settings button at the top of the Repository.
+3.  Scroll down to the "GitHub Pages" section.
+4.  In the source section, click the branch dropdown and select "master".
+5.  The page will then refresh automatically.
+6.  Scroll back down to the "Github Pages" section and locate the link to the published site.
 
 ### Forking the Github Repository
 
