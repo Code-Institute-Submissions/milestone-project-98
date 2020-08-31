@@ -6,19 +6,19 @@
 
 - First Time Visitor Goals
 
-  - As a First Time Visitor, I want to be able to easily understand the purpose of the website. 
-  - As a First Time Visitor, I want to be able to easily understand the cafe's unique selling points and why I should want to eat there.
-  - As a First Time Visitor, I want to be able to view the offers the cafe currently has on.
-  - As a First Time Visitor, I want to be able to view the cafe's menu.
-  - As a First Time Visitor, I want to be able to find out where the cafe is located.
-  - As a First Time Visitor, I want to view testimonials to understand what other customers who have visited the cafe thought of it.
-  - As a First Time Visitor, I want to be able to contact the cafe to get answers to any questions I may have.
+  - I want to be able to easily understand the purpose of the website. 
+  - I want to be able to easily understand the cafe's unique selling points and why I should want to eat there.
+  - I want to be able to view the offers the cafe currently has on.
+  - I want to be able to view the cafe's menu.
+  - I want to be able to find out where the cafe is located.
+  - I want to view testimonials to understand what other customers who have visited the cafe thought of it.
+  - I want to be able to contact the cafe to get answers to any questions I may have.
 
 - Returning Visitor Goals
 
-  - As a returning visitor, I want to check to see if there are any new offers on.
-  - As a returning visitor, I want to check to see if any new items have been added to the menu.
-  - As a returning visitor, I want to sign up to a newsletter so that I am kept informed about new products, services, offers and any other news about the organisation.
+  - I want to check to see if there are any new offers on.
+  - I want to check to see if any new items have been added to the menu.
+  - I want to sign up to a newsletter so that I am kept informed about new products, services, offers and any other news about the organisation.
 
 ### Design
 
