@@ -35,7 +35,8 @@
 
 ### Existing Features
 
-- Information about why customers should come an eat at the Mancunian Cafe - enables users to understand what differentiates the cafe from its competitors and why they should want to eat at there by reading the why eat with us section.
+- Welcome message - invites users to come and eat at the cafe and enables users to see what the current offer is and whether it is something they would like to take advantage of. 
+- Why eat with us information - enables users to understand what differentiates the cafe from its competitors and why they should want to eat at there by reading the why eat with us section.
 - Customer Testimonials - enables users to understand what other customers who have visited the cafe thought of it by reading their testimonials.
 - Menu and Nutritional Information - enables users to determine whether see whether the restaurant offers food and drinks that satisfies their preferences and dietary requirements by viewing menu and the nutritional information for each item.
 - Map and Location details - enables users to see the location of the cafe using the map and get directions to it using the address.
