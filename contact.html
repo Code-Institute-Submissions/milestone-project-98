@@ -77,10 +77,14 @@
       </div>
       <!--Navbar end.-->
     </header>
-    <section class="contaier-fluid">
+    <section class="container-fluid wrapper">
       <div class="row no-gutters">
-        <div class="col">
+        <div class="col-12">
           <h3 class="heading center-text">Contact Us</h3>
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-12">
           <h5 class="subheading center-text">
             Whether you've got a question about our cafe or a complaint, we're
             here to help.
@@ -89,46 +93,50 @@
             Please fill in the form below and a member of the team will be in
             touch shortly.
           </p>
-          <div>
-            <form class="contact-form" action="">
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-12 d-flex justify-content-center">
+            <form class="contact-form paragraph" action="">
+              <label for="fullname">Name:</label>
               <input
                 type="text"
                 name="name"
                 id="fullname"
                 class="form-control"
-                placeholder="Name"
                 required
               />
+              <label for="emailaddress">Email Address:</label>
               <input
                 type="text"
                 name="email"
                 id="emailaddress"
                 class="form-control"
-                placeholder="Email"
                 required
               />
-              <select class="form-control">
-                <option hidden>Enquiry Type</option>
-                <option>General Enquiry</option>
+              <label for="enquirytype">Type of enquiry:</label>
+              <select id="enquirytype" class="form-control" required>
+                <option selected disabled></option>
                 <option>Menu</option>
+                <option>About Our Cafe</option>
                 <option>Complaints</option>
+                <option>Any Other Query</option>
               </select>
+              <label for="message">Message:</label>
               <textarea
                 rows="5"
                 name="message"
                 id="message"
                 class="form-control"
-                placeholder="Message"
                 required
               ></textarea>
               <div class="form-row text-center">
-                <div class="col">
+                <div class="col-12">
                   <button type="submit" class="btn">Submit</button>
                 </div>
               </div>
             </form>
           </div>
-        </div>
       </div>
     </section>
     <footer class="container-fluid footer-wrapper">
