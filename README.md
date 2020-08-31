@@ -4,34 +4,50 @@
 
 ### User Stories
 
-* First Time Visitor Goals
+- First Time Visitor Goals
 
-    * As a First Time Visitor, I want to easily understand the cafe's unique selling points and why I should want to eat there.
-    * As a First Time Visitor, I want to be able to view the offers the cafe currently has on.
-    * As a First Time Visitor, I want to be able to view the cafe's menu.
-    * As a First Time Visitor, I want to be able to find out where the cafe is located.
-    * As a First Time Visitor, I want to view testimonials to understand what other customers who have visited the cafe thought of it.
-    * As a First Time Visitor, I want to be able to contact the cafe to get answers to any questions I may have.
+  - As a First Time Visitor, I want to easily understand the cafe's unique selling points and why I should want to eat there.
+  - As a First Time Visitor, I want to be able to view the offers the cafe currently has on.
+  - As a First Time Visitor, I want to be able to view the cafe's menu.
+  - As a First Time Visitor, I want to be able to find out where the cafe is located.
+  - As a First Time Visitor, I want to view testimonials to understand what other customers who have visited the cafe thought of it.
+  - As a First Time Visitor, I want to be able to contact the cafe to get answers to any questions I may have.
 
-* Returning Visitor Goals
+- Returning Visitor Goals
 
-    * As a returning visitor, I want to check to see if there are any new offers on.
-    * As a returning visitor, I want to check to see if any new items have been added to the menu.
-    * As a returning visitor, I want to sign up to a newsletter so that I am kept informed about new products, services, offers and any other news about the organisation.
+  - As a returning visitor, I want to check to see if there are any new offers on.
+  - As a returning visitor, I want to check to see if any new items have been added to the menu.
+  - As a returning visitor, I want to sign up to a newsletter so that I am kept informed about new products, services, offers and any other news about the organisation.
 
 ### Design
 
-- #### Colour Scheme
+#### Colour Scheme
 
-  - The three main colours used in the website are turquoise, white and grey.
+- The three main colours used in the website are turquoise, white and grey.
 
-- #### Typography
+#### Typography
 
-  - The Pacifico font is the font used for the brand logo. Roboto is used throughout the website for main headings and Lato is used for subheadings and paragraphs. Sans Serif is the fallback font which is used in the event that the specified font fails to import into the website correctly.
+- The Pacifico font is the font used for the brand logo. Roboto is used throughout the website for main headings and Lato is used for subheadings and paragraphs. Sans Serif is the fallback font which is used in the event that the specified font fails to import into the website correctly.
 
 ### Wireframes
 
 ## Features
+
+### Existing Features
+
+    * Information about why customers should come an eat at the Mancunian Cafe - enables users to understand what differentiates the cafe from its competitors and why they should want to eat at there by reading the why eat with us section.
+    * Customer Testimonials - enables users to understand what other customers who have visited the cafe thought of it by reading their testimonials.
+    * Menu and Nutritional Information - enables users to determine whether see whether the restaurant offers food and drinks that satisfies their preferences and dietary requirements by viewing menu and the nutritional information for each item.
+    * Map and Location details - enables users to see the location of the cafe using the map and get directions to it using the address.
+    * Opening hours - enables users to see when the cafe is open by viewing its opening hours.
+    * Phone number - enables users to contact the cafe about any questions they may have by phoning the number provided.
+    * Contact us form - enables users to contact the cafe about any questions they may have by completing out the form.
+
+### Features Left to Implement
+
+    * Link the contact us form up to a database which will enable the restaurant's employees to view enquiries submitted by customers using the contact us form.
+    * Placing of orders for collection through the website which will enable users orders to be ready for when they arrive at the cafe.
+    * An email sign-up which will enable users to sign up to a newsletter so that they are kept informed about new products, services, offers and any other news about the organisation.
 
 ## Technologies Used
 
@@ -65,10 +81,10 @@
 
 ### Further Testing
 
-* The Website was tested on a variety of different web browsers including Google Chrome, Internet Explorer, Microsoft Edge and Safari.
-* The Website was also viewed on a number of different devices with a range of screen widths including an iMac, MacBook, iPad and iPhone.
-* All links were tested thoroughly to ensure that they were functioning correctly.
-* Family and friends were asked to review the site and documentation and identify any bugs or other issues that were affecting the user experience.
+- The Website was tested on a variety of different web browsers including Google Chrome, Internet Explorer, Microsoft Edge and Safari.
+- The Website was also viewed on a number of different devices with a range of screen widths including an iMac, MacBook, iPad and iPhone.
+- All links were tested thoroughly to ensure that they were functioning correctly.
+- Family and friends were asked to review the site and documentation and identify any bugs or other issues that were affecting the user experience.
 
 ### Known Bugs
 
