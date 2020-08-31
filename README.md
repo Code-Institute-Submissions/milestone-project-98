@@ -35,19 +35,19 @@
 
 ### Existing Features
 
-    * Information about why customers should come an eat at the Mancunian Cafe - enables users to understand what differentiates the cafe from its competitors and why they should want to eat at there by reading the why eat with us section.
-    * Customer Testimonials - enables users to understand what other customers who have visited the cafe thought of it by reading their testimonials.
-    * Menu and Nutritional Information - enables users to determine whether see whether the restaurant offers food and drinks that satisfies their preferences and dietary requirements by viewing menu and the nutritional information for each item.
-    * Map and Location details - enables users to see the location of the cafe using the map and get directions to it using the address.
-    * Opening hours - enables users to see when the cafe is open by viewing its opening hours.
-    * Phone number - enables users to contact the cafe about any questions they may have by phoning the number provided.
-    * Contact us form - enables users to contact the cafe about any questions they may have by completing out the form.
+    - Information about why customers should come an eat at the Mancunian Cafe - enables users to understand what differentiates the cafe from its competitors and why they should want to eat at there by reading the why eat with us section.
+    - Customer Testimonials - enables users to understand what other customers who have visited the cafe thought of it by reading their testimonials.
+    - Menu and Nutritional Information - enables users to determine whether see whether the restaurant offers food and drinks that satisfies their preferences and dietary requirements by viewing menu and the nutritional information for each item.
+    - Map and Location details - enables users to see the location of the cafe using the map and get directions to it using the address.
+    - Opening hours - enables users to see when the cafe is open by viewing its opening hours.
+    - Phone number - enables users to contact the cafe about any questions they may have by phoning the number provided.
+    - Contact us form - enables users to contact the cafe about any questions they may have by completing out the form.
 
 ### Features Left to Implement
 
-    * Link the contact us form up to a database which will enable the restaurant's employees to view enquiries submitted by customers using the contact us form.
-    * Placing of orders for collection through the website which will enable users orders to be ready for when they arrive at the cafe.
-    * An email sign-up which will enable users to sign up to a newsletter so that they are kept informed about new products, services, offers and any other news about the organisation.
+    - Link the contact us form up to a database which will enable the restaurant's employees to view enquiries submitted by customers using the contact us form.
+    - Placing of orders for collection through the website which will enable users orders to be ready for when they arrive at the cafe.
+    - An email sign-up which will enable users to sign up to a newsletter so that they are kept informed about new products, services, offers and any other news about the organisation.
 
 ## Technologies Used
 
