@@ -141,10 +141,7 @@
     margin-right: 30px;
     margin-bottom: 30px;
     border-color: transparent;
-}
-
-.carousel-item {
-    height: 100%;
+    min-height: 302px;
 }
 
 .testimonial-paragraph {
@@ -172,7 +169,7 @@
 }
 
 .blockquote-footer::after {
-content: "\2014 \00A0";
+    content: "\2014 \00A0";
 }
 
 .carousel-item blockquote {
@@ -460,6 +457,36 @@ button[type="submit"]:hover {
     }
 }
 
+@media (min-width: 288px) {
+    .testimonial-carousel {
+        min-height: 278px;
+    }
+}
+
+@media (min-width: 291px) {
+    .testimonial-carousel {
+        min-height: 233px;
+    }
+}
+
+@media (min-width: 333px) {
+    .testimonial-carousel {
+        min-height: 209px;
+    }
+}
+
+@media (min-width: 368px) {
+    .testimonial-carousel {
+        min-height: 185px;
+    }
+}
+
+@media (min-width: 482px) {
+    .testimonial-carousel {
+        min-height: 161px;
+    }
+}
+
 @media (min-width: 576px) {
     .hero-image {
         background-position: center;
@@ -484,6 +511,12 @@ button[type="submit"]:hover {
     }
     .hours-margin-bottom {
         margin-bottom: 0;
+    }
+}
+
+@media (min-width: 672px) {
+    .testimonial-carousel {
+        min-height: 137px;
     }
 }
 
