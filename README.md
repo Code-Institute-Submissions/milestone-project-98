@@ -6,7 +6,8 @@
 
 - First Time Visitor Goals
 
-  - As a First Time Visitor, I want to easily understand the cafe's unique selling points and why I should want to eat there.
+  - As a First Time Visitor, I want to be able to easily understand the purpose of the website. 
+  - As a First Time Visitor, I want to be able to easily understand the cafe's unique selling points and why I should want to eat there.
   - As a First Time Visitor, I want to be able to view the offers the cafe currently has on.
   - As a First Time Visitor, I want to be able to view the cafe's menu.
   - As a First Time Visitor, I want to be able to find out where the cafe is located.
@@ -126,7 +127,7 @@ A local clone of the project can be created using the following steps:
 
 ### Code
 
-- Code for hvr-underline-from-left:after css class came from [Hover.css:](https://ianlunn.github.io/Hover/).
+- Code for hvr-underline-from-left:after css class came from [Hover.css](https://ianlunn.github.io/Hover/).
 
 ### Content
 
