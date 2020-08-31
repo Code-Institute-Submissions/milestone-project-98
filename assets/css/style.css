@@ -88,9 +88,6 @@
 
 /* Home */
 
-.home-wrapper {
-    padding: 0;
-}
 .hero-image {
     padding: 0;
     background-image: url('../images/hero_image.jpg');
@@ -184,10 +181,6 @@
 }
 
 /* Menu */
-
-.menu-container {
-    padding: 0;
-}
 
 .menu-content-container {
     margin: 0 15px;
@@ -285,10 +278,6 @@
 }
 
 /* Location */
-
-.location-container {
-    padding: 0;
-}
 
 .map {
     padding-right: 30px;
