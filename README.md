@@ -126,6 +126,8 @@ A local clone of the project can be created using the following steps:
 
 ### Code
 
+- Code for hvr-underline-from-left:after css class came from [Hover.css:](https://ianlunn.github.io/Hover/).
+
 ### Content
 
 - Fair Trade Coffee section of the home page was adapted from this [page](https://www.fairtrade.org.uk/buying-fairtrade/coffee/#:~:text=When%20you%20choose%20Fairtrade%20coffee,in%20improving%20productivity%20and%20quality) on the Fair Trade Foundation website.
