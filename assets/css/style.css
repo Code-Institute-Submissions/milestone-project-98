@@ -175,8 +175,11 @@
 }
 
 .testimonial-footer {
-    margin-bottom: 0;
     font-size: 1rem;
+}
+
+.blockquote {
+    margin-bottom: 0;
 }
 
 /* The class below adds line after testimonial reviewer's name. Was obtained by looking at source code for line before the reviewer's name. */
