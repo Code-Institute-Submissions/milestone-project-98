@@ -302,28 +302,24 @@
     margin-bottom: 30px;
 }
 
-.key p, .value p {
-    margin: 0;
+.location-info-item {
+    margin-bottom: 20px;
 }
 
 .key {
     display: inline-block;
     vertical-align: top;
-    width: 150px;
-}
-
-.key p {
+    width: 100%;
     font-weight: 700;
 }
 
 .value {
     display: inline-block;
-    margin-bottom: 20px;
-    width: 150px;
+    width: 100%;
 }
 
-.last-value {
-    margin-bottom: 0px;
+.key p, .value p {
+    margin-bottom: 0;
 }
 
 .value i {
@@ -333,16 +329,16 @@
 .day {
     display: inline-block;
     text-align: left;
-    width: 100px;
+    width: 100%;
 }
 
 .hours {
     display: inline-block;
     text-align: left;
-    width: 100px;
+    width: 100%;
 }
 
-.hours-margin-bottom {
+.opening-hours {
     margin-bottom: 10px;
 }
 
@@ -481,19 +477,13 @@ button[type="submit"]:hover {
     .jumbotron {
         max-width: 90%;
     }
-    .map {
-        padding-right: 15px;
+    .location-info {
+        max-width: 80%;
     }
-    .key {
-        width: 300px;
+    .day, .hours {
+        width: 50%;
     }
-    .value {
-        width: 350px;
-    }
-    .day .hours {
-        width: 50%
-    }
-    .hours-margin-bottom {
+    .opening-hours {
         margin-bottom: 0;
     }
 }
@@ -508,16 +498,11 @@ button[type="submit"]:hover {
     .jumbotron {
         max-width: 70%;
     }
-
     .testimonial-paragraph {
         max-width: 75%;
     }
-    
-    .key {
-        width: 200px;
-    }
-
-    .value {
-        width: 250px;
+    .location-info {
+        max-width: 100%;
+        margin-bottom: auto;
     }
 }
