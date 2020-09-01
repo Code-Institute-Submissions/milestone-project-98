@@ -1,260 +1,298 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<!-- Bootstrap CSS style sheet import. Code copied from https://getbootstrap.com/docs/4.5/getting-started/introduction/-->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
-	<!--Font Awesome CSS style sheet import. Code copied from https://fontawesome.com/account/cdn-->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
-		integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
-	<!--Hover.CSS style sheet import. Code copied from https://cdnjs.com/-->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
-		integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg=="
-		crossorigin="anonymous" />
-	<link rel="stylesheet" href="assets/css/style.css" />
-	<title>Document</title>
-</head>
-<body>
-	<header class="container-fluid navbar-wrapper">
-        <div class="row no-gutters">
-            <div class="col-12">
-		        <!--Navbar start. Code copied from https://getbootstrap.com/docs/4.5/components/navbar/-->
-		        <nav class="navbar navbar-expand-lg navbar-dark navbar-color">
-		        	<a class="navbar-brand" href="index.html">The Mancunian Cafe</a>
-		        	<button
-                      class="navbar-toggler"
-                      type="button"
-                      data-toggle="collapse"
-                     data-target="#navbarNavDropdown"
-                      aria-controls="navbarNavDropdown"
-                      aria-expanded="false"
-                      aria-label="Toggle navigation"
-                    >
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-			        <div class="justify-content-end collapse navbar-collapse" id="navbarNavDropdown">
-				        <ul class="navbar-nav">
-					        <li class="nav-item">
-						        <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-					        </li>
-					        <li class="nav-item">
-					        	<a class="nav-link hvr-underline-from-left" href="menu.html">Menu</a>
-					        </li>
-					        <li class="nav-item">
-					        	<a class="nav-link hvr-underline-from-left" href="location.html">Location</a>
-					        </li>
-					        <li class="nav-item">
-						        <a class="nav-link hvr-underline-from-left" href="contact.html">Contact Us</a>
-					        </li>
-				        </ul>
-			        </div>
-		        </nav>
-		        <!--Navbar end-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS style sheet import. Code copied from https://getbootstrap.com/docs/4.5/getting-started/introduction/-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <!--Font Awesome CSS style sheet import. Code copied from https://fontawesome.com/account/cdn-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <!--Hover.CSS style sheet import. Code copied from https://cdnjs.com/-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+      integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--Header conatiner start-->
+    <header class="container-fluid navbar-container">
+      <div class="row no-gutters">
+        <div class="col-12">
+          <!--Navbar start-->
+          <nav class="navbar navbar-expand-lg navbar-dark navbar-color">
+            <a class="navbar-brand" href="index.html">The Mancunian Cafe</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="justify-content-end collapse navbar-collapse"
+              id="navbarNavDropdown"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" href="index.html"
+                    >Home <span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link hvr-underline-from-left" href="menu.html"
+                    >Menu</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link hvr-underline-from-left"
+                    href="location.html"
+                    >Location</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link hvr-underline-from-left"
+                    href="contact.html"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
             </div>
+          </nav>
+          <!--Navbar end-->
         </div>
-	</header>
-	<section class="container-fluid wrapper">
-		<!--Hero image start-->
-		<div class="row no-gutters">
-			<!--Image from https://unsplash.com/photos/I79Pgmhmy5M-->
-			<div class="col-12 hero-image">
-				<div class="hero-transparent">
-					<div class="jumbotron jumbotron-fluid">
-						<div class="container center-text">
-							<h1 class="hero-text">
-								Come and Enjoy a Hot Drink and a Sandwich or Panini With Us
-								For Only £4.95
-							</h1>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--Hero image end-->
-        <!--Reasons wrapper end-->
-		<div class="reasons-container">
-			<!--Reasons heading start-->
-			<div class="row no-gutters">
-				<div class="col-12">
-					<h2 class="heading heading-white center-text">
-						Why Eat With Us?
-					</h2>
-				</div>
-			</div>
-			<!--Reasons heading end-->
-			<!--Reasons content start-->
-			<div class="row no-gutters">
-				<!--Column 1 start-->
-				<div class="col-12 col-md-6">
-					<!--Item 1 start-->
-					<h3 class="subheading subheading-white center-text">
-						<!--Icon code from https://fontawesome.com/icons/utensils?style=solid-->
-						<i class="fas fa-utensils"></i>
-						Vegan and Gluten-Free
-					</h3>
-					<p class="paragraph reasons-text">
-						Our menu includes a selection food and drinks which caters for
-						everyone's dietary requirements. We offer vegan paninis, gluten free
-						sandwiches and paninis and all our drinks can be made from oat or
-						soya milk. We also have gluten-free chocolate brownies, flapjacks
-						and cookies.
-					</p>
-					<!--Item 1 end-->
-				</div>
-                <!--Column 1 end-->
-                <!--Column 2 start-->
-				<div class="col-12 col-md-6">
-					<!--Item 2 start-->
-					<h3 class="subheading subheading-white center-text">
-						<!--Icon conde from https://fontawesome.com/icons/coffee?style=solid-->
-						<i class="fas fa-coffee"></i>
-						Fair Trade Coffee
-					</h3>
-					<!--Text adapted from https://www.fairtrade.org.uk/buying-fairtrade/coffee/#:~:text=When%20you%20choose%20Fairtrade%20coffee,in%20improving%20productivity%20and%20quality.-->
-					<p class="paragraph reasons-text">
-						All of our coffees are made from freshly ground fair trade coffee
-						beans. This is because we are committed to ensuring that the farmers
-						that grow our coffee beans are paid a fair amount. This is so they
-						can invest in growing better quality beans and provide a better
-						quality of life for their families and communities.
-					</p>
-					<!--Item 2 end-->
-				</div>
-                <!--Column 2 end-->
-                <!--Column 3 start-->
-				<div class="col-12 col-md-6">
-					<!--Item 3 end-->
-					<h3 class="subheading subheading-white center-text">
-						<!--Icon code from https://fontawesome.com/icons/truck?style=solid-->
-						<i class="fas fa-truck"></i>
-						Delivery
-						<span class="badge badge-success">New</span>
-					</h3>
-					<p class="paragraph reasons-text">
-						You can now enjoy your food and drinks from the comfort of your own
-						home with our new delivery service in partnership with Deliveroo,
-						Uber Eats and Just Eat. Simply place your order through the relevant
-						app and your order will be delivered to your doorstep.
-					</p>
-					<!--Item 3 end-->
-                </div>
-                <!--Column 3 end-->
-                <!--Column 4 start-->
-				<div class="col-12 col-md-6">
-					<!--Item 4 start-->
-					<h3 class="subheading subheading-white center-text">
-						<!--Icon code from https://fontawesome.com/icons/coins?style=solid-->
-						<i class="fas fa-coins"></i>
-						Community Matters
-					</h3>
-					<p class="paragraph reasons-text">
-						We're committed to giving back to the communities which we operate
-						in. Each month we donate a percentage of our profits to community
-						organisations voted for by our customers to support their causes. In
-						the past the funding we have provided has supported schools to
-						purchase new equipment, health and wellbeing groups to run wellbeing
-						activities and aged care charities to provide care for elderley
-						citizens.
-					</p>
-					<!--Item 4 end-->
-				</div>
-				<!--Column 2 end-->
-			</div>
-			<!--Reasons content end-->
-		</div>
-        <!--Reasons wrapper end-->
-		<!--Testimonials heading start-->
-		<div class="row no-gutters">
-			<div class="col-12">
-				<h2 class="heading center-text">
-					Customer Testimonials
-				</h2>
-			</div>
-		</div>
-		<!--Testimonials heading end-->
-		<!--Testimonials carousel start-->
-		<div class="row no-gutters">
-			<div class="col-12">
-				<div class="carousel slide testimonial-carousel" data-ride="carousel"
-					data-interval="10000">
-					<div class="carousel-inner">
-						<!--Item 1 start-->
-						<div class="carousel-item active">
-							<blockquote class="blockquote center-text">
-								<p class="paragraph testimonial-paragraph">
-									"This is a lovely little cafe. It has a great variety of
-									food and drinks which you can enjoy in the seated area and
-									it has free wifi too. Would highly recommend."
-								</p>
-								<div class="rating">
-									<!--Code for icons from https://fontawesome.com/icons/star?style=solid-->
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-								</div>
-								<footer class="blockquote-footer paragraph testimonial-footer">
-									Ben
-								</footer>
-							</blockquote>
-						</div>
-						<!--Item 2 end-->
-						<!--Item 2 start-->
-						<div class="carousel-item">
-							<blockquote class="blockquote text-center">
-								<!--Testimonial text adapted from https://uk.trustpilot.com/review/caffenero.com?languages=en&stars=5-->
-								<p class="paragraph testimonial-paragraph">
-									"Amazing experience today. The staff were attentive,
-									friendly and really helpful. I had a request and they
-									immediately assisted with such professionalism. Drinks were
-									nice too!"
-								</p>
-								<div class="rating">
-									<!--Code for icons from https://fontawesome.com/icons/star?style=solid-->
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-								</div>
-								<footer class="blockquote-footer paragraph testimonial-footer">
-									Lucy
-								</footer>
-							</blockquote>
-						</div>
-						<!--Item 2 end-->
-						<!--Item 3 start-->
-						<div class="carousel-item">
-							<blockquote class="blockquote text-center">
-								<p class="paragraph testimonial-paragraph">
-									"The best cafe lunch I've had in a long time. The staff were
-									really helpful and the quality of the food was amazing. I
-									can't believe I've only just found out about this place."
-								</p>
-								<div class="rating">
-									<!--Code for icons from https://fontawesome.com/icons/star?style=solid-->
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-								</div>
-								<footer class="blockquote-footer paragraph testimonial-footer">
-									Andrew
-								</footer>
-							</blockquote>
-						</div>
-						<!--Item 3 end-->
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--Testimonials carousel end-->
-	</section>
-	<!--Footer container start-->
+      </div>
+    </header>
+    <!--Header conatiner start-->
+    <section class="container-fluid wrapper">
+      <!--Hero image start-->
+      <div class="row no-gutters">
+        <!--Image from https://unsplash.com/photos/I79Pgmhmy5M-->
+        <div class="col-12 hero-image">
+          <div class="hero-transparent">
+            <div class="jumbotron jumbotron-fluid">
+              <div class="container center-text">
+                <h1 class="hero-text">
+                  Come and Enjoy a Hot Drink and a Sandwich or Panini With Us
+                  For Only £4.95
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Hero image end-->
+      <!--Reasons wrapper end-->
+      <div class="reasons-container">
+        <!--Reasons heading start-->
+        <div class="row no-gutters">
+          <div class="col-12">
+            <h2 class="heading heading-white center-text">
+              Why Eat With Us?
+            </h2>
+          </div>
+        </div>
+        <!--Reasons heading end-->
+        <!--Reasons content start-->
+        <div class="row no-gutters">
+          <!--Column 1 start-->
+          <div class="col-12 col-md-6">
+            <!--Item 1 start-->
+            <h3 class="subheading subheading-white center-text">
+              <!--Icon code from https://fontawesome.com/icons/utensils?style=solid-->
+              <i class="fas fa-utensils"></i>
+              Vegan and Gluten-Free
+            </h3>
+            <p class="paragraph reasons-text">
+              Our menu includes a selection food and drinks which caters for
+              everyone's dietary requirements. We offer vegan paninis, gluten
+              free sandwiches and paninis and all our drinks can be made from
+              oat or soya milk. We also have gluten-free chocolate brownies,
+              flapjacks and cookies.
+            </p>
+            <!--Item 1 end-->
+          </div>
+          <!--Column 1 end-->
+          <!--Column 2 start-->
+          <div class="col-12 col-md-6">
+            <!--Item 2 start-->
+            <h3 class="subheading subheading-white center-text">
+              <!--Icon conde from https://fontawesome.com/icons/coffee?style=solid-->
+              <i class="fas fa-coffee"></i>
+              Fair Trade Coffee
+            </h3>
+            <!--Text adapted from https://www.fairtrade.org.uk/buying-fairtrade/coffee/#:~:text=When%20you%20choose%20Fairtrade%20coffee,in%20improving%20productivity%20and%20quality.-->
+            <p class="paragraph reasons-text">
+              All of our coffees are made from freshly ground fair trade coffee
+              beans. This is because we are committed to ensuring that the
+              farmers that grow our coffee beans are paid a fair amount. This is
+              so they can invest in growing better quality beans and provide a
+              better quality of life for their families and communities.
+            </p>
+            <!--Item 2 end-->
+          </div>
+          <!--Column 2 end-->
+          <!--Column 3 start-->
+          <div class="col-12 col-md-6">
+            <!--Item 3 end-->
+            <h3 class="subheading subheading-white center-text">
+              <!--Icon code from https://fontawesome.com/icons/truck?style=solid-->
+              <i class="fas fa-truck"></i>
+              Delivery
+              <span class="badge badge-success">New</span>
+            </h3>
+            <p class="paragraph reasons-text">
+              You can now enjoy your food and drinks from the comfort of your
+              own home with our new delivery service in partnership with
+              Deliveroo, Uber Eats and Just Eat. Simply place your order through
+              the relevant app and your order will be delivered to your
+              doorstep.
+            </p>
+            <!--Item 3 end-->
+          </div>
+          <!--Column 3 end-->
+          <!--Column 4 start-->
+          <div class="col-12 col-md-6">
+            <!--Item 4 start-->
+            <h3 class="subheading subheading-white center-text">
+              <!--Icon code from https://fontawesome.com/icons/coins?style=solid-->
+              <i class="fas fa-coins"></i>
+              Community Matters
+            </h3>
+            <p class="paragraph reasons-text">
+              We're committed to giving back to the communities which we operate
+              in. Each month we donate a percentage of our profits to community
+              organisations voted for by our customers to support their causes.
+              In the past the funding we have provided has supported schools to
+              purchase new equipment, health and wellbeing groups to run
+              wellbeing activities and aged care charities to provide care for
+              elderley citizens.
+            </p>
+            <!--Item 4 end-->
+          </div>
+          <!--Column 2 end-->
+        </div>
+        <!--Reasons content end-->
+      </div>
+      <!--Reasons wrapper end-->
+      <!--Testimonials heading start-->
+      <div class="row no-gutters">
+        <div class="col-12">
+          <h2 class="heading center-text">
+            Customer Testimonials
+          </h2>
+        </div>
+      </div>
+      <!--Testimonials heading end-->
+      <!--Testimonials carousel start-->
+      <div class="row no-gutters">
+        <div class="col-12">
+          <div
+            class="carousel slide testimonial-carousel"
+            data-ride="carousel"
+            data-interval="10000"
+          >
+            <div class="carousel-inner">
+              <!--Item 1 start-->
+              <div class="carousel-item active">
+                <blockquote class="blockquote center-text">
+                  <p class="paragraph testimonial-paragraph">
+                    "This is a lovely little cafe. It has a great variety of
+                    food and drinks which you can enjoy in the seated area and
+                    it has free wifi too. Would highly recommend."
+                  </p>
+                  <div class="rating">
+                    <!--Code for icons from https://fontawesome.com/icons/star?style=solid-->
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <footer
+                    class="blockquote-footer paragraph testimonial-footer"
+                  >
+                    Ben
+                  </footer>
+                </blockquote>
+              </div>
+              <!--Item 2 end-->
+              <!--Item 2 start-->
+              <div class="carousel-item">
+                <blockquote class="blockquote text-center">
+                  <!--Testimonial text adapted from https://uk.trustpilot.com/review/caffenero.com?languages=en&stars=5-->
+                  <p class="paragraph testimonial-paragraph">
+                    "Amazing experience today. The staff were attentive,
+                    friendly and really helpful. I had a request and they
+                    immediately assisted with such professionalism. Drinks were
+                    nice too!"
+                  </p>
+                  <div class="rating">
+                    <!--Code for icons from https://fontawesome.com/icons/star?style=solid-->
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <footer
+                    class="blockquote-footer paragraph testimonial-footer"
+                  >
+                    Lucy
+                  </footer>
+                </blockquote>
+              </div>
+              <!--Item 2 end-->
+              <!--Item 3 start-->
+              <div class="carousel-item">
+                <blockquote class="blockquote text-center">
+                  <p class="paragraph testimonial-paragraph">
+                    "The best cafe lunch I've had in a long time. The staff were
+                    really helpful and the quality of the food was amazing. I
+                    can't believe I've only just found out about this place."
+                  </p>
+                  <div class="rating">
+                    <!--Code for icons from https://fontawesome.com/icons/star?style=solid-->
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <footer
+                    class="blockquote-footer paragraph testimonial-footer"
+                  >
+                    Andrew
+                  </footer>
+                </blockquote>
+              </div>
+              <!--Item 3 end-->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Testimonials carousel end-->
+    </section>
+    <!--Footer container start-->
     <footer class="container-fluid footer-container">
       <!--Social media icons container start-->
       <div class="row no-gutters">
@@ -296,14 +334,16 @@
       <div class="row no-gutters">
         <!--Copyright information start-->
         <div class="col-12">
-          <p class="paragraph paragraph-white copyright-text text-center">© Jonathan O'Donnell 2020</p>
+          <p class="paragraph paragraph-white copyright-text text-center">
+            © Jonathan O'Donnell 2020
+          </p>
         </div>
         <!--Copyright information end-->
       </div>
       <!--Copyright information container end-->
     </footer>
     <!--Footer container end-->
-	<!-- jQuery plugin import-->
+    <!-- jQuery plugin import-->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -315,10 +355,11 @@
       integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
       crossorigin="anonymous"
     ></script>
-    <!--Bootstrap JS plugin import--> 
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-		integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-	</script>
-</body>
-
+    <!--Bootstrap JS plugin import-->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
