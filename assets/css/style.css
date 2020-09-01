@@ -379,7 +379,7 @@ button[type="submit"]:hover {
 
 /* Footer */
 
-.footer-wrapper {
+.footer-container {
     background-color: #447185;
     min-height: 120px;
     padding: 30px;
