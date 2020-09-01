@@ -76,6 +76,10 @@
     color: #4a4a4a;
 }
 
+.paragraph-white {
+    color: #fafafa;
+}
+
 .center-text {
     text-align: center;
 }
@@ -376,26 +380,17 @@ button[type="submit"]:hover {
 /* Footer */
 
 .footer-wrapper {
-    padding: 20px;
     background-color: #447185;
-    vertical-align: middle;
-    color: #fafafa;
     min-height: 120px;
-    margin: 0;
-}
-
-.list-inline-item:not(:last-child) {
-    margin-right: 0;
+    padding: 30px;
 }
 
 .social-media-icons {
     padding: 0;
     text-align: center;
     font-size: 0;
-    margin-top: 10px;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 .social-media-icons li {
@@ -422,8 +417,6 @@ button[type="submit"]:hover {
 }
 
 .copyright-text {
-    color: #fafafa;
-    text-align: center;
     margin-bottom: 0;
 }
 
