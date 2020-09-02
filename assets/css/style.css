@@ -300,15 +300,9 @@
     margin-bottom: 20px;
 }
 
-.key {
+.key, .value {
     display: inline-block;
     vertical-align: top;
-    width: 100%;
-    font-weight: 700;
-}
-
-.value {
-    display: inline-block;
     width: 100%;
 }
 
@@ -316,19 +310,12 @@
     margin-bottom: 0;
 }
 
-.value i {
-    padding-right: 10px;
+.key i {
+    padding-right: 5px;
 }
 
-.day {
+.day, .hours {
     display: inline-block;
-    text-align: left;
-    width: 100%;
-}
-
-.hours {
-    display: inline-block;
-    text-align: left;
     width: 100%;
 }
 
