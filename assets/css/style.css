@@ -17,7 +17,6 @@
 
 .subheading {
     font-family: 'Lato', sans-serif;
-    font-weight: 400;
     color: #4a4a4a;
     margin-bottom: 20px;
     margin-left: 30px;
@@ -36,6 +35,14 @@
 
 .paragraph-white {
     color: #fafafa;
+}
+
+.paragraph-black {
+    color: #000000;
+}
+
+.text-bold {
+    font-weight: 600;
 }
 
 .center-text {
@@ -191,52 +198,28 @@
 
 /* Menu */
 
-.menu-content-container {
-    margin: 0 15px;
-}
-
-.menu-icons {
-    text-align: center;
-    margin-bottom: 0.75rem;
-}
-
 .nutritional-key {
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 30px;
     padding: 10px;
-    text-align: center;
 }
 
-.nutritional-key-bold {
-    display: inline-block;
-    margin-right: 20px;
+.nutritional-key-text {
+    display: block;
     margin-bottom: 0;
-    font-size: 18px;
-    font-weight: 600;
-    color: #000000;
-}
-
-.nutritional-key-paragraph {
-    margin-bottom: 0;
-    color: #000000;
-    display: inline-block;
 }
 
 .nutritional-key img {
-    width: 22px;
-    height: 22px;
+    width: 1rem;
+    height: 1rem;
     object-fit: contain;
     margin-left: 5px;
     margin-right: 20px;
 }
 
-.vegan,
-.gluten-free {
-    height: 22px;
-    width: 22px;
-    display: inline-block;
-    object-position: top center;
+.menu-content-container {
+    margin: 0 15px;
 }
 
 .menu-card {
@@ -259,14 +242,13 @@
 }
 
 .modal-heading {
-    font-weight: 600;
-    text-align: right;
-    font-size: 22px;
+    color: #4a4a4a;
+    font-size: 1.4rem;
+    margin: 0;
 }
 
-.modal-text-bold {
-    font-weight: 600;
-    font-size: 18px;
+.modal-subheading {
+    font-size: 1.2rem;
 }
 
 .modal-text {
@@ -284,6 +266,18 @@
     float: right;
     vertical-align: top;
     clear: right;
+}
+
+.menu-icons {
+    margin-bottom: 0.75rem;
+}
+
+.vegan,
+.gluten-free {
+    height: 1rem;
+    width: 1rem;
+    display: inline-block;
+    object-fit: contain;
 }
 
 /* Location */
@@ -476,6 +470,10 @@ button[type="submit"]:hover {
     }
     .jumbotron {
         max-width: 90%;
+    }
+    .nutritional-key-text {
+        display: inline-block;
+        margin-right: 20px;
     }
     .location-info {
         max-width: 80%;
