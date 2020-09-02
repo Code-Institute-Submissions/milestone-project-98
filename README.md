@@ -4,21 +4,16 @@
 
 ### User Stories
 
-- First Time Visitor Goals
+- Key requirements of the website's users include:
 
-  - I want to be able to easily understand the purpose of the website. 
-  - I want to be able to easily understand the cafe's unique selling points and why I should want to eat there.
-  - I want to be able to view the offers the cafe currently has on.
-  - I want to be able to view the cafe's menu.
-  - I want to be able to find out where the cafe is located.
-  - I want to view testimonials to understand what other customers who have visited the cafe thought of it.
-  - I want to be able to contact the cafe to get answers to any questions I may have.
-
-- Returning Visitor Goals
-
-  - I want to check to see if there are any new offers on.
-  - I want to check to see if any new items have been added to the menu.
-  - I want to sign up to a newsletter so that I am kept informed about new products, services, offers and any other news about the organisation.
+  - To be able to navigate the website easily to find the content I am looking for
+  - To understand what makes the cafe unique and why I should want to eat there.
+  - To view the offers the cafe currently has on.
+  - To view the cafe's menu and each item's nutritional information.
+  - To find out where the cafe is located 
+  - To find out the cafe's opening hours.
+  - To find out what other customers who have visited the cafe thought of it.
+  - To be able to contact the cafe to get answers to any questions I may have.
 
 ### Design
 
@@ -79,13 +74,54 @@
 
 ## Testing
 
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure that the code used in the project was in compliance with the HTML5 and CSS3 standards and that there were no syntax errors.
+
+- [W3C Markup Validator](https://validator.w3.org/) - Results
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - Results
+
 ### Testing User Stories from User Experience (UX) Section
+
+- To be able to navigate the website easily to find the content I am looking for.
+
+    - In the header of each page there is a navigation bar which is clean and easy to read, and includes links to the other pages.  
+    - In the footer of each page there are social media links and copyright information. 
+    - The website is structured in a logical way with the offer information, reasons to eat at the cafe and testimonials being displayed on the home page, and the menu, location information and contact form each having their own page.
+
+- To understand what makes the cafe unique and why I should want to eat there.
+
+    - When the user scrolls down to the "why eat with us" section in the middle of the home page, they can read the four reasons why they should come and eat at the cafe.
+
+- To view the offers the cafe currently has on.
+
+    - When the user loads up the webpage, the hero image is displayed which informs the user about the offer currently on and invites them to come to the cafe and take advantage of it.
+
+- To view the cafe's menu and each item's nutritional information.
+
+    - When the user clicks on the "menu" link in the menu bar, they are presented with a card for each menu item containing an image, the item's price and and icons to show whether the item is gluten-free and vegan.
+    - When the user clicks on the image of each menu item, they are presented with a modal containing information about the item's nutritional information.
+
+- To find out where the cafe is located.
+
+    - When the user clicks on the "location" link in the menu bar, they are presented with a google map displaying the location of the cafe and the cafe's address.
+
+- To find out the cafe's opening hours.
+
+    - When the user clicks on the "location" link in the menu bar, they are presented with information about the cafe's opening hours.
+
+- To find out what other customers who have visited the cafe thought of it.
+
+    - When the user scrolls down to the testimonials section at the bottom of the home page, they are presented with a carousel containing three testimonials which have been written by customers reviewing their experience at the cafe.
+
+- To be able to contact the cafe to get answers to any questions I may have.
+
+    - When the user clicks on the "contact us" link in the navbar, they are presented with a contact us form which they can complete to get in touch with the cafe.
+    - When the user clicks on the "location" link in the navbar, the cafe's telephone number is presented to them.
 
 ### Further Testing
 
 - The Website was tested on a variety of different web browsers including Google Chrome, Internet Explorer, Microsoft Edge and Safari.
 - The Website was also viewed on a number of different devices with a range of screen widths including an iMac, MacBook, iPad and iPhone.
-- All links were tested thoroughly to ensure that they were functioning correctly.
+- All links and hover effects were tested thoroughly to ensure that they were functioning correctly.
 - Family and friends were asked to review the site and documentation and identify any bugs or other issues that were affecting the user experience.
 
 ### Known Bugs
