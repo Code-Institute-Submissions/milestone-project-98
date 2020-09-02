@@ -4,16 +4,16 @@
 
 ### User Stories
 
-- Key requirements of the website's users include:
+Key requirements of the website's users include:
 
-  - To be able to navigate the website easily to find the content I am looking for
-  - To understand what makes the cafe unique and why I should want to eat there.
-  - To view the offers the cafe currently has on.
-  - To view the cafe's menu and each item's nutritional information.
-  - To find out where the cafe is located 
-  - To find out the cafe's opening hours.
-  - To find out what other customers who have visited the cafe thought of it.
-  - To be able to contact the cafe to get answers to any questions I may have.
+  1. To be able to navigate the website easily to find the content I am looking for
+  2. To understand what makes the cafe unique and why I should want to eat there.
+  3. To view the offers the cafe currently has on.
+  4. To view the cafe's menu and each item's nutritional information.
+  5. To find out where the cafe is located 
+  6. To find out the cafe's opening hours.
+  7. To find out what other customers who have visited the cafe thought of it.
+  8. To be able to contact the cafe to get answers to any questions I may have.
 
 ### Design
 
@@ -52,6 +52,9 @@
 
 7. Contact us form 
     - The contact us form enables users to contact the cafe about any questions they may have.
+
+8. Responsive Design
+    - Bootstrap grids and CSS media queries are used throughout the website to ensure that the layout is optimised for the screen size of the device it is being viewed on in order to ensure the user receives the best possible experience. 
 
 ### Features Left to Implement
 
