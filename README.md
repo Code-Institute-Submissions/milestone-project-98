@@ -127,7 +127,13 @@ A local clone of the project can be created using the following steps:
 
 ### Code
 
-- Code for hvr-underline-from-left:after css class came from [Hover.css](https://ianlunn.github.io/Hover/).
+- Code for the navbar came from [bootstrap](https://getbootstrap.com/docs/4.5/components/navbar/).
+- Code for the navbar toggler icon colour (.navbar-dark .navbar-toggler-icon class) came from viewing the css for the toggler and adapting it to appear in the desired colour.
+- Code for navigation link underline colour (.hvr-underline-from-left:after class) came from viewing the css for the underline from left effect and adapting it to appear in the desired colour.
+- Code for the testimonials caurosel came from [Bootstrap](https://getbootstrap.com/docs/4.5/components/carousel/).
+- Code for the line after the testimonial reviewer's name (.blockquote-footer::after class) came from viewing the css for the line before the name and adapting it to appear after the name. 
+- Code for the menu item cards came from [Bootstrap](https://getbootstrap.com/docs/4.5/components/card/).
+- Code for the nutritional information modals came from [Bootstrap](https://getbootstrap.com/docs/4.5/components/modal/).
 
 ### Content
 
