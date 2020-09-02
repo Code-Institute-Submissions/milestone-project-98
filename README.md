@@ -31,20 +31,38 @@
 
 ### Existing Features
 
-- Welcome message - invites users to come and eat at the cafe and enables users to see what the current offer is and whether it is something they would like to take advantage of. 
-- Why eat with us information - enables users to understand what differentiates the cafe from its competitors and why they should want to eat at there by reading the why eat with us section.
-- Customer Testimonials - enables users to understand what other customers who have visited the cafe thought of it by reading their testimonials.
-- Menu and Nutritional Information - enables users to determine whether see whether the restaurant offers food and drinks that satisfies their preferences and dietary requirements by viewing menu and the nutritional information for each item.
-- Map and Location details - enables users to see the location of the cafe using the map and get directions to it using the address.
-- Opening hours - enables users to see when the cafe is open by viewing its opening hours.
-- Phone number - enables users to contact the cafe about any questions they may have by phoning the number provided.
-- Contact us form - enables users to contact the cafe about any questions they may have by completing out the form.
+- Navigation links
+    - The navigation links on the right of the navigation bar provide the user with links to the different pages of the website.
+    - The cafe logo on the left of the navigation bar is also a link which can be accessed from any page to take the user back to the home page.
+
+- Hero image
+    - The hero image provides the user with and idea of the atmosphere in the cafe, provides them with details of the current offer and invites them to come to the cafe to take advantage of the offer.
+
+- Customer Testimonials Carousel 
+    - The carousel displays three customer testimonials to provide users with an insight into what other customers who have visited the cafe thought of it.
+
+- Menu Cards 
+    - The menu cards provide users with information about each item on the menu including an image, the price and whether the item is gluten-free or vegan.
+
+- Nutritional Information Modal
+    - The modal provides users with nutritional information about the menu item. 
+
+- Google Map and Address 
+    - This displays the cafe's location on a map so that customers can see where it is located and plan how to get to it.
+
+- Contact us form 
+    - The contact us form enables users to contact the cafe about any questions they may have.
 
 ### Features Left to Implement
 
-- Link the contact us form up to a database which will enable the restaurant's employees to view enquiries submitted by customers using the contact us form.
-- Placing of orders for collection through the website which will enable users orders to be ready for when they arrive at the cafe.
-- An email sign-up which will enable users to sign up to a newsletter so that they are kept informed about new products, services, offers and any other news about the organisation.
+- Link the contact us form up to a database 
+    - Set up a database and add the method and post attributes to the contact us form so that the cafe's employees can view the enquiries submitted by customers.
+
+- Placing of orders for collection through the website
+    - Add an order form which makes it possible for customers to place orders which they are collecting from the cafe through the website.
+
+- Email sign-up 
+    - Add an email sign-up form so users can sign up to a newsletter if they want to be kept informed about new products, services, offers and any other news about the organisation.
 
 ## Technologies Used
 
