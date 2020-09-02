@@ -6,14 +6,14 @@
 
 - Key requirements of the website's users include:
 
-  - To be able to navigate the website easily to find the content I am looking for
-  - To understand what makes the cafe unique and why I should want to eat there.
-  - To view the offers the cafe currently has on.
-  - To view the cafe's menu and each item's nutritional information.
-  - To find out where the cafe is located 
-  - To find out the cafe's opening hours.
-  - To find out what other customers who have visited the cafe thought of it.
-  - To be able to contact the cafe to get answers to any questions I may have.
+  1. To be able to navigate the website easily to find the content I am looking for
+  2. To understand what makes the cafe unique and why I should want to eat there.
+  3. To view the offers the cafe currently has on.
+  4. To view the cafe's menu and each item's nutritional information.
+  5. To find out where the cafe is located 
+  6. To find out the cafe's opening hours.
+  7. To find out what other customers who have visited the cafe thought of it.
+  8. To be able to contact the cafe to get answers to any questions I may have.
 
 ### Design
 
@@ -31,37 +31,37 @@
 
 ### Existing Features
 
-- Navigation links
+1. Navigation links
     - The navigation links on the right of the navigation bar provide the user with links to the different pages of the website.
     - The cafe logo on the left of the navigation bar is also a link which can be accessed from any page to take the user back to the home page.
 
-- Hero image
+2. Hero image
     - The hero image provides the user with and idea of the atmosphere in the cafe, provides them with details of the current offer and invites them to come to the cafe to take advantage of the offer.
 
-- Customer Testimonials Carousel 
+3. Customer Testimonials Carousel 
     - The carousel displays three customer testimonials to provide users with an insight into what other customers who have visited the cafe thought of it.
 
-- Menu Cards 
+4. Menu Cards 
     - The menu cards provide users with information about each item on the menu including an image, the price and whether the item is gluten-free or vegan.
 
-- Nutritional Information Modal
+5. Nutritional Information Modal
     - The modal provides users with nutritional information about the menu item. 
 
-- Google Map and Address 
+6. Google Map and Address 
     - This displays the cafe's location on a map so that customers can see where it is located and plan how to get to it.
 
-- Contact us form 
+7. Contact us form 
     - The contact us form enables users to contact the cafe about any questions they may have.
 
 ### Features Left to Implement
 
-- Link the contact us form up to a database 
+1. Link the contact us form up to a database 
     - Set up a database and add the method and post attributes to the contact us form so that the cafe's employees can view the enquiries submitted by customers.
 
-- Placing of orders for collection through the website
+2. Placing of orders for collection through the website
     - Add an order form which makes it possible for customers to place orders which they are collecting from the cafe through the website.
 
-- Email sign-up 
+3. Email sign-up 
     - Add an email sign-up form so users can sign up to a newsletter if they want to be kept informed about new products, services, offers and any other news about the organisation.
 
 ## Technologies Used
@@ -99,38 +99,38 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Testing User Stories from User Experience (UX) Section
 
-- To be able to navigate the website easily to find the content I am looking for.
+1. To be able to navigate the website easily to find the content I am looking for.
 
     - In the header of each page there is a navigation bar which is clean and easy to read, and includes links to the other pages.  
     - In the footer of each page there are social media links and copyright information. 
     - The website is structured in a logical way with the offer information, reasons to eat at the cafe and testimonials being displayed on the home page, and the menu, location information and contact form each having their own page.
 
-- To understand what makes the cafe unique and why I should want to eat there.
+2. To understand what makes the cafe unique and why I should want to eat there.
 
     - When the user scrolls down to the "why eat with us" section in the middle of the home page, they can read the four reasons why they should come and eat at the cafe.
 
-- To view the offers the cafe currently has on.
+3. To view the offers the cafe currently has on.
 
     - When the user loads up the webpage, the hero image is displayed which informs the user about the offer currently on and invites them to come to the cafe and take advantage of it.
 
-- To view the cafe's menu and each item's nutritional information.
+4. To view the cafe's menu and each item's nutritional information.
 
     - When the user clicks on the "menu" link in the navigation bar, they are presented with a card for each menu item containing an image, the item's price and and icons to show whether the item is gluten-free and vegan.
     - When the user clicks on the image of each menu item, they are presented with a modal containing information about the item's nutritional information.
 
-- To find out where the cafe is located.
+5. To find out where the cafe is located.
 
     - When the user clicks on the "location" link in the navigation bar, they are presented with a google map displaying the location of the cafe and the cafe's address.
 
-- To find out the cafe's opening hours.
+6. To find out the cafe's opening hours.
 
     - When the user clicks on the "location" link in the navigation bar, they are presented with information about the cafe's opening hours.
 
-- To find out what other customers who have visited the cafe thought of it.
+7. To find out what other customers who have visited the cafe thought of it.
 
     - When the user scrolls down to the testimonials section at the bottom of the home page, they are presented with a carousel containing three testimonials which have been written by customers reviewing their experience at the cafe.
 
-- To be able to contact the cafe to get answers to any questions I may have.
+8. To be able to contact the cafe to get answers to any questions I may have.
 
     - When the user clicks on the "contact us" link in the navigation bar, they are presented with a contact us form which they can complete to get in touch with the cafe.
     - When the user clicks on the "location" link in the navigation bar, the cafe's telephone number is presented to them.
@@ -144,19 +144,19 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Fixed Bugs
 
-- Navbar links were wrapping onto a second line on medium sized screens.
+1. Navbar links were wrapping onto a second line on medium sized screens.
     - Changed size at which collapsed navbar displays to medium sized screens and below.
 
-- Hover effects were displaying in collapsed navbar.
+2. Hover effects were displaying in collapsed navbar.
     - This was fixed by making the background colour of the relevant css class to transparent and setting it to white only for large screens and above.
 
-- Carousel height changes if the number of lines of text in each testimonial changes.
+3. Carousel height changes if the number of lines of text in each testimonial changes.
     - Set minimum height for carousel paragraphs using media queries.
 
-- Items not centrally aligning in parent columns
+4. Items not centrally aligning in parent columns
     - Fixed error in code.
 
-- Type of enquiry dropdown text was appearing in a different color to the rest of the form.
+5. Type of enquiry dropdown text was appearing in a different color to the rest of the form.
     Added a css class to apply custom styling to whole form.
 
 ### Known Bugs
