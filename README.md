@@ -97,16 +97,16 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - To view the cafe's menu and each item's nutritional information.
 
-    - When the user clicks on the "menu" link in the menu bar, they are presented with a card for each menu item containing an image, the item's price and and icons to show whether the item is gluten-free and vegan.
+    - When the user clicks on the "menu" link in the navigation bar, they are presented with a card for each menu item containing an image, the item's price and and icons to show whether the item is gluten-free and vegan.
     - When the user clicks on the image of each menu item, they are presented with a modal containing information about the item's nutritional information.
 
 - To find out where the cafe is located.
 
-    - When the user clicks on the "location" link in the menu bar, they are presented with a google map displaying the location of the cafe and the cafe's address.
+    - When the user clicks on the "location" link in the navigation bar, they are presented with a google map displaying the location of the cafe and the cafe's address.
 
 - To find out the cafe's opening hours.
 
-    - When the user clicks on the "location" link in the menu bar, they are presented with information about the cafe's opening hours.
+    - When the user clicks on the "location" link in the navigation bar, they are presented with information about the cafe's opening hours.
 
 - To find out what other customers who have visited the cafe thought of it.
 
@@ -114,8 +114,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - To be able to contact the cafe to get answers to any questions I may have.
 
-    - When the user clicks on the "contact us" link in the navbar, they are presented with a contact us form which they can complete to get in touch with the cafe.
-    - When the user clicks on the "location" link in the navbar, the cafe's telephone number is presented to them.
+    - When the user clicks on the "contact us" link in the navigation bar, they are presented with a contact us form which they can complete to get in touch with the cafe.
+    - When the user clicks on the "location" link in the navigation bar, the cafe's telephone number is presented to them.
 
 ### Further Testing
 
