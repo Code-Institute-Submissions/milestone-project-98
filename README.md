@@ -6,14 +6,14 @@
 
 - Key requirements of the website's users include:
 
-  1. To be able to navigate the website easily to find the content I am looking for
-  2. To understand what makes the cafe unique and why I should want to eat there.
-  3. To view the offers the cafe currently has on.
-  4. To view the cafe's menu and each item's nutritional information.
-  5. To find out where the cafe is located 
-  6. To find out the cafe's opening hours.
-  7. To find out what other customers who have visited the cafe thought of it.
-  8. To be able to contact the cafe to get answers to any questions I may have.
+  - To be able to navigate the website easily to find the content I am looking for
+  - To understand what makes the cafe unique and why I should want to eat there.
+  - To view the offers the cafe currently has on.
+  - To view the cafe's menu and each item's nutritional information.
+  - To find out where the cafe is located 
+  - To find out the cafe's opening hours.
+  - To find out what other customers who have visited the cafe thought of it.
+  - To be able to contact the cafe to get answers to any questions I may have.
 
 ### Design
 
