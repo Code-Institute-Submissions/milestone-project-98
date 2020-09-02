@@ -142,7 +142,26 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - All links and hover effects were tested thoroughly to ensure that they were functioning correctly.
 - Family and friends were asked to review the site and documentation and identify any bugs or other issues that were affecting the user experience.
 
+### Fixed Bugs
+
+- Navbar links were wrapping onto a second line on medium sized screens.
+    - Changed size at which collapsed navbar displays to medium sized screens and below.
+
+- Hover effects were displaying in collapsed navbar.
+    - This was fixed by making the background colour of the relevant css class to transparent and setting it to white only for large screens and above.
+
+- Carousel height changes if the number of lines of text in each testimonial changes.
+    - Set minimum height for carousel paragraphs using media queries.
+
+- Items not centrally aligning in parent columns
+    - Fixed error in code.
+
+- Type of enquiry dropdown text was appearing in a different color to the rest of the form.
+    Added a css class to apply custom styling to whole form.
+
 ### Known Bugs
+
+- Carousel height changes on devices below 288px if the number of lines of text in each testimonial changes.
 
 ## Deployment
 
