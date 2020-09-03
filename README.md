@@ -38,20 +38,20 @@ Key requirements of the website's users include:
 
 1. Navigation links
 
-   - The navigation links on the right of the navigation bar provide the user with links to the different pages of the website.
+   - The navigation links on the right of the navigation bar provides users with links to the different pages of the website.
    - The cafe logo on the left of the navigation bar is also a link which can be accessed from any page to take the user back to the home page.
 
 2. Hero image
 
-   - The hero image provides the user with and idea of the atmosphere they can expect in the cafe, details of the current offer and invites them to visit to the cafe to take advantage of the offer.
+   - The hero image provides users with and idea of the atmosphere they can expect in the cafe, details of the current offer and invites them to visit to the cafe to take advantage of the offer.
 
 3. Customer Testimonials Carousel
 
-   - The carousel displays three customer testimonials to provide users with an insight into what other customers thought of the cafe.
+   - The carousel provides users with three testimonials other customers have written reviewing their experience at the cafe.
 
 4. Menu Cards
 
-   - The menu cards provide users with information about each item on the menu including an image of the item, it's price and icons to show whether the item is gluten-free or vegan.
+   - The menu cards provides users with information about each item on the menu including an image of the item, it's price and icons to show whether the item is gluten-free or vegan.
 
 5. Nutritional Information Modal
 
@@ -59,13 +59,14 @@ Key requirements of the website's users include:
 
 6. Google Map
 
-   - This displays the cafe's location on a map so that customers can see where it is located.
+   - This displays the cafe's location on a map so that users can see where it is located.
 
 7. Contact us form
 
    - The contact us form enables users to contact the cafe about any questions they may have.
 
 8. Responsive Design
+   
    - Bootstrap grids and CSS media queries are used throughout the website to ensure that it is optimised for use on devices with a wide range of screen sizes.
 
 ### Features Left to Implement
