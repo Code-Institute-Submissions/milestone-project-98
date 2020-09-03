@@ -23,9 +23,9 @@ Key requirements of the website's users include:
 
 #### Typography
 
-- The three main fonts used throughout the website are Pacifico, Roboto and Lato. 
-- Pacifico was used for the cafe's logo as the font is in a different style to the other fonts which makes the logo stand out whilst also still fitting in well with with the chosen style of the website. 
-- Roboto is used for the main headings, the jumbotron and navigation links, and Lato is used for the subheadings and paragraphs. These fonts were chosen as they fit in well with the chosen style of the website.  
+- The three main fonts used throughout the website are Pacifico, Roboto and Lato. Pacifico is used in the cafe's logo, Roboto is used in the main headings, the jumbotron and navigation links, and Lato is used in the subheadings and paragraphs
+- Pacifico was chosen for the logo because it is in a different style to the other fonts which makes the logo stand out, whilst still fitting in well with with the style of the website. 
+- Roboto and Lato were chosen as the main fonts used throughout the rest of the website as they express the style of the website.  
 - Sans Serif is the fallback font which is used in the event that the specified font fails to import into the website correctly.
 
 ### Imagery
