@@ -42,19 +42,19 @@ Key requirements of the website's users include:
 
 3. Customer Testimonials Carousel
 
-   - The carousel displays three customer testimonials to provide users with an insight into what other customers who have visited the cafe thought of it.
+   - The carousel displays three customer testimonials to provide users with an insight into what other customers thought of the cafe.
 
 4. Menu Cards
 
-   - The menu cards provide users with information about each item on the menu including an image, the price and whether the item is gluten-free or vegan.
+   - The menu cards provide users with information about each item on the menu including an image of the item, it's price and icons to show whether the item is gluten-free or vegan.
 
 5. Nutritional Information Modal
 
    - The modal provides users with nutritional information about the menu item.
 
-6. Google Map and Address
+6. Google Map
 
-   - This displays the cafe's location on a map so that customers can see where it is located and plan how to get to it.
+   - This displays the cafe's location on a map so that customers can see where it is located.
 
 7. Contact us form
 
@@ -67,7 +67,7 @@ Key requirements of the website's users include:
 
 1. Link the contact us form up to a database
 
-   - Set up a database and add the method and post attributes to the contact us form so that the cafe's employees can view the enquiries submitted by customers.
+   - Set up a database and link the contact us form to the database so that the cafe's employees can view the enquiries submitted by customers.
 
 2. Placing of orders for collection through the website
 
@@ -126,13 +126,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 4. To be able to view the cafe's menu and each item's nutritional information.
 
-   - On the menu page the user can view cards for each item on the menu which contain an image of the item, it's price and and icons to show whether it is gluten-free and vegan.
+   - On the menu page the user can view cards containing information about each item on the menu including an image of the item, it's price and icons to show whether the item is gluten-free or vegan.
    - When the user clicks on the image of a menu item, a modal opens which contains information about the item's nutritional information.
 
 5. To be able to find out where the cafe is located and what it's opening hours are.
 
-   - On the location page the user can view a google map displaying the location of the cafe and they are also provided with the cafe's address.
-   - The user can find the cafe's opening hours on the location page.
+   - On the location page the user can view a google map displaying the location of the cafe.
+   - The user can also find the cafe's address and opening hours on the location page.
 
 6. To be able to find out what other customers who have visited the cafe thought of it.
 
