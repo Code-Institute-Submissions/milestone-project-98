@@ -220,6 +220,7 @@ A local clone of the project can be created using the following steps:
 - Code for the navbar toggler icon colour (.navbar-dark .navbar-toggler-icon class) came from viewing the css for the toggler and adapting it to appear in the desired colour.
 - Code for navigation link underline colour (.hvr-underline-from-left:after class) came from viewing the css for the underline from left effect and adapting it to appear in the desired colour.
 - Code for active navigation link underline (.active class) came from viewing the css for the underline from left effect and adapting it to appear permanently rather than when the link is hovered over.
+- Code for the jumbotron came from [Bootstrap](https://getbootstrap.com/docs/4.5/components/jumbotron/).
 - Code for the testimonials caurosel came from [Bootstrap](https://getbootstrap.com/docs/4.5/components/carousel/).
 - Code for the line after the testimonial reviewer's name (.blockquote-footer::after class) came from viewing the css for the line before the name and adapting it to appear after the name.
 - Code for the menu item cards came from [Bootstrap](https://getbootstrap.com/docs/4.5/components/card/).
