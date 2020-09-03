@@ -198,7 +198,7 @@
     margin-bottom: 0;
 }
 
-/* This code was obtained by looking at the css for the line before the reviewer's name and adapting it to add a line after the testimonial reviewer's name. */
+/* This code was obtained by looking at the bootstrap css for the line before the reviewer's name and adapting it to add a line after the reviewer's name. */
 
 .blockquote-footer::after {
     content: "\2014 \00A0";

@@ -90,7 +90,7 @@ Key requirements of the website's users include:
 1. [Bootstrap 4.4.1:](https://getbootstrap.com/)
    - Bootstrap was used for the jumbotron containing the hero image text, testimonials carousel, menu items cards, nutritional information modals. The website's styling and resposniveness is also based on Bootstrap.
 2. [Hover.css:](https://ianlunn.github.io/Hover/)
-   - Hover.css was used on the navbar links for the underline transition hover effects.
+   - Hover.css was used for the hover effects on the navbar links social media icons.
 3. [Google Fonts:](https://fonts.google.com/)
    - Google fonts was used to import the 'Lato', 'Pacifico' and 'Roboto" fonts into the style.css file which is used on all pages throughout the project.
 4. [Font Awesome:](https://fontawesome.com/)
@@ -217,15 +217,18 @@ A local clone of the project can be created using the following steps:
 ### Code
 
 - Code for the navbar came from [bootstrap](https://getbootstrap.com/docs/4.5/components/navbar/).
-- Code for the navbar toggler icon colour (.navbar-dark .navbar-toggler-icon class) came from viewing the css for the toggler and adapting it to appear in the desired colour.
-- Code for navigation link underline colour (.hvr-underline-from-left:after class) came from viewing the css for the underline from left effect and adapting it to appear in the desired colour.
-- Code for active navigation link underline (.active class) came from viewing the css for the underline from left effect and adapting it to appear permanently rather than when the link is hovered over.
+- Code for the navbar toggler icon colour (.navbar-dark .navbar-toggler-icon class) was obtained by viewing the bootsrap css for the toggler and adapting it to make it white.
+- Code for navigation link underline colour (.hvr-underline-from-left:after class) was obtained by viewing the hover.css underline from left css code and adapting it to make the underline the desired colour.
+- Code for active navigation link underline (.active class) was obtained by viewing the hover.css underline from left css code and adapting it to make the underline white and appear permanently rather than only when hovered over.
 - Code for the jumbotron came from [Bootstrap](https://getbootstrap.com/docs/4.5/components/jumbotron/).
 - Code for the testimonials caurosel came from [Bootstrap](https://getbootstrap.com/docs/4.5/components/carousel/).
-- Code for the line after the testimonial reviewer's name (.blockquote-footer::after class) came from viewing the css for the line before the name and adapting it to appear after the name.
+- Code for the line after the testimonial reviewer's name (.blockquote-footer::after class) was obtained by looking at the bootstrap css for the line before the reviewer's name and adapting it to add a line after the reviewer's name.
 - Code for the menu item cards came from [Bootstrap](https://getbootstrap.com/docs/4.5/components/card/).
 - Code for the nutritional information modals came from [Bootstrap](https://getbootstrap.com/docs/4.5/components/modal/).
-- Code for vertically aligning items in the center of a column came from this Stack Overflow [post](https://stackoverflow.com/questions/26941443/how-to-center-vertically-and-horizontally-a-div-using-bootstrap/26941597).
+- Code for the google map came from [Google](https://developers.google.com/maps/documentation/embed/get-started).
+- Code for vertically aligning content in the center of the column came from [this](https://stackoverflow.com/questions/26941443/how-to-center-vertically-and-horizontally-a-div-using-bootstrap/26941597) Stack Overflow post.
+- Code for the form came from [Bootstrap](https://getbootstrap.com/docs/4.5/components/forms/).
+- Code for the select menu to select and disable first option came from [this](https://stackoverflow.com/questions/22033922/how-to-show-disable-html-select-option-in-by-default) Stack Overflow post.
 
 ### Content
 
