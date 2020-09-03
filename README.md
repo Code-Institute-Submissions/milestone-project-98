@@ -28,7 +28,7 @@ Key requirements of the website's users include:
 
 ### Imagery
 
-- The images used on the website were designed to give the user an indication of the atmosphere in they can expect in the cafe and the quality of the food and drinks. 
+- The images used on the website were designed to provide the user with an idea of the atmosphere in they can expect in the cafe and the quality of the food and drinks. 
 
 ### Wireframes
 
