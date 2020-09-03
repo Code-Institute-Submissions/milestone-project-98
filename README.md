@@ -19,11 +19,18 @@ Key requirements of the website's users include:
 
 #### Colour Scheme
 
-- The three main colours used in the website are turquoise, white and grey.
+- The three main colours used in the website are turquoise, white and grey. These were chosen because the turquoise/grey contrasts with the white.
 
 #### Typography
 
-- The Pacifico font is the font used for the brand logo. Roboto is used throughout the website for main headings and Lato is used for subheadings and paragraphs. Sans Serif is the fallback font which is used in the event that the specified font fails to import into the website correctly.
+- The three main fonts used throughout the website are Pacifico, Roboto and Lato. 
+- Pacifico was used for the cafe's logo as the font is in a different style to the other fonts which makes the logo stand out whilst also still fitting in well with with the chosen style of the website. 
+- Roboto is used for the main headings, the jumbotron and navigation links, and Lato is used for the subheadings and paragraphs. These fonts were chosen as they fit in well with the chosen style of the website.  
+- Sans Serif is the fallback font which is used in the event that the specified font fails to import into the website correctly.
+
+### Imagery
+
+- The images used on the website were designed to give the user an indication of the atmosphere in they can expect in the cafe and the quality of the food and drinks. 
 
 ### Wireframes
 
@@ -74,6 +81,7 @@ Key requirements of the website's users include:
    - Add an order form which makes it possible for customers to place orders which they are collecting from the cafe through the website.
 
 3. Email sign-up
+
    - Add an email sign-up form so users can sign up to a newsletter if they want to be kept informed about new products, services, offers and any other news about the organisation.
 
 ## Technologies Used
@@ -88,19 +96,23 @@ Key requirements of the website's users include:
 ### Frameworks, Libraries & Programs Used
 
 1. [Bootstrap 4.4.1:](https://getbootstrap.com/)
-   - Bootstrap was used for the jumbotron containing the hero image text, testimonials carousel, menu items cards, nutritional information modals and contact us form. The website's styling and the grid used to make it resposnive is also based on Bootstrap.
+   - Bootstrap was used for the jumbotron containing the hero image text, testimonials carousel, menu items cards, nutritional information modals contact us form. Bootstrap was also used for the grid which assists with the responsiveness of the website and for the styling.
 2. [Hover.css:](https://ianlunn.github.io/Hover/)
-   - Hover.css was used for the hover effects on the navbar links social media icons.
+   - Hover.css was used for the hover effects on the navbar links and social media icons.
 3. [Google Fonts:](https://fonts.google.com/)
-   - Google fonts was used to import the 'Lato', 'Pacifico' and 'Roboto" fonts into the style.css file which is used on all pages throughout the project.
+   - Google fonts was used to import the 'Lato', 'Pacifico' and 'Roboto" fonts into the style.css file which are used on all pages throughout the project.
 4. [Font Awesome:](https://fontawesome.com/)
-   - Font Awesome was used on the home and location pages to enhance the UX of these pages by adding icons to the relevant content.
+   - Font Awesome was used throughout the website to enhance the user experience by adding icons.
 5. [jQuery](https://jquery.com/) and [Popper.js:](https://popper.js.org/)
-   - Bootstrap uses jQuery and Popper.js to make the navbar responsive.
-6. [Git](https://git-scm.com/)
-   - Git was the version control system used whilst working on the project. Gitpod terminal was used to commit files to Git and Push them to GitHub.
-7. [GitHub:](https://github.com/)
+   - Bootstrap uses jQuery and Popper.js to make the navbar responsive. 
+6. [Gitpod](https://www.gitpod.io/)   
+   Gitpod was used to write the code for this project and gitpod terminal was used to commit changes to Git and Push them to GitHub.
+7. [Git](https://git-scm.com/)
+   - Git was the version control system used for this project.
+8. [GitHub:](https://github.com/)
    - GitHub is used to store the project's code and any other required files.
+9. [Balsamiq](https://balsamiq.com/)
+   - Balsamiq was used to create the wireframes during the design phase of the project.
 
 ## Testing
 
