@@ -3,21 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Bootstrap CSS style sheet import-->
+    <!-- Bootstrap CSS style sheet import. Code from https://getbootstrap.com/docs/4.5/getting-started/introduction/-->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-    <!--Font Awesome CSS style sheet import-->
+    <!--Font Awesome CSS style sheet import. Code from https://fontawesome.com/account/cdn-->
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
       integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
       crossorigin="anonymous"
     />
-    <!--Hover.CSS style sheet import-->
+    <!--Hover.CSS style sheet import. Code from https://cdnjs.com/-->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
@@ -32,7 +32,7 @@
     <header class="container-fluid wrapper navbar-wrapper">
       <div class="row no-gutters">
         <div class="col-12">
-          <!--Navbar start-->
+          <!--Navbar start. Code from https://getbootstrap.com/docs/4.5/components/navbar/-->
           <nav class="navbar navbar-expand-lg navbar-dark navbar-color">
             <a class="navbar-brand" href="index.html">The Mancunian Cafe</a>
             <button
@@ -104,7 +104,9 @@
       <!--Contact us introductory text end-->
       <!--Form start-->
       <div class="row no-gutters">
+        <!--Code to centrally align children within the column is from https://stackoverflow.com/questions/26941443/how-to-center-vertically-and-horizontally-a-div-using-bootstrap/26941597-->
         <div class="col-12 d-flex justify-content-center">
+            <!--Form code from https://getbootstrap.com/docs/4.5/components/forms/-->
             <form class="contact-form paragraph" action="">
               <label for="fullname">Name:</label>
               <input
@@ -124,6 +126,7 @@
               />
               <label for="enquirytype">Type of enquiry:</label>
               <select id="enquirytype" class="form-control" required>
+                <!--Code to select and disable first option is from https://stackoverflow.com/questions/22033922/how-to-show-disable-html-select-option-in-by-default-->
                 <option selected disabled></option>
                 <option>Menu</option>
                 <option>About Our Cafe</option>
@@ -159,24 +162,28 @@
             <ul class="list-inline no-gutters">
               <li class="col-3 list-inline-item">
                 <a href="www.facebook.com" target="_blank">
+                  <!--Code for icons from https://fontawesome.com/icons/facebook?style=brands-->
                   <i class="fab fa-facebook" aria-hidden="true"></i>
                   <span class="sr-only">Facebook</span>
                 </a>
               </li>
               <li class="col-3 list-inline-item">
                 <a href="www.twitter.com" target="_blank">
+                  <!--Code for icons from https://fontawesome.com/icons/twitter?style=brands-->
                   <i class="fab fa-twitter" aria-hidden="true"></i>
                   <span class="sr-only">Twitter</span>
                 </a>
               </li>
               <li class="col-3 list-inline-item">
                 <a href="www.instagram.com" target="_blank">
+                  <!--Code for icons from https://fontawesome.com/icons/instagram?style=brands-->
                   <i class="fab fa-instagram" aria-hidden="true"></i>
                   <span class="sr-only">Instagram</span>
                 </a>
               </li>
               <li class="col-3 list-inline-item">
                 <a href="www.youtube.com" target="_blank">
+                  <!--Code for icon from https://fontawesome.com/icons/youtube?style=brands-->
                   <i class="fab fa-youtube" aria-hidden="true"></i>
                   <span class="sr-only">YouTube</span>
                 </a>
@@ -198,19 +205,19 @@
       <!--Copyright information container end-->
     </footer>
     <!--Footer wrapper end-->
-    <!-- jQuery plugin import-->
+    <!-- jQuery plugin import. Code from https://getbootstrap.com/docs/4.5/getting-started/introduction/-->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"
     ></script>
-    <!--Popper.js plugin import-->
+    <!--Popper.js plugin import. Code from https://getbootstrap.com/docs/4.5/getting-started/introduction/-->
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
       integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
       crossorigin="anonymous"
     ></script>
-    <!--Bootstrap JS plugin import--> 
+    <!--Bootstrap JS plugin import. Code from https://getbootstrap.com/docs/4.5/getting-started/introduction/--> 
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
