@@ -43,7 +43,7 @@ Key requirements of the website's users include:
 
 2. Hero image
 
-   - The hero image provides the user with and idea of the atmosphere in the cafe, provides them with details of the current offer and invites them to come to the cafe to take advantage of the offer.
+   - The hero image provides the user with and idea of the atmosphere they can expect in the cafe, details of the current offer and invites them to visit to the cafe to take advantage of the offer.
 
 3. Customer Testimonials Carousel
 
