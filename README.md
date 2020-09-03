@@ -7,13 +7,13 @@
 Key requirements of the website's users include:
 
 1. To be able to navigate the website easily to find the content I am looking for
-2. To understand what makes the cafe unique and why I should want to eat there.
-3. To view the offers the cafe currently has on.
-4. To view the cafe's menu and each item's nutritional information.
-5. To find out where the cafe is located
-6. To find out the cafe's opening hours.
-7. To find out what other customers who have visited the cafe thought of it.
-8. To be able to contact the cafe to get answers to any questions I may have.
+2. To be able to understand what makes the cafe unique and why I should want to eat there.
+3. To be able to view the offers the cafe currently has on.
+4. To be able to view the cafe's menu and each item's nutritional information.
+5. To be able to find out where the cafe is located and what it's opening hours are.
+6. To be able to find out what other customers who have visited the cafe thought of it.
+7. To be able to contact the cafe to get answers to any questions I may have.
+8. To be able to find the cafe's social media links.
 
 ### Design
 
@@ -88,7 +88,7 @@ Key requirements of the website's users include:
 ### Frameworks, Libraries & Programs Used
 
 1. [Bootstrap 4.4.1:](https://getbootstrap.com/)
-   - Bootstrap was used for the jumbotron containing the hero image text, testimonials carousel, menu items cards, nutritional information modals. The website's styling and resposniveness is also based on Bootstrap.
+   - Bootstrap was used for the jumbotron containing the hero image text, testimonials carousel, menu items cards, nutritional information modals and contact us form. The website's styling and the grid used to make it resposnive is also based on Bootstrap.
 2. [Hover.css:](https://ianlunn.github.io/Hover/)
    - Hover.css was used for the hover effects on the navbar links social media icons.
 3. [Google Fonts:](https://fonts.google.com/)
@@ -113,39 +113,39 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 1. To be able to navigate the website easily to find the content I am looking for.
 
-   - In the header of each page there is a navigation bar which is clean and easy to read, and includes links to the other pages.
-   - In the footer of each page there are social media links and copyright information.
-   - The website is structured in a logical way with the offer information, reasons to eat at the cafe and testimonials being displayed on the home page, and the menu, location information and contact form each having their own page.
+   - The user can access the navigation bar in the header of each page which is clean and easy to read, and includes links to the other pages.
+   - The website is structured in a logical way with the offer information, reasons to eat at the cafe and testimonials on the home page, and the menu, location information and contact form each having their own page.
 
-2. To understand what makes the cafe unique and why I should want to eat there.
+2. To be able to understand what makes the cafe unique and why I should want to eat there.
 
-   - When the user scrolls down to the "why eat with us" section in the middle of the home page, they can read the four reasons why they should come and eat at the cafe.
+   - The why eat with us section provides the user with four reasons why they should come and eat at the cafe.
 
-3. To view the offers the cafe currently has on.
+3. To be able to view the offers the cafe currently has on.
 
-   - When the user loads up the webpage, the hero image is displayed which informs the user about the offer currently on and invites them to come to the cafe and take advantage of it.
+   - The hero image informs the user about the offer currently on and invites them to come to the cafe and take advantage of it.
 
-4. To view the cafe's menu and each item's nutritional information.
+4. To be able to view the cafe's menu and each item's nutritional information.
 
-   - When the user clicks on the "menu" link in the navigation bar, they are presented with a card for each menu item containing an image, the item's price and and icons to show whether the item is gluten-free and vegan.
-   - When the user clicks on the image of each menu item, they are presented with a modal containing information about the item's nutritional information.
+   - On the menu page the user can view cards for each item on the menu which contain an image of the item, it's price and and icons to show whether it is gluten-free and vegan.
+   - When the user clicks on the image of a menu item, a modal opens which contains information about the item's nutritional information.
 
-5. To find out where the cafe is located.
+5. To be able to find out where the cafe is located and what it's opening hours are.
 
-   - When the user clicks on the "location" link in the navigation bar, they are presented with a google map displaying the location of the cafe and the cafe's address.
+   - On the location page the user can view a google map displaying the location of the cafe and they are also provided with the cafe's address.
+   - The user can find the cafe's opening hours on the location page.
 
-6. To find out the cafe's opening hours.
+6. To be able to find out what other customers who have visited the cafe thought of it.
 
-   - When the user clicks on the "location" link in the navigation bar, they are presented with information about the cafe's opening hours.
+   - The testimonials section provides the user with a carousel containing three testimonials other customers have written reviewing their experience at the cafe.
 
-7. To find out what other customers who have visited the cafe thought of it.
+7. To be able to contact the cafe to get answers to any questions I may have.
 
-   - When the user scrolls down to the testimonials section at the bottom of the home page, they are presented with a carousel containing three testimonials which have been written by customers reviewing their experience at the cafe.
+   - On the contact us page the user can complete the form to get in touch with the cafe.
+   - The user can access the cafe's telephone number on the location page.
 
-8. To be able to contact the cafe to get answers to any questions I may have.
+8. To be able to find the cafe's social media links.
 
-   - When the user clicks on the "contact us" link in the navigation bar, they are presented with a contact us form which they can complete to get in touch with the cafe.
-   - When the user clicks on the "location" link in the navigation bar, the cafe's telephone number is presented to them.
+    - In the footer of each page contains links to the cafe's social media.
 
 ### Further Testing
 
