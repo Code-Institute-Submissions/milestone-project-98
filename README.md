@@ -2,6 +2,8 @@
 
 ## User Experience (UX)
 
+![Image of website on different sized devices](assets/images/responsive.png)
+
 ### User Stories
 
 Key requirements of the website's users include:
