@@ -123,11 +123,11 @@ Key requirements of the website's users include:
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure that the code used in the project was in compliance with the HTML5 and CSS3 standards and that there were no syntax errors.
 
-- [Home](assets/validation/home.png)
-- [Menu](assets/validation/menu.png)
-- [Location](hassets/validation/location.png)
-- [Contact Us](assets/validation/contact.png)
-- [CSS](assets/validation/css.png)
+- [Home](assets/images/validation/home.png)
+- [Menu](assets/images/validation/menu.png)
+- [Location](assets/images/validation/location.png)
+- [Contact Us](assets/images/validation/contact.png)
+- [CSS](assets/images/validation/css.png)
 
 ### Testing User Stories from User Experience (UX) Section
 
