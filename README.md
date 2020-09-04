@@ -32,7 +32,7 @@ Key requirements of the website's users include:
 
 ### Wireframes
 
-- [Desktop](assets/wireframes/desktop_wireframes.pdf)
+- [Desktop](assets/wireframes/desktop_wireframes.pd)
 - [Tablet](assets/wireframes/tablet_wireframes.pdf)
 - [Mobile](assets/wireframes/mobile_wireframes.pdf)
 
