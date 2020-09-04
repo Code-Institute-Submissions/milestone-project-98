@@ -1,8 +1,8 @@
 # The Mancunian Cafe Website
 
-## User Experience (UX)
-
 ![Image of website on different sized devices](assets/images/responsive.png)
+
+## User Experience (UX)
 
 ### User Stories
 
