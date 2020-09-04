@@ -504,3 +504,9 @@ button[type="submit"]:hover {
         margin-left: 15px;
     } 
 }
+
+@media(min-width: 1200px) {
+    .jumbotron {
+        max-width: 55%;
+    }
+}
