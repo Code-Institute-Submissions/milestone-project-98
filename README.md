@@ -207,10 +207,15 @@ The project was deployed to GitHub Pages using the following steps:
 
 1.  Log in to GitHub and click on the relelavant [GitHub Repository](https://github.com/jonathan-odonnell/milestone-project-1).
 2.  Click on the "Settings" button at the top of the repository.
+![Image showing the settings button](assets/images/github_pages/github_pages_1.png)
 3.  Scroll down to the "GitHub Pages" section.
+![Image showing the github pages section](assets/images/github_pages/github_pages_2.png)
 4.  In the source section, click the branch dropdown and select "master".
-5.  Wait for the page to refresh.
+![Image showing the branch dropdown](assets/images/github_pages/github_pages_3.png)
+5.  Click save and wait for the page to refresh.
+![Image showing the save button](assets/images/github_pages/github_pages_4.png)
 6.  Scroll back down to the "Github Pages" section and locate the link to the published site.
+![Image showing the link](assets/images/github_pages/github_pages_5.png)
 
 ### Forking the Github Repository
 
@@ -218,6 +223,7 @@ The GitHub Repository can be forked using the following steps:
 
 1.  Log in to GitHub and locate the project's [GitHub Repository](https://github.com/jonathan-odonnell/milestone-project-1).
 2.  At the top-right of the repository, click the "Fork" Button.
+![Image showing the fork button](assets/images/fork/fork.png)
 3.  You should now have a copy of the original repository in your GitHub account.
 
 ### Making a Local Clone
@@ -226,12 +232,12 @@ A local clone of the project can be created using the following steps:
 
 1.  Log in to GitHub and locate the project's [GitHub Repository](https://github.com/jonathan-odonnell/milestone-project-1).
 2.  Under the repository name, click the "Code" button.
-![Image of clicking on the code button](assets/images/clone1.png)
+![Image showing the code button](assets/images/clone/clone1.png)
 3.  To clone the repository using HTTPS, under "Clone with HTTPS", click the clipboard button to copy the repository URL. 
-![Image of clicking on the clipboard button](assets/images/clone2.png)
+![Image showing the clipboard button](assets/images/clone/clone2.png)
 4.  To clone using SSH click "Use SSH" and then click the clipboard button.
-![Image of clicking on the use ssh button](assets/images/clone3.png)
-![Image of clicking on the clipboard button](assets/images/clone4.png)
+![Image showing the use ssh button](assets/images/clone/clone3.png)
+![Image showing the clipboard button](assets/images/clone/clone4.png)
 5.  Open Git Bash
 6.  Change the current working directory to the location where you want to store the cloned repository.
 7.  Type git clone, and then paste the URL you copied in Step 3.
