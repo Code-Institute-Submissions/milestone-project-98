@@ -32,6 +32,10 @@ Key requirements of the website's users include:
 
 ### Wireframes
 
+- [Desktop](assets/wireframes/desktop_wireframes)
+- [Tablet](assets/wireframes/tablet_wireframes)
+- [Mobile](assets/wireframes/mobile_wireframes)
+
 ## Features
 
 ### Existing Features
