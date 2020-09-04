@@ -230,7 +230,20 @@ A local clone of the project can be created using the following steps:
 4.  Open Git Bash
 5.  Change the current working directory to the location where you want to store the cloned repository.
 6.  Type git clone, and then paste the URL you copied in Step 3.
-7.  Press enter to create your clone
+```
+$ git clone https://github.com/jonathan-odonnell/milestone-project-1.git
+```
+7.  Press enter to create your clone.
+```
+$ git clone https://github.com/jonathan-odonnell/milestone-project-1.git
+Cloning into 'milestone-project-1'...
+remote: Enumerating objects: 240, done.
+remote: Counting objects: 100% (240/240), done.
+remote: Compressing objects: 100% (151/151), done.
+remote: Total 639 (delta 132), reused 178 (delta 72), pack-reused 399
+Receiving objects: 100% (639/639), 22.71 MiB | 5.33 MiB/s, done.
+Resolving deltas: 100% (322/322), done.
+```
 
 ## Credits
 
@@ -290,3 +303,11 @@ A local clone of the project can be created using the following steps:
 ### Acknowledgements
 
 - I received inspiration for this project from [Avanti West Coast](https://www.avantiwestcoast.co.uk), [Tim Hortons](https://timhortons.co.uk), [Cafe Nero](https://caffenero.com/uk/), [Costa Coffee](https://www.costa.co.uk) and [Axe and Cleaver](https://www.chefandbrewer.com/pubs/cheshire/axe-cleaver/).
+
+Cloning into 'milestone-project-1'...
+remote: Enumerating objects: 240, done.
+remote: Counting objects: 100% (240/240), done.
+remote: Compressing objects: 100% (151/151), done.
+remote: Total 639 (delta 132), reused 178 (delta 72), pack-reused 399
+Receiving objects: 100% (639/639), 22.71 MiB | 18.76 MiB/s, done.
+Resolving deltas: 100% (322/322), done.
