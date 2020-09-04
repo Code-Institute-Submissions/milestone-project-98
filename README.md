@@ -32,7 +32,7 @@ Key requirements of the website's users include:
 
 ### Wireframes
 
-- [Desktop](assets/wireframes/desktop_wireframes.pd)
+- [Desktop](assets/wireframes/desktop_wireframes.pdf)
 - [Tablet](assets/wireframes/tablet_wireframes.pdf)
 - [Mobile](assets/wireframes/mobile_wireframes.pdf)
 
@@ -121,8 +121,11 @@ Key requirements of the website's users include:
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure that the code used in the project was in compliance with the HTML5 and CSS3 standards and that there were no syntax errors.
 
-- [W3C Markup Validator](https://validator.w3.org/) - Results
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - Results
+- [Home](assets/validation/home.png)
+- [Menu](assets/validation/menu.png)
+- [Location](hassets/validation/location.png)
+- [Contact Us](assets/validation/contact.png)
+- [CSS](assets/validation/css.png)
 
 ### Testing User Stories from User Experience (UX) Section
 
