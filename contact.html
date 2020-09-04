@@ -107,7 +107,7 @@
         <!--Code to centrally align children within the column from https://stackoverflow.com/questions/26941443/how-to-center-vertically-and-horizontally-a-div-using-bootstrap/26941597-->
         <div class="col-12 d-flex justify-content-center">
             <!--Form code from https://getbootstrap.com/docs/4.5/components/forms/-->
-            <form class="contact-form paragraph" action="">
+            <form class="contact-form paragraph" >
               <label for="fullname">Name:</label>
               <input
                 type="text"
@@ -127,11 +127,11 @@
               <label for="enquirytype">Type of enquiry:</label>
               <select id="enquirytype" class="form-control" required>
                 <!--Code to select and disable first option from https://stackoverflow.com/questions/22033922/how-to-show-disable-html-select-option-in-by-default-->
-                <option selected disabled></option>
-                <option>Menu</option>
-                <option>About Our Cafe</option>
-                <option>Complaints</option>
-                <option>Any Other Query</option>
+                <option value="" selected disabled>&nbsp;</option>
+                <option value="menu">Menu</option>
+                <option value="about_our_cafe">About Our Cafe</option>
+                <option value="complaints">Complaints</option>
+                <option value="any_other_queries">Any Other Queries</option>
               </select>
               <label for="message">Message:</label>
               <textarea
