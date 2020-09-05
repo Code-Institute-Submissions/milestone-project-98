@@ -258,7 +258,7 @@ The GitHub Repository can be forked using the following steps:
 2.  At the top-right of the repository, click the "Fork" Button.
 ![Image showing the fork button](assets/images/fork/fork.png)
 
-More information about forking the GitHub repository is available [here](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo).
+More information about forking a GitHub repository is available [here](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo).
 
 ### Making a Local Clone
 
