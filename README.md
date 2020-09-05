@@ -99,7 +99,7 @@ Key requirements of the website's users include:
 
 13. Responsive Design
    
-   - Bootstrap grids and CSS media queries are used throughout the website to ensure that it is optimised for use on devices with a wide range of screen sizes.
+    - Bootstrap grids and CSS media queries are used throughout the website to ensure that it is optimised for use on devices with a wide range of screen sizes.
 
 ### Features Left to Implement
 
