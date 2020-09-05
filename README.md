@@ -55,7 +55,7 @@ Key requirements of the website's users include:
 
 2. Navigation links
 
-   - These enable users to access the different pages of the website so they can easily find the content they are looking for.
+   - These enables users to access the different pages of the website so they can easily find the content they are looking for.
 
 3. Hero image
 
@@ -71,7 +71,7 @@ Key requirements of the website's users include:
 
 6. Menu Cards
 
-   - These enable potential customers to find out what items are on the menu and view key information about each item such as it's price and whether the item is gluten-free or vegan.
+   - These enables potential customers to find out what items are on the menu and view key information about each item such as it's price and whether the item is gluten-free or vegan.
 
 7. Nutritional Information Modal
 
