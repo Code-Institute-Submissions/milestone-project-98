@@ -49,36 +49,55 @@ Key requirements of the website's users include:
 
 ### Existing Features
 
-1. Navigation links
+1. Brand Logo
 
-   - The navigation links on the right of the navigation bar provides users with links to the different pages of the website.
-   - The cafe logo on the left of the navigation bar is also a link which can be accessed from any page to take the user back to the home page.
+    - This familiarises users with the cafe's logo and is also a link which the user can access from any page to take them back to the home page.
 
-2. Hero image
+2. Navigation links
 
-   - The hero image provides users with and idea of the atmosphere they can expect in the cafe, details of the current offer and invites them to visit to the cafe to take advantage of the offer.
+   - These enable users to access the different pages of the website so they can easily find the content they are looking for.
 
-3. Customer Testimonials Carousel
+3. Hero image
 
-   - The carousel provides users with three testimonials other customers have written reviewing their experience at the cafe.
+   - This provides users with an idea of the atmosphere in the cafe and details of the current offer.
 
-4. Menu Cards
+4. Reasons to Eat With Us
 
-   - The menu cards provides users with information about each item on the menu including an image of the item, it's price and icons to show whether the item is gluten-free or vegan.
+    - This enables users to read about what makes the cafe unique from its competitors.
 
-5. Nutritional Information Modal
+5. Customer Testimonials Carousel
 
-   - The modal provides users with nutritional information about the menu item.
+   - This allows users to read three testimonials other customers have written reviewing their experience at the cafe.
 
-6. Google Map
+6. Menu Cards
 
-   - This displays the cafe's location on a map so that users can see where it is located.
+   - These enable potential customers to find out what items are on the menu and view key information about each item such as it's price and whether the item is gluten-free or vegan.
 
-7. Contact us form
+7. Nutritional Information Modal
 
-   - The contact us form enables users to contact the cafe about any questions they may have.
+   - This allows users to view the nutritional information about each item on the menu.
 
-8. Responsive Design
+8. Google Map and Address
+
+   - This provides users with a map displaying the cafe's location and the cafe's address.
+
+9. Opening hours
+
+    - This enables users to find out when the cafe is open.
+
+10. Telephone Number
+
+    - This allows users to access the cafe's telephone number. 
+
+11. Contact us form
+
+   - This enables users to contact the cafe about any questions they may have by completing the form.
+
+12. Social Media links
+
+    - These provide users with links to the different social media platforms where the cafe has a presence.
+
+13. Responsive Design
    
    - Bootstrap grids and CSS media queries are used throughout the website to ensure that it is optimised for use on devices with a wide range of screen sizes.
 
@@ -86,7 +105,7 @@ Key requirements of the website's users include:
 
 1. Link the contact us form up to a database
 
-   - Set up a database and link the contact us form to the database so that the cafe's employees can view the enquiries submitted by customers.
+   - Set up a database and link the contact us form to the database so that the cafe's employees can view the enquiries submitted by users.
 
 2. Placing of orders for collection through the website
 
@@ -94,7 +113,7 @@ Key requirements of the website's users include:
 
 3. Email sign-up
 
-   - Add an email sign-up form so users can sign up to a newsletter if they want to be kept informed about new products, services, offers and any other news about the organisation.
+   - Add an email sign-up form so users can sign up to a newsletter if they want to be informed about new products, services, offers and any other news about the organisation.
 
 ## Technologies Used
 
