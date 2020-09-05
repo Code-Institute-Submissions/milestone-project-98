@@ -137,7 +137,7 @@ Key requirements of the website's users include:
 5. [jQuery](https://jquery.com/) and [Popper.js:](https://popper.js.org/)
    - Bootstrap uses jQuery and Popper.js to make the navbar responsive. 
 6. [Gitpod](https://www.gitpod.io/)   
-   Gitpod was used to write the code for this project and gitpod terminal was used to commit changes to Git and Push them to GitHub.
+   - Gitpod was used to write the code for this project and gitpod terminal was used to commit changes to Git and Push them to GitHub.
 7. [Git](https://git-scm.com/)
    - Git was the version control system used for this project.
 8. [GitHub:](https://github.com/)
