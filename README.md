@@ -1,6 +1,6 @@
 # The Mancunian Cafe Website
 
-![Image of website on different sized devices](assets/images/responsive.png)
+![Image of the website on different sized devices](assets/images/responsive_website/responsive.png)
 
 [View the live website here](https://jonathan-odonnell.github.io/milestone-project-1/)
 
