@@ -248,14 +248,17 @@ The project was deployed to GitHub Pages using the following steps:
 6.  Scroll back down to the "Github Pages" section and locate the link to the published site.
 ![Image showing the link](assets/images/github_pages/github_pages_5.png)
 
-### Forking the Github Repository
+More information about deploying a website to GitHub Pages is available [here](https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site#creating-your-site).
+
+### Forking the GitHub Repository
 
 The GitHub Repository can be forked using the following steps:
 
 1.  Log in to GitHub and locate the project's [GitHub Repository](https://github.com/jonathan-odonnell/milestone-project-1).
 2.  At the top-right of the repository, click the "Fork" Button.
 ![Image showing the fork button](assets/images/fork/fork.png)
-3.  You should now have a copy of the original repository in your GitHub account.
+
+More information about forking the GitHub repository is available [here](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo).
 
 ### Making a Local Clone
 
@@ -286,7 +289,8 @@ remote: Total 639 (delta 132), reused 178 (delta 72), pack-reused 399
 Receiving objects: 100% (639/639), 22.71 MiB | 5.33 MiB/s, done.
 Resolving deltas: 100% (322/322), done.
 ```
-8.  You should now have a local clone of the project.
+
+More information about making a local clone of a GitHub repository is available [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
 ## Credits
 
@@ -312,9 +316,9 @@ Resolving deltas: 100% (322/322), done.
 - Lucy testimonial was adapted from this [Trustpilot post](https://uk.trustpilot.com/review/caffenero.com?languages=en&stars=5).
 - Nutritional information was from Cafe Nero's [coffee menu](https://caffenero.com/uk/menu/coffee/), [all-day breakfast menu](https://caffenero.com/uk/menu/food/all-day-breakfast/), [panini and sandwich menu](https://caffenero.com/uk/menu/food/panini-sandwiches/), [cakes and muffins menu](https://caffenero.com/uk/menu/food/cakes-muffins/) and [snacks menu](https://caffenero.com/uk/menu/food/snacks/), and [Costa Coffee's menu](https://www.costa.co.uk/menu/).
 - Contact us text was adapted from the Avanti West Coast Contact Us [page](https://www.avantiwestcoast.co.uk/help-and-support/contact-us).
-- The information in the Github Pages section of the readme was adapted from the GitHub configuring a publishing source for your GitHub Pages site [documentation](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+- The information in the Github Pages section of the readme was adapted from the GitHub configuring a publishing source for your GitHub Pages site [documentation](https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site#creating-your-site).
 - The information in the Forking a Github Repository section of the readme was adapted from the GitHub forking a repository [documentation](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo).
-- The information in the Making a Clone section of the readme was adapted from the GitHub cloning a repository [documentation](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop).
+- The information in the Making a Clone section of the readme was adapted from the GitHub cloning a repository [documentation](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 - All other content was written by the developer.
 
 ### Media
