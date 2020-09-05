@@ -2,6 +2,10 @@
 
 ![Image of website on different sized devices](assets/images/responsive.png)
 
+[View the live website here](https://jonathan-odonnell.github.io/milestone-project-1/)
+
+The Mancunian Cafe is a fictitious cafe based in the Northern Quarter of Manchester City Center. The cafe offers a variety of hot drinks, breakfast rolls, pastries, paninis, sandwiches, cakes and biscuits. This is the cafe's main marketing website which promotes the cafe's products to potential customers and persuade them to come and visit the cafe. The website is designed to be responsive and easy to navigate on a range of devices.
+
 ## User Experience (UX)
 
 ### User Stories
