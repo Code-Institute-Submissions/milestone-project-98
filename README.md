@@ -91,7 +91,7 @@ Key requirements of the website's users include:
 
 11. Contact us form
 
-   - This enables users to contact the cafe about any questions they may have by completing the form.
+    - This enables users to contact the cafe about any questions they may have by completing the form.
 
 12. Social Media links
 
