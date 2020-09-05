@@ -21,16 +21,19 @@ Key requirements of the website's users include:
 
 #### Colour Scheme
 
-- The three main colours used in the website are turquoise, white and grey. These were chosen because the turquoise/grey contrasts with the white.
+- The three main colours used in the website are turquoise, white and grey. 
+- These colours were chosen because the turquoise/grey contrasts with the white.
 
 #### Typography
 
-- The three main fonts used throughout the website are Pacifico, Roboto and Lato. Pacifico is used in the cafe's logo, Roboto is used in the main headings, the jumbotron and navigation links, and Lato is used in the subheadings and paragraphs.
+- The three main fonts used throughout the website are Pacifico, Roboto and Lato. Pacifico was used in the cafe's logo, Roboto in the main headings, the jumbotron and navigation links, and Lato in the subheadings and paragraphs.
+- These fonts were chosen because they make the cafe logo stand out and the main content easy to read.
 - Sans Serif is the fallback font which is used in the event that the specified font fails to import into the website correctly.
 
 ### Imagery
 
-- The images used on the website were chosen because they provide the user with an idea of the atmosphere in they can expect in the cafe and the quality of the food and drinks. 
+- The hero image was chosen because it gives the user the impression that the cafe has an vibrant atmosphere where they can come to socialise and enjoy something to eat and drink. 
+- The menu item images were chosen because they give the impression that high quality food and drinks are served at the cafe. 
 
 ### Wireframes
 
