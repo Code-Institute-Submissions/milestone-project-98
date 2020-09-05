@@ -124,6 +124,8 @@ Key requirements of the website's users include:
 
 ## Testing
 
+### WC3 Validation
+
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure that the code used in the project was in compliance with the HTML5 and CSS3 standards and that there were no syntax errors.
 
 - [Home](assets/images/validation/home.png)
@@ -170,11 +172,14 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     - In the footer of each page contains links to the cafe's social media.
 
+### Manual Testing
+
+Details of the manual testing carried out can be viewed [here](testing.md)
+
 ### Further Testing
 
 - The Website was tested on a variety of different web browsers including Google Chrome, Internet Explorer, Microsoft Edge and Safari.
 - The Website was also viewed on a number of different devices with a range of screen widths including an iMac, MacBook, iPad and iPhone.
-- All links and hover effects were tested thoroughly to ensure that they were functioning correctly.
 - Family and friends were asked to review the site and documentation and identify any bugs or other issues that were affecting the user experience.
 
 ### Fixed Bugs
