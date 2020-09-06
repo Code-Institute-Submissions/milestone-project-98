@@ -223,7 +223,6 @@
     height: 1rem;
     object-fit: contain;
     margin-left: 5px;
-    margin-right: 20px;
 }
 
 .menu-content-container {
@@ -446,6 +445,10 @@ button[type="submit"]:hover {
 
     .nutritional-key-text {
         display: inline-block;
+        margin-right: 20px;
+    }
+
+    .nutritional-key img {
         margin-right: 20px;
     }
 
