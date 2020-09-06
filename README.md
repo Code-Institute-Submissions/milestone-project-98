@@ -63,7 +63,7 @@ Key requirements of the website's users include:
 
 4. Reasons to Eat With Us
 
-    - This enables users to read about what makes the cafe unique from its competitors.
+    - This enables users to read about what differentiates the cafe from its competitors.
 
 5. Customer Testimonials Carousel
 
@@ -71,7 +71,7 @@ Key requirements of the website's users include:
 
 6. Menu Cards
 
-    - These enables potential customers to find out what items are on the menu and view key information about each item such as it's price and whether the item is gluten-free or vegan.
+    - These enable potential customers to find out what items are on the menu and view key information about each item such as the price and whether the item is gluten-free or vegan.
 
 7. Nutritional Information Modal
 
@@ -79,7 +79,7 @@ Key requirements of the website's users include:
 
 8. Google Map and Address
 
-    - This provides users with a map displaying the cafe's location and the cafe's address.
+    - This provides users with a map displaying the cafe's location and the address.
 
 9. Opening hours
 
@@ -170,7 +170,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 2. To be able to understand what makes the cafe unique and why I should want to eat there.
 
    - The why eat with us section is clearly highlighted on the home page.
-   - Here there is information on four aspects of the cafe that differentiate it from its comptitiors. 
+   - Here there is information on what differentiates the cafe from its comptitiors. 
 
 3. To be able to view the offers the cafe currently has on.
 
@@ -205,7 +205,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Manual Testing
 
-Details of the manual testing carried out can be viewed [here](testing.md)
+Details of the manual testing carried out can be viewed [here](testing.md).
 
 ### Further Testing
 
