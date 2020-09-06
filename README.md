@@ -225,15 +225,27 @@ Details of the manual testing carried out can be viewed [here](testing.md).
 
 3. Carousel height changes if the number of lines of text in each testimonial changes.
 
-   - Set minimum height for carousel paragraphs using media queries.
+   - Used media queries to set minimum height for carousel paragraphs based on the largest number of lines used across all three testimonials.
 
 4. Items not centrally aligning in parent columns
 
    - Fixed error in code.
 
-5. Type of enquiry dropdown text was appearing in a different color to the rest of the form.
+5. Part of the menu item images were getting cut off when columns were very wide.
+   
+   - Restricted the maximum width of the menu item cards to 350px and centralised them within their parent container.
+
+6. Type of enquiry dropdown text was appearing in a different color to the rest of the form.
    
    - Added a css class to apply custom styling to whole form.
+
+7. Menu cards were appearing 3 items per row rather than 4 on extra large screens.
+   
+   - Fixed an error in the code.
+
+8. Nutritional key items were not centralising properley on mobiles.
+   
+   - Removed the right margin from the icons for extra small devices.
 
 ### Known Bugs
 
