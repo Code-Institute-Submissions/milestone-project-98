@@ -34,7 +34,7 @@ Key requirements of the website's users include:
 - These fonts were chosen because they make the cafe logo stand out and the main content easy to read.
 - Sans Serif is the fallback font which is used in the event that the specified font fails to import into the website correctly.
 
-### Imagery
+#### Imagery
 
 - The hero image was chosen because it gives the user the impression that the cafe has an vibrant atmosphere where they can come to socialise and enjoy something to eat and drink. 
 - The menu item images were chosen because they give the impression that high quality food and drinks are served at the cafe. 
@@ -55,11 +55,11 @@ Key requirements of the website's users include:
 
 2. Navigation links
 
-   - These enables users to access the different pages of the website so they can easily find the content they are looking for.
+    - These enable users to access the different pages of the website so they can easily find the content they are looking for.
 
 3. Hero image
 
-   - This provides users with an idea of the atmosphere in the cafe and details of the current offer.
+    - This provides users with an idea of the atmosphere in the cafe and details of the current offer.
 
 4. Reasons to Eat With Us
 
@@ -67,19 +67,19 @@ Key requirements of the website's users include:
 
 5. Customer Testimonials Carousel
 
-   - This allows users to read three testimonials other customers have written reviewing their experience at the cafe.
+    - This allows users to read three testimonials other customers have written reviewing their experience at the cafe.
 
 6. Menu Cards
 
-   - These enables potential customers to find out what items are on the menu and view key information about each item such as it's price and whether the item is gluten-free or vegan.
+    - These enables potential customers to find out what items are on the menu and view key information about each item such as it's price and whether the item is gluten-free or vegan.
 
 7. Nutritional Information Modal
 
-   - This allows users to view the nutritional information about each item on the menu.
+    - This allows users to view the nutritional information about each item on the menu.
 
 8. Google Map and Address
 
-   - This provides users with a map displaying the cafe's location and the cafe's address.
+    - This provides users with a map displaying the cafe's location and the cafe's address.
 
 9. Opening hours
 
@@ -161,39 +161,47 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 1. To be able to navigate the website easily to find the content I am looking for.
 
-   - The user can access the navigation bar in the header of each page which is clean and easy to read, and includes links to the other pages.
-   - The website is structured in a logical way with the offer information, reasons to eat at the cafe and testimonials on the home page, and the menu, location information and contact form each having their own page.
+   - The navigation bar can be easily accessed in the header of each page. 
+   - It is clean and easy to read and contains the cafe's logo and the navigation links to the other pages of the website.
+   - Each of the navigation links clearly communicates to the user what page it will take them to.
+   - The cafe logo is also a link which takes the user back to the home page.
+   - The website is structured in a logical way with the offer information, reasons to eat at the cafe and testimonials on the home page, and the menu, location information and contact form each on their own pages.
 
 2. To be able to understand what makes the cafe unique and why I should want to eat there.
 
-   - The why eat with us section provides the user with four reasons why they should come and eat at the cafe.
+   - The why eat with us section is clearly highlighted on the home page.
+   - Here there is information on four aspects of the cafe that differentiate it from its comptitiors. 
 
 3. To be able to view the offers the cafe currently has on.
 
-   - The hero image informs the user about the offer currently on and invites them to come to the cafe and take advantage of it.
+   - The hero image is clearly highlighted on the home page.
+   - This contains information about the offer the cafe currently has on.
 
 4. To be able to view the cafe's menu and each item's nutritional information.
 
-   - On the menu page the user can view cards containing information about each item on the menu including an image of the item, it's price and icons to show whether the item is gluten-free or vegan.
+   - The menu page is clearly highlighted in the navigation bar.
+   - Here there are cards containing information about each item on the menu including an image of the item, the price and icons to show whether the item is gluten-free or vegan.
    - When the user clicks on the image of a menu item, a modal opens which contains information about the item's nutritional information.
 
 5. To be able to find out where the cafe is located and what it's opening hours are.
 
-   - On the location page the user can view a google map displaying the location of the cafe.
-   - The user can also find the cafe's address and opening hours on the location page.
+   - The location page is clearly highlighted in the navigation bar.
+   - Here there is a google map displaying the location of the cafe and the cafe's address and opening hours.
 
 6. To be able to find out what other customers who have visited the cafe thought of it.
 
-   - The testimonials section provides the user with a carousel containing three testimonials other customers have written reviewing their experience at the cafe.
+   - The testimonials section is clearly highlighted on the home page.
+   - This contains three testimonials other customers have written reviewing their experience at the cafe.
 
 7. To be able to contact the cafe to get answers to any questions I may have.
 
-   - On the contact us page the user can complete the form to get in touch with the cafe.
-   - The user can access the cafe's telephone number on the location page.
+   - The contact us page is clearly highlighted in the navigation bar.
+   - Here there is a form which the user can complete to get in touch with the cafe.
 
 8. To be able to find the cafe's social media links.
 
-    - In the footer of each page contains links to the cafe's social media.
+    - The social media icons are clearly highlighted in the footer of each page.
+    - Each of these provides a link to the relevant social media platform.
 
 ### Manual Testing
 
@@ -201,7 +209,7 @@ Details of the manual testing carried out can be viewed [here](testing.md)
 
 ### Further Testing
 
-- The Website was tested on a variety of different web browsers including Google Chrome, Internet Explorer, Microsoft Edge and Safari.
+- The Website was tested on a variety of different web browsers including Google Chrome, Microsoft Edge and Safari.
 - The Website was also viewed on a number of different devices with a range of screen widths including an iMac, MacBook, iPad and iPhone.
 - Family and friends were asked to review the site and documentation and identify any bugs or other issues that were affecting the user experience.
 
@@ -224,7 +232,8 @@ Details of the manual testing carried out can be viewed [here](testing.md)
    - Fixed error in code.
 
 5. Type of enquiry dropdown text was appearing in a different color to the rest of the form.
-   Added a css class to apply custom styling to whole form.
+   
+   - Added a css class to apply custom styling to whole form.
 
 ### Known Bugs
 
