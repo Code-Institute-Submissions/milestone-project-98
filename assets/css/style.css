@@ -19,6 +19,7 @@
 
 .subheading {
     font-family: 'Lato', sans-serif;
+    font-weight: 400;
     color: #4a4a4a;
     margin-bottom: 20px;
     margin-left: 30px;
@@ -41,6 +42,21 @@
 
 .paragraph-black {
     color: #000000;
+}
+
+.modal-heading {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #4a4a4a;
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+.modal-subheading {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #4a4a4a;
+    font-size: 1.2rem;
 }
 
 .text-bold {
@@ -218,11 +234,18 @@
     margin-bottom: 0;
 }
 
-.nutritional-key img {
+.icons {
     width: 1rem;
     height: 1rem;
     object-fit: contain;
-    margin-left: 5px;
+}
+
+.nutritional-key-icons {
+    margin-left: 10px;
+}
+
+.nutritional-key-icons:first-of-type {
+    margin-right: 10px;
 }
 
 .menu-content-container {
@@ -248,16 +271,6 @@
     object-position: right;
 }
 
-.modal-heading {
-    color: #4a4a4a;
-    font-size: 1.4rem;
-    margin: 0;
-}
-
-.modal-subheading {
-    font-size: 1.2rem;
-}
-
 .modal-text {
     display: block;
     width: 100%;
@@ -279,12 +292,8 @@
     margin-bottom: 0.75rem;
 }
 
-.vegan,
-.gluten-free {
-    height: 1rem;
-    width: 1rem;
-    display: inline-block;
-    object-fit: contain;
+.menu-icons img:first-of-type {
+    margin-right: 5px;
 }
 
 /* Location */
@@ -445,10 +454,6 @@ button[type="submit"]:hover {
 
     .nutritional-key-text {
         display: inline-block;
-        margin-right: 20px;
-    }
-
-    .nutritional-key img {
         margin-right: 20px;
     }
 
