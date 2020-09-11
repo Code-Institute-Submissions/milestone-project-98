@@ -454,6 +454,9 @@ button[type="submit"]:hover {
 
     .nutritional-key-text {
         display: inline-block;
+    }
+
+    .nutritional-key-text:first-of-type {
         margin-right: 20px;
     }
 
