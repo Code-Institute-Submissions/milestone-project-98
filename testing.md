@@ -67,10 +67,10 @@
 
 * Menu content 
     1. Load up the menu page on a desktop and verify that the menu content appears as expected and looks good.
-    2. Reduce and expand the width of the screen and verify that columns containing the menu item cards reduce to take up a third of the width of the screen at widths below 992px.
-    3. Reduce and expand the width of the screen and verify that columns containing the menu item cards reduce to take up a half of the width of the the screen at widths below 768px. 
-    4. Reduce and expand the width of the screen and verify that columns containing the menu item cards reduce to take up the whole width of the screen at widths below 576px.  
-    5. Reduce and expand the width of the screen and verify that the gluten free text and icon and vegan text and icon appears on a new line below the nutritional key text at screen widths below 576px. 
+    2. Reduce and expand the width of the screen and verify that the gluten free text and icon and vegan text and icon appears on a new line below the nutritional key text at screen widths below 576px.
+    3. Reduce and expand the width of the screen and verify that columns containing the menu item cards reduce to take up a third of the width of the screen at widths below 992px.
+    4. Reduce and expand the width of the screen and verify that columns containing the menu item cards reduce to take up a half of the width of the the screen at widths below 768px. 
+    5. Reduce and expand the width of the screen and verify that columns containing the menu item cards reduce to take up the whole width of the screen at widths below 576px.  
     6. Reduce and expand the width of the screen and verify that the menu content appears as expected and looks good at all screen widths.
     7. Click on the image of each menu item and verify that the modal containing that item's nutritional information launches over the menu page.
     8. Reduce and expand the width of the screen and verify that the nutritional information modal appears as expected and looks good at all screen widths.
