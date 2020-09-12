@@ -245,7 +245,7 @@ Details of the manual testing carried out can be viewed [here](testing.md).
 
 8. Nutritional key items were not centralising properley on mobiles.
    
-   - Removed the right margin from the icons for extra small devices.
+   - Removed the right margin from the vegan icon.
 
 ### Known Bugs
 
