@@ -31,7 +31,7 @@ Key requirements of the website's users include:
 #### Typography
 
 - The three main fonts used throughout the website are Pacifico, Roboto and Lato. Pacifico was used in the cafe's logo, Roboto in the main headings, the jumbotron and navigation links, and Lato in the subheadings and paragraphs.
-- These fonts were chosen because they make the cafe logo stand out and the main content easy to read.
+- These fonts were chosen because they make the logo stand out and the main content easy to read.
 - Sans Serif is the fallback font which is used in the event that the specified font fails to import into the website correctly.
 
 #### Imagery
@@ -71,7 +71,7 @@ Key requirements of the website's users include:
 
 6. Menu Cards
 
-    - These enable potential customers to find out what items are on the menu and view key information about each item such as the price and whether the item is gluten-free or vegan.
+    - These enable potential customers to find out what items are on the menu and view key information about each item such as an image of the item, it's price and icons to show whether it is gluten-free or vegan.
 
 7. Nutritional Information Modal
 
@@ -180,7 +180,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 4. To be able to view the cafe's menu and each item's nutritional information.
 
    - The menu page is clearly highlighted in the navigation bar.
-   - Here there are cards containing information about each item on the menu including an image of the item, the price and icons to show whether the item is gluten-free or vegan.
+   - Here there are cards containing key information about each item on the menu including an image of the item, it's price and icons to show whether the item is gluten-free or vegan.
    - When the user clicks on the image of a menu item, a modal opens which contains information about the item's nutritional information.
 
 5. To be able to find out where the cafe is located and what it's opening hours are.
@@ -319,7 +319,7 @@ More information about making a local clone of a GitHub repository is available 
 
 - Code for the navbar came from [bootstrap](https://getbootstrap.com/docs/4.5/components/navbar/).
 - Code for the navbar toggler icon colour (.navbar-dark .navbar-toggler-icon class) was obtained by viewing the bootsrap css for the toggler and adapting it to make it white.
-- Code for navigation link underline colour (.hvr-underline-from-left:after class) was obtained by viewing the hover.css underline from left css code and adapting it to make the underline the desired colour.
+- Code for navigation link underline colour (.hvr-underline-from-left:after class) was obtained by viewing the hover.css underline from left css code and adapting it to make the underline transparent or white depending on the screen size.
 - Code for active navigation link underline (.active class) was obtained by viewing the hover.css underline from left css code and adapting it to make the underline white and appear permanently rather than only when hovered over.
 - Code for the jumbotron came from [Bootstrap](https://getbootstrap.com/docs/4.5/components/jumbotron/).
 - Code for the testimonials caurosel came from [Bootstrap](https://getbootstrap.com/docs/4.5/components/carousel/).
